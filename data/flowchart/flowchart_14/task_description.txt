@@ -1,0 +1,17 @@
+### Objective:
+Design a logical process to facilitate the borrowing of a book from a library.
+
+### Problem Specification:
+
+- **Process Input:**
+  - The process must accept a request from a library member to borrow a specific book. The request includes the member's ID and the book's title or ISBN.
+
+- **Process Output:**
+  - The process must determine whether the book can be borrowed and, if so, complete the transaction, updating the library's records accordingly.
+
+- **Constraints / Rules:**
+  - The member must have a valid library membership.
+  - The book must be available in the library's inventory (i.e., not already checked out by another member).
+  - The member must not have exceeded the maximum number of books allowed to be borrowed at one time.
+  - The member must not have any outstanding fines or overdue books.
+  - The process must update the library's inventory and the member's borrowing record upon successful borrowing.

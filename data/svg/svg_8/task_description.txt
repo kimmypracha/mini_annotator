@@ -1,0 +1,19 @@
+## Objective
+Create a diagram that illustrates the process of photosynthesis in plants. The diagram should clearly depict how light energy, water, and carbon dioxide are transformed into oxygen and glucose. The purpose of the diagram is to visually explain the inputs and outputs of photosynthesis and highlight the role of the chloroplast as the site where this process occurs.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics)  
+SVG is a vector-based image format that allows for high-quality, scalable diagrams. It is ideal for creating detailed and interactive diagrams that can be easily viewed on different devices and resolutions.
+
+## Constraints
+- Clearly show the inputs (light energy, water, carbon dioxide) and outputs (oxygen, glucose) of the photosynthesis process.
+- Include the chloroplast as the specific site where photosynthesis takes place.
+- Use color coding to differentiate between various molecules involved in the process.
+
+## Supplementary Data
+- **Light Energy**: Acts as the energy source for photosynthesis.
+- **Water (H₂O)**: Serves as the electron donor, undergoing the reaction H₂O → 2H⁺ + ½O₂ + 2e⁻.
+- **Carbon Dioxide (CO₂)**: Provides the carbon source for glucose production.
+- **Chloroplast**: The organelle within plant cells where photosynthesis occurs.
+- **Oxygen (O₂)**: Released as a byproduct of the photosynthesis process.
+- **Glucose (C₆H₁₂O₆)**: Formed as an energy storage molecule.

@@ -1,0 +1,15 @@
+### Objective
+Design a data model for an e-commerce platform that manages users, products, orders, and payments.
+
+### Scenario Description
+In this e-commerce platform, users can register as buyers or sellers. A user can have multiple roles, acting as both a buyer and a seller at different times. Products are listed by sellers and can belong to multiple categories. Each product has attributes such as price, description, and stock quantity. Buyers can place orders for one or more products, and each order must track the quantity of each product ordered, the total price, and the order status (e.g., pending, shipped, delivered).
+
+Payments are associated with orders and can be made using various methods such as credit card, PayPal, or bank transfer. Each payment has a status (e.g., pending, completed, failed) and must be linked to the corresponding order. The system should also track payment history for auditing purposes.
+
+### Modeling Considerations
+- Users can have dynamic roles, acting as both buyers and sellers.
+- Products may have variants (e.g., size, color) that need to be managed.
+- Orders must capture the relationship between users and products, including quantities and prices.
+- Payments need to be linked to orders and track multiple statuses and methods.
+- Consideration of historical data for orders and payments for auditing and reporting.
+- Potential for product categories to be hierarchical or overlapping, requiring careful modeling of relationships.

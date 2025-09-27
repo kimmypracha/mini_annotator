@@ -1,0 +1,14 @@
+## Objective
+Create a sequence diagram to illustrate the process of matching players in an online multiplayer game. The diagram should detail the steps from when players enter the queue to the initiation of a game session. This visualization will help in understanding the flow of actions and interactions between different components involved in the player matching process.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It focuses on the sequence of messages exchanged between objects to carry out a specific function or process.
+
+## Constraints
+- Include the step where players enter the queue.
+- Represent the skill-based matching algorithm that pairs players.
+- Show the creation of a game lobby once players are matched.
+- Depict the start of the game session after the lobby is created.
+
+## Supplementary Data
+None

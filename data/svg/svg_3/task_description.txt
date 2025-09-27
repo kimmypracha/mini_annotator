@@ -1,0 +1,18 @@
+## Objective
+Create a diagram that visually represents the parts of a cell, illustrating each organelle and its basic function. The purpose of this diagram is to provide a clear and educational overview of cell structure and the role of each component within the cell.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics) is the required diagram format. SVG is a widely-used XML-based vector image format that supports interactivity and animation, making it ideal for detailed and scalable diagrams.
+
+## Constraints
+- Include common organelles such as the nucleus, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus, lysosomes, and cell membrane.
+- Use distinct color coding to differentiate between types of organelles, ensuring that each organelle is easily identifiable.
+
+## Supplementary Data
+- **Nucleus**: Controls cell functions.
+- **Mitochondria**: Generates energy for the cell.
+- **Ribosomes**: Responsible for building proteins.
+- **Endoplasmic Reticulum**: Transports materials within the cell.
+- **Golgi Apparatus**: Packages and ships proteins.
+- **Lysosomes**: Breaks down waste materials.
+- **Cell Membrane**: Regulates the entry and exit of substances in and out of the cell.

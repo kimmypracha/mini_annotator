@@ -1,0 +1,19 @@
+### Objective
+Design a comprehensive data model for a school management system to effectively handle student enrollments, course offerings, teacher assignments, and grade tracking.
+
+### Scenario Description
+In a school system, students enroll in various courses taught by teachers. Each course has a unique identifier and may be offered multiple times by different teachers. Students receive grades for each course they complete, which contribute to their overall academic record. Teachers are responsible for multiple courses and may also be involved in administrative roles. The system must track enrollments, ensuring that students meet prerequisites before enrolling in advanced courses. Additionally, the system should accommodate the possibility of a teacher acting as a student in a different course.
+
+The system needs to manage the following entities:
+- **Students**: Individuals enrolled in the school, each with a unique student ID, name, contact information, and academic history.
+- **Courses**: Educational offerings with a course code, title, description, and credit value.
+- **Teachers**: Educators assigned to teach courses, each with a unique teacher ID, name, and department affiliation.
+- **Grades**: Records of student performance in courses, including the grade received and the term in which the course was taken.
+- **Enrollments**: Records of student participation in courses, including enrollment status and date.
+
+### Modeling Considerations
+- **Role Overlap**: Consider scenarios where a teacher might also be a student, necessitating a flexible role model.
+- **Temporal Tracking**: Capture historical data for grades and course enrollments to facilitate transcript generation and academic progress tracking.
+- **Derived Data**: Consider how to model derived attributes such as GPA or class rank, which depend on the aggregation of grade data.
+- **Normalization**: Balance the need for normalization with the complexity of queries, especially in managing course prerequisites and student progress.
+- **Constraints**: Ensure that constraints such as unique identifiers for students and courses are maintained, and prerequisites are enforced during enrollment.

@@ -1,0 +1,39 @@
+### 1. Thoughts
+
+This scenario requires a two-dimensional evaluation because it involves balancing immediate operational risks with strategic growth opportunities. The chosen dimensions lead to meaningful trade-offs by forcing stakeholders to consider both the likelihood of a risk occurring and the potential impact it could have on the app's success. This requires reasoning about the nature of each risk, its potential consequences, and the resources available to address it.
+
+### 2. Comparative Scenario
+
+#### Objective  
+A mobile banking app is being developed to cater to young professionals. The development team must assess various risks that could affect the app's launch and ongoing operation.
+
+#### Dimensions of Comparison  
+One consideration involves how probable each risk is based on current market trends, technology stability, and user behavior patterns. Another consideration relates to the severity of the consequences if the risk materializes, impacting user trust, financial stability, or competitive positioning.
+
+#### Items for Evaluation  
+
+- **Data Breach Incident**  
+  The app could face unauthorized access to user data due to vulnerabilities in the security protocol. This would severely damage user trust and could lead to regulatory penalties.
+
+- **Feature Rollout Delays**  
+  New features aimed at enhancing user experience might be delayed due to technical challenges, affecting user satisfaction and competitive edge.
+
+- **Regulatory Compliance Changes**  
+  Sudden changes in financial regulations could require significant adjustments to the app's operations, potentially incurring additional costs and development time.
+
+- **Server Downtime**  
+  Unexpected server outages could disrupt user transactions, leading to dissatisfaction and loss of revenue.
+
+- **Market Competition**  
+  Emerging competitors with innovative features could attract the target demographic, reducing the app's market share.
+
+- **User Adoption Rates**  
+  The app might not achieve the expected adoption rates due to inadequate marketing strategies or misalignment with user needs.
+
+- **Fraudulent Transactions**  
+  There is a risk of fraudulent activities going undetected, which could result in financial losses and damage to the app's reputation.
+
+- **Technology Obsolescence**  
+  Rapid advancements in technology could render the current app infrastructure outdated, necessitating costly upgrades or redesigns.
+
+This setup allows stakeholders to evaluate and prioritize risks based on their likelihood and potential impact, facilitating strategic decision-making and resource allocation.

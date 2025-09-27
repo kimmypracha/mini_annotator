@@ -1,0 +1,28 @@
+Reconstruct the steps in a software release cycle from feature planning to production deployment, including testing phases and team handoffs.
+
+### Expected Diagram Format
+Use Mermaid’s gantt chart because the scenario involves durations, start-after constraints, and parallel tasks.
+
+### Event Space
+1. **Feature Planning:** This phase involves brainstorming and finalizing the features to be included in the release. It typically takes about two weeks and must be completed before development begins.
+
+2. **Development:** The development phase starts immediately after feature planning and runs for approximately four weeks. During this time, developers work on coding the new features.
+
+3. **Unit Testing:** Conducted by the development team, unit testing overlaps with the last week of development, ensuring that individual components function correctly.
+
+4. **Integration Testing:** Begins right after development ends and lasts for two weeks. This phase checks how different modules work together.
+
+5. **Quality Assurance (QA) Testing:** QA testing starts after integration testing and takes about three weeks. It involves thorough testing by the QA team to find and fix bugs.
+
+6. **User Acceptance Testing (UAT):** Conducted in parallel with the last week of QA testing, UAT involves a select group of end-users testing the software to ensure it meets their needs.
+
+7. **Final Review and Approval:** Once UAT is complete, a final review meeting is held to approve the release. This is a one-day event that must occur before deployment.
+
+8. **Production Deployment:** The deployment phase takes place immediately after the final review and approval, marking the official release of the software.
+
+### Constraints
+- Development cannot start until feature planning is complete.
+- Integration testing must follow the completion of development.
+- QA testing requires the completion of integration testing.
+- User Acceptance Testing runs in parallel with the last week of QA testing, necessitating coordination between teams.
+- Final review and approval must occur after UAT and before deployment.

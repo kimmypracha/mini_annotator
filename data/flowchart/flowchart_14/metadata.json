@@ -1,0 +1,1 @@
+{"diagram_type": "Flowchart", "data_path": "../data/v1/flowchart", "id": 14, "user_query": "Can you show a flowchart for borrowing a book from the library?", "requirements": ["Include check for overdue books", "Show what happens if the book is unavailable"], "supplementary": {"type": "json", "filename": "library_borrowing_process.json"}, "used_complexity": true}

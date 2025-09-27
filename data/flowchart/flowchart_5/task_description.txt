@@ -1,0 +1,16 @@
+### Objective:
+Design a logical process to outline the hiring journey from a candidate's perspective, starting from the submission of a job application.
+
+### Problem Specification:
+
+**Process Input:**
+- The process must begin with the submission of a job application by a candidate.
+
+**Process Output:**
+- The process must yield a clear sequence of steps and potential decisions the candidate might face, leading to a final hiring decision or rejection.
+
+**Constraints / Rules:**
+- The process should include common stages such as application review, interviews (phone, video, or in-person), assessments or tests, and final decision-making.
+- The process must account for possible feedback or requests for additional information from the candidate.
+- The process should consider scenarios where the candidate might need to follow up or withdraw their application.
+- The process should be adaptable to different company policies and practices, recognizing that not all steps may apply to every situation.

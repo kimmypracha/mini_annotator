@@ -1,0 +1,18 @@
+### Objective
+Design a platform to manage a social media network where users can interact with each other, share content, and join groups.
+
+### Scenario Description
+In this social media platform, users can create profiles, make posts, and establish friendships with other users. Each user has a unique profile with attributes such as username, email, and profile picture. Users can post content, which includes text, images, or videos, and these posts can be liked or commented on by other users.
+
+Users can also form friendships, which are mutual connections between two users. A user can have many friends, and each friendship is a bidirectional relationship.
+
+Groups are another key feature, where users can join or create groups based on shared interests. Each group has a name, description, and a list of members. Users can post within groups, and these posts are visible to all group members.
+
+Notifications are generated for users based on various activities such as new friend requests, comments on their posts, or updates in groups they are part of. Notifications need to track the type of event, the user involved, and the timestamp.
+
+### Modeling Considerations
+- Users can have multiple roles, such as group admin or regular member, which may overlap.
+- Posts can belong to either a user or a group, creating a potential overlap in entity relationships.
+- Notifications are derived from other interactions and may require a complex structure to capture the source and type of event.
+- The friendship relationship is inherently bidirectional, requiring careful modeling to avoid redundancy.
+- Consider how to efficiently handle large volumes of posts and interactions, potentially through normalization or denormalization strategies.

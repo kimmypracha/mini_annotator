@@ -1,0 +1,19 @@
+Reconstruct the timeline for planning a wedding over the course of a year, focusing on key tasks and milestones that must be completed in sequence or in parallel. This includes booking the venue, sending invitations, arranging catering, dress fittings, and rehearsals.
+
+Expected Diagram Format: Use Mermaid’s gantt chart because this scenario involves durations, start-after constraints, and dependencies between tasks.
+
+Event Space:
+1. **Venue Booking**: This is one of the first tasks and must be completed before invitations can be sent. It typically takes about a month to finalize.
+2. **Invitation Design and Printing**: Begins after the venue is booked and takes approximately two months to complete.
+3. **Invitation Mailing**: Starts immediately after invitations are printed and takes about two weeks.
+4. **Catering Arrangements**: Can begin once the venue is booked and should be finalized at least six months before the wedding.
+5. **Dress Fittings**: Begin parallel to catering arrangements and require multiple sessions over several months, concluding two months before the wedding.
+6. **Rehearsal Dinner Planning**: Starts three months before the wedding and requires coordination with the venue and catering.
+7. **Final Venue Walkthrough**: Occurs one month before the wedding to ensure all arrangements are in place.
+8. **Wedding Rehearsal**: Takes place the day before the wedding.
+
+Constraints:
+- Invitations cannot be sent until the venue is booked and the design is finalized.
+- Catering and dress fittings run in parallel but must be completed well before the wedding.
+- The rehearsal dinner planning must consider the availability of the venue and catering services.
+- The final venue walkthrough is dependent on all prior arrangements being confirmed.

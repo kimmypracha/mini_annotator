@@ -1,0 +1,18 @@
+Organizing an annual conference requires careful planning and coordination of multiple tasks. The process includes booking the venue, coordinating with speakers, managing attendee registration, promoting the event, and conducting post-event follow-up. Each task has specific dependencies and durations that must be considered to ensure a successful event.
+
+### Expected Diagram Format
+Use _Mermaid’s gantt chart_ to represent the tasks, durations, and dependencies involved in organizing the conference.
+
+### Event Space
+1. **Venue Booking**: This task must be completed before any other activities can begin. It typically takes about a month to finalize the contract and logistics.
+2. **Speaker Coordination**: Begins shortly after the venue is confirmed. This involves reaching out to potential speakers, which takes about two months, and must be completed before promotional activities can start.
+3. **Attendee Registration**: Opens once the speakers are confirmed and runs in parallel with promotional activities. Registration typically remains open for three months.
+4. **Promotional Activities**: Start as soon as the speakers are confirmed and run concurrently with registration, lasting for about two months.
+5. **Event Execution**: Occurs over three days, following the completion of registration and promotional activities.
+6. **Post-Event Follow-Up**: Begins immediately after the event and lasts for about two weeks, involving feedback collection and financial reconciliation.
+
+### Constraints
+- Venue booking must be completed before speaker coordination can begin.
+- Speaker coordination must be finalized before promotional activities and registration can start.
+- Promotional activities and attendee registration run concurrently but must both be completed before the event execution.
+- Post-event follow-up cannot start until the event execution is complete.

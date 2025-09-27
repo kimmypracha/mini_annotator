@@ -1,0 +1,18 @@
+## Objective
+Create a diagram that visually represents the water cycle as a continuous and engaging journey. The diagram should illustrate the stages of the water cycle, including evaporation, condensation, precipitation, collection, and runoff, using fun and relatable visual metaphors. The purpose is to make the water cycle easy to understand and appealing for young learners by showing the cyclical nature of the process.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics)  
+SVG is a vector image format for two-dimensional graphics with support for interactivity and animation. It is ideal for creating diagrams that need to be scalable and visually engaging, such as the water cycle for educational purposes.
+
+## Constraints
+- Use visual metaphors like clouds, rivers, and the sun to represent each stage of the water cycle.
+- Ensure the diagram includes a clear directional flow to emphasize the looping nature of the cycle.
+- Design the diagram to be easily understandable and engaging for young learners.
+
+## Supplementary Data
+- **Evaporation**: Water from oceans, lakes, and rivers turns into vapor due to the sun.
+- **Condensation**: Vapor rises, cools, and forms clouds.
+- **Precipitation**: Water falls back to the Earth as rain, snow, etc.
+- **Collection**: Water gathers in bodies like rivers, lakes, and oceans.
+- **Runoff**: Some water flows over land, returning to oceans or rivers.

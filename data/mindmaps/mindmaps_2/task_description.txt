@@ -1,0 +1,15 @@
+#### Reading Passage
+
+Embarking on the journey of starting a small business involves navigating a complex landscape of decisions and opportunities. Initially, one must consider the diverse array of business ideas available, each with its unique appeal and challenges. For instance, a tech startup might promise high growth potential but demands specialized skills in programming and software development. Alternatively, a local café could cater to a community's need for social spaces, requiring expertise in hospitality and customer service. The market type significantly influences the direction of the business; online platforms offer global reach, whereas brick-and-mortar stores provide tangible customer interactions.
+
+The required skills for each business idea vary widely, from technical prowess in coding for app development to creative flair for a design studio. These skills not only determine the feasibility of the business but also impact the initial and ongoing investment in human capital. Startup costs are another critical consideration, with some ventures necessitating substantial upfront investment in equipment or inventory, while others, like consulting services, might require minimal financial outlay but significant intellectual capital.
+
+Potential risks loom large in the entrepreneurial landscape, with market volatility, competition, and regulatory changes posing constant threats. A food truck business, for example, faces risks related to health regulations and location permits, whereas an e-commerce site must navigate cybersecurity threats and digital marketing challenges. Understanding these risks is essential for developing robust contingency plans and risk management strategies.
+
+In this intricate web of considerations, the entrepreneur must also weigh personal factors such as passion, lifestyle goals, and risk tolerance, which can significantly influence the choice of business and its long-term sustainability. The interplay of these elements creates a dynamic environment where strategic planning and adaptability are key to success.
+
+#### Structuring Constraints
+- Define the central concept of starting a small business.
+- Require multiple second-level branches, such as market type, required skills, startup cost, and potential risks.
+- Identify at least one cross-cutting theme, such as technology or sustainability.
+- Suggest perspectives or dimensions, like cultural or economic, without specifying their arrangement.

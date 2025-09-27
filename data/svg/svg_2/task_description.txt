@@ -1,0 +1,18 @@
+## Objective
+Create a diagram that illustrates the process of the human digestive system. The diagram should clearly depict the sequence and function of each organ involved, from the mouth to the anus, to provide a comprehensive understanding of how digestion works.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics) diagram.  
+SVG is a vector image format for two-dimensional graphics that supports interactivity and animation, making it ideal for detailed and scalable diagrams.
+
+## Constraints
+- Include each organ involved in the digestive process.
+- Maintain a clear and accurate sequence from the mouth to the anus.
+
+## Supplementary Data
+- **Mouth**: Initiates digestion by breaking down food mechanically (chewing) and chemically (saliva).
+- **Esophagus**: Acts as a conduit, transporting food from the mouth to the stomach.
+- **Stomach**: Continues digestion by mixing food with gastric juices, breaking it down further.
+- **Small Intestine**: The primary site for nutrient absorption into the bloodstream.
+- **Large Intestine**: Absorbs water from indigestible food matter and compacts waste into solid form.
+- **Rectum/Anus**: Stores and eventually expels solid waste from the body.

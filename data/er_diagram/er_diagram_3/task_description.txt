@@ -1,0 +1,16 @@
+### Objective
+Design a blogging system that supports user-generated content, allowing for rich interactions between users, blog posts, comments, tags, and categories.
+
+### Scenario Description
+In this blogging platform, users can register and create profiles. Each user can author multiple blog posts, which are the core content of the platform. Blog posts need to be categorized into one or more categories for organizational purposes and can be tagged with multiple tags for better searchability and filtering.
+
+Users can also engage with blog posts by leaving comments. A comment is associated with both the user who wrote it and the blog post it pertains to. This introduces a need to track not only the content of the comment but also metadata such as the timestamp and potentially the user's role (e.g., guest, registered user).
+
+Tags and categories are essential for content organization. Tags are keywords that can be applied to any blog post, while categories are more structured and might have a hierarchical relationship (e.g., a category "Technology" might have subcategories like "AI" or "Blockchain").
+
+### Modeling Considerations
+- Users can have multiple roles, such as author and commenter, which might need to be tracked separately.
+- Blog posts can belong to multiple categories and have multiple tags, suggesting many-to-many relationships.
+- Comments are dependent on both users and blog posts, requiring careful consideration of foreign keys and dependencies.
+- Tags and categories might need to support hierarchical structures or be normalized for efficient querying.
+- Consideration of how to handle user-generated content that might need moderation or versioning (e.g., edited comments or posts).

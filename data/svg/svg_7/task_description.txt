@@ -1,0 +1,21 @@
+## Objective
+Create a diagram that illustrates the layers of the Internet Protocol Stack (TCP/IP model) to facilitate understanding of how data moves through each layer. The diagram should clearly depict the four layers: Application, Transport, Internet, and Network Access. It should also demonstrate the process of data encapsulation as it passes through each layer, providing a visual representation that simplifies the concept for educational purposes.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics)  
+SVG is a widely-used XML-based vector image format for defining two-dimensional graphics. It is ideal for creating diagrams that need to be scalable and interactive, making it suitable for illustrating complex concepts like the TCP/IP model.
+
+## Constraints
+- The diagram must clearly show the four layers: Application, Transport, Internet, and Network Access.
+- Include examples of protocols for each layer:
+  - Application: HTTP, FTP, SMTP
+  - Transport: TCP, UDP
+  - Internet: IP, ICMP
+  - Network Access: Ethernet, Wi-Fi
+- Use visual metaphors to effectively represent the concept of data encapsulation as data moves through the layers.
+
+## Supplementary Data
+- **Application Layer**: Provides user interface and application services. Example protocols include HTTP, FTP, and SMTP.
+- **Transport Layer**: Responsible for end-to-end communication and reliability. Example protocols include TCP and UDP.
+- **Internet Layer**: Handles routing and addressing. Example protocols include IP and ICMP.
+- **Network Access Layer**: Manages the physical transmission of data. Example protocols include Ethernet and Wi-Fi.

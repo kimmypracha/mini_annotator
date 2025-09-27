@@ -1,0 +1,19 @@
+## Objective
+Create a diagram that illustrates the rock cycle, highlighting the transformation processes among igneous, sedimentary, and metamorphic rocks. The diagram should clearly depict the relationships and transitions between these rock types, emphasizing the cyclical nature of the rock cycle. The purpose is to provide a visual understanding of how rocks change form through various geological processes.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics)  
+SVG is a vector image format for two-dimensional graphics, which supports interactivity and animation. It is ideal for creating diagrams that need to be scalable without losing quality.
+
+## Constraints
+- The diagram must clearly show the three main rock types: igneous, sedimentary, and metamorphic.
+- Include the processes that transform rocks from one type to another, such as cooling, compaction, cementation, heat, and pressure.
+- Use visual metaphors to represent each transformation process, making the diagram intuitive and engaging.
+
+## Supplementary Data
+- **Igneous Rocks**: Formed by the cooling of magma or lava. Example rocks include Granite and Basalt.
+- **Sedimentary Rocks**: Formed through compaction and cementation. Example rocks include Sandstone and Limestone.
+- **Metamorphic Rocks**: Formed under heat and pressure. Example rocks include Marble and Slate.
+- **Weathering**: The process of breaking down rocks through physical and chemical means.
+- **Erosion**: The transport of rock particles by wind, water, or ice.
+- **Melting**: The transformation of rocks into magma, often occurring through subduction or heat from the mantle.

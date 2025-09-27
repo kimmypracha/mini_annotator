@@ -1,0 +1,13 @@
+## Objective
+Create a sequence diagram that illustrates the process a student follows to enroll in an online course. The diagram should start with the student browsing available courses and conclude with the confirmation of enrollment. The purpose of this diagram is to visualize the step-by-step interaction between the student and the system during the enrollment process.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It depicts the sequence of messages exchanged between the objects to carry out the functionality of the scenario.
+
+## Constraints
+- The diagram must include a step where the system checks the availability of the course.
+- The payment processing step must be represented as part of the sequence.
+- The final step in the sequence should be the confirmation of the student's enrollment in the course.
+
+## Supplementary Data
+No additional supplementary data provided.

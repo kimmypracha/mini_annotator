@@ -1,0 +1,28 @@
+Reconstruct the timeline for a full construction project, from site preparation to finishing work. The project involves several phases, each with specific tasks that have dependencies and potential for delays. The solver must infer the order and duration of tasks based on contextual clues.
+
+### Expected Diagram Format
+Use _Mermaid’s gantt chart_ because the scenario involves durations, dependencies, and potential overlaps between tasks.
+
+### Event Space
+1. **Site Preparation**: This involves clearing the land, which takes about two weeks. It must be completed before any foundation work can begin.
+
+2. **Foundation Work**: Laying the foundation takes approximately three weeks and can only start after site preparation is complete.
+
+3. **Structural Framing**: This phase runs for about four weeks and begins immediately after the foundation is set.
+
+4. **Roof Installation**: Takes about two weeks and starts concurrently with the last week of structural framing.
+
+5. **Electrical and Plumbing**: These tasks take three weeks and can start once the structural framing is halfway done.
+
+6. **Interior Finishing**: Includes drywall, painting, and flooring, taking about five weeks. This can only start after electrical and plumbing are completed.
+
+7. **Exterior Finishing**: Such as siding and landscaping, which runs for three weeks and can start once the roof installation is complete.
+
+8. **Inspection and Final Adjustments**: This phase takes about one week and occurs after all other tasks are completed.
+
+### Constraints
+- Foundation work cannot begin until site preparation is fully completed.
+- Roof installation overlaps with the final week of structural framing, requiring coordination between teams.
+- Electrical and plumbing must be completed before interior finishing can commence.
+- Exterior finishing can start once the roof is installed, but must be coordinated with ongoing interior work to avoid conflicts.
+- Inspection and final adjustments are contingent on the completion of all other tasks, introducing a potential bottleneck if earlier phases are delayed.

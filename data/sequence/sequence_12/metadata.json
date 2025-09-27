@@ -1,0 +1,1 @@
+{"diagram_type": "Sequence", "data_path": "../data/v1/sequence", "id": 12, "user_query": "Could you design a sequence diagram showing what happens when a user creates a post and their followers receive notifications?", "requirements": ["Include content validation, follower notification, and interaction tracking."], "supplementary": null, "used_complexity": false}

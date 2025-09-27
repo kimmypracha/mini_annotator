@@ -1,0 +1,13 @@
+## Objective
+Design a sequence diagram that illustrates the process when a user creates a post. The diagram should detail the interactions between the user, the system responsible for content validation, the notification service that alerts followers, and the system tracking these interactions. The purpose is to visualize the flow of events and interactions that occur from the moment a post is created until notifications are sent to followers.
+
+## Expected Diagram Format
+Sequence Diagram: A type of interaction diagram that shows how processes operate with one another and in what order. It depicts the sequence of messages exchanged between objects to carry out a specific function or process.
+
+## Constraints
+- The diagram must include a step for content validation to ensure the post meets all requirements before proceeding.
+- It should illustrate the notification process to followers once the post is successfully created and validated.
+- Interaction tracking must be represented to show how the system logs these events for future reference or analytics.
+
+## Supplementary Data
+None

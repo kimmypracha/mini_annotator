@@ -1,0 +1,15 @@
+## Objective
+Create a sequence diagram that illustrates the interactions between a passenger, a driver, and the system within a ride-sharing service. The diagram should detail the process from the initial ride request by the passenger to the completion of payment after the journey.
+
+## Expected Diagram Format
+Sequence Diagram: A sequence diagram is a type of interaction diagram that shows how processes operate with one another and in what order. It depicts the sequence of messages exchanged between objects or components to carry out a function or a process.
+
+## Constraints
+- The diagram must include the following interactions:
+  - Ride request initiated by the passenger.
+  - Driver matching process conducted by the system.
+  - Journey tracking during the ride.
+  - Completion of payment after the ride ends.
+
+## Supplementary Data
+None

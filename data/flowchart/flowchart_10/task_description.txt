@@ -1,0 +1,12 @@
+**Objective:**  
+Design a logical process to outline the legal steps involved in tenant eviction due to non-payment of rent.  
+
+**Problem Specification:**  
+- **Process Input:**  
+The process must accept information regarding the tenant's rental agreement, the amount of rent due, and any prior communication regarding payment issues.  
+- **Process Output:**  
+The process must yield a clear sequence of steps that a landlord must follow to legally evict a tenant for non-payment, including any necessary documentation and legal notices.  
+- **Constraints / Rules:**  
+1. The process must comply with local landlord-tenant laws and regulations.  
+2. The landlord must provide written notice to the tenant before initiating eviction proceedings.  
+3. The process must include steps for potential tenant responses or defenses against eviction.

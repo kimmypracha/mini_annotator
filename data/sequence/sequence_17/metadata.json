@@ -1,0 +1,1 @@
+{"diagram_type": "Sequence", "data_path": "../data/v1/sequence", "id": 17, "user_query": "Could you design a sequence diagram showing the complete two-factor authentication flow when a user logs into a secure system?", "requirements": ["Show initial login, SMS/app token generation, token verification, and access grant steps."], "supplementary": null, "used_complexity": false}

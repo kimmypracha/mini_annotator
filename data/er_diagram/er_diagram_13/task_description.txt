@@ -1,0 +1,19 @@
+### Objective
+Design a fitness tracking system to help users manage their workouts, track exercises, set goals, and monitor progress.
+
+### Scenario Description
+The fitness tracking system involves several key entities:
+- **Users**: Individuals who use the system to track their fitness activities. They have profiles with personal information and fitness preferences.
+- **Workouts**: Sessions that users engage in, consisting of multiple exercises. Workouts have attributes like date, duration, and type (e.g., cardio, strength).
+- **Exercises**: Specific activities within a workout, each with attributes such as name, repetitions, sets, and weight used.
+- **Goals**: Targets set by users to achieve specific fitness outcomes, such as weight loss, muscle gain, or endurance improvement. Goals have attributes like target date and type.
+- **Progress Tracking**: Records of users' achievements towards their goals, including metrics like weight change, exercise performance, and workout frequency.
+
+Users can create and manage multiple goals, each associated with specific workouts and exercises. Progress tracking involves recording data over time, which may require historical tracking of workout performance and goal achievement.
+
+### Modeling Considerations
+- **Role Overlap**: Users can act as both goal setters and progress trackers, necessitating a flexible model to accommodate dynamic roles.
+- **Derived Data**: Progress tracking may involve derived attributes, such as percentage of goal completion, which depend on historical data.
+- **Normalization Trade-offs**: Deciding whether to normalize workouts and exercises separately or to nest exercises within workouts could impact the model's complexity and efficiency.
+- **Temporal Tracking**: The system must track changes over time, such as improvements in exercise performance or goal adjustments, which introduces complexity in managing historical data.
+- **Special Cases**: Users might have overlapping goals or participate in group workouts, requiring the model to handle shared and individual data efficiently.

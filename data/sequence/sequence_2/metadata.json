@@ -1,0 +1,1 @@
+{"diagram_type": "Sequence", "data_path": "../data/v1/sequence", "id": 2, "user_query": "Could you create a sequence diagram that shows the process of withdrawing cash from an ATM?", "requirements": ["Cover each key step like card insertion, PIN check, balance verification, and cash dispensing."], "supplementary": null, "used_complexity": false}

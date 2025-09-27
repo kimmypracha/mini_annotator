@@ -1,0 +1,14 @@
+### Objective
+Design a company HR system to manage employee data, departments, job roles, and salary records.
+
+### Scenario Description
+In this company, employees are assigned to departments and hold specific job roles. Each employee has a unique identifier, name, contact information, and employment start date. Departments have a unique code, name, and a manager who is also an employee. Job roles have a title, description, and associated pay grade. Salary records track the salary amount, effective date, and any bonuses or deductions. Employees may receive salary adjustments over time, and these changes need to be recorded for historical tracking.
+
+Employees can be transferred between departments, and they may hold multiple roles, either concurrently or over time. An employee's primary department and role must be clearly defined, but they may also participate in projects that involve other departments. The system should track these dynamic relationships and ensure data integrity.
+
+### Modeling Considerations
+- Employees may have multiple roles and salary records over time, necessitating a historical tracking mechanism.
+- Departments have a hierarchical structure, with one employee serving as a manager.
+- Salary records are linked to both employees and job roles, and must reflect changes over time.
+- Consideration for normalization includes whether to separate current and historical data or to maintain a unified structure with temporal attributes.
+- Role overlap and dynamic assignments must be accounted for, such as an employee temporarily working in another department or role for a project.

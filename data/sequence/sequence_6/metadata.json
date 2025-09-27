@@ -1,0 +1,1 @@
+{"diagram_type": "Sequence", "data_path": "../data/v1/sequence", "id": 6, "user_query": "Can you outline the password reset process in a sequence diagram\u2014from requesting a reset to setting a new password?", "requirements": ["Include token generation, link delivery, and reset confirmation steps."], "supplementary": null, "used_complexity": false}

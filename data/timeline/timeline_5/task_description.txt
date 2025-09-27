@@ -1,0 +1,17 @@
+Reconstruct the steps in executing a marketing campaign, focusing on the temporal sequence and dependencies between tasks such as brainstorming, content creation, ad scheduling, and performance tracking.
+
+Expected Diagram Format: Use Mermaid’s gantt chart because the scenario involves tasks with durations, dependencies, and potential overlaps.
+
+Event Space:
+1. Brainstorming Session: This initial phase involves the team gathering ideas and strategies for the campaign. It typically lasts about a week and must be completed before any content creation begins.
+2. Content Creation: Following brainstorming, the team begins developing the necessary marketing materials. This phase takes approximately two weeks and is dependent on the completion of the brainstorming session.
+3. Ad Scheduling: Once some content is ready, the team can start scheduling ads. This task can overlap with the latter part of content creation and takes about a week.
+4. Team Collaboration and Review: Before the ads go live, a review meeting is held to ensure all elements are aligned. This occurs towards the end of ad scheduling and lasts a few days.
+5. Launch of Ads: Ads go live after scheduling and review are complete. This marks the beginning of the performance tracking phase.
+6. Performance Tracking: This ongoing task starts immediately after the ads launch and continues for the duration of the campaign, requiring regular updates and adjustments based on data.
+
+Constraints:
+- Content creation cannot start until brainstorming is completed.
+- Ad scheduling can begin once some content is ready, overlapping with content creation.
+- Team collaboration and review must occur before the ads are launched.
+- Performance tracking starts only after the ads are live, but it requires continuous attention, potentially overlapping with other ongoing tasks.

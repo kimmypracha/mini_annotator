@@ -1,0 +1,22 @@
+### Objective
+Design a system to manage a ticketing platform that facilitates the sale and distribution of tickets for various events.
+
+### Scenario Description
+The ticketing system involves several key entities:
+
+- **Users**: Individuals who register on the platform to purchase tickets. Users can have attributes like name, email, and payment information. They can purchase multiple tickets for different events.
+
+- **Events**: Occasions for which tickets are sold. Events have attributes such as name, date, time, and description. Each event is held at a specific venue.
+
+- **Venues**: Locations where events take place. Venues have attributes like name, address, and capacity. An event is associated with one venue, but a venue can host multiple events over time.
+
+- **Tickets**: Items that users purchase to attend events. Tickets have attributes such as price, seat number, and ticket type (e.g., VIP, General Admission). A ticket is linked to a specific event and a specific user.
+
+- **Payments**: Transactions that occur when users purchase tickets. Payments have attributes like amount, date, and payment method. Each payment is associated with a specific ticket purchase.
+
+### Modeling Considerations
+- **Role Overlap**: Users can act both as purchasers and attendees, and may have different roles in different transactions.
+- **Derived Data**: The total revenue from an event can be derived from the sum of all ticket sales for that event.
+- **Normalization**: Ensuring that data is normalized to avoid redundancy, such as separating user information from payment details.
+- **Historical Tracking**: Tracking changes over time, such as event rescheduling or venue changes, which may affect ticket validity.
+- **Optionality and Uniqueness**: Ensuring that certain attributes, like email for users or seat numbers for tickets, are unique and mandatory, while others may be optional.

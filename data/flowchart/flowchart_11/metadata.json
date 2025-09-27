@@ -1,0 +1,1 @@
+{"diagram_type": "Flowchart", "data_path": "../data/v1/flowchart/", "id": 11, "user_query": "Can you show a flowchart for the employee expense reimbursement process?", "requirements": ["Include approval and rejection steps", "Show optional resubmission after rejection"], "supplementary": "None", "used_complexity": true}

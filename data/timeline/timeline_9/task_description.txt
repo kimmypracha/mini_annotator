@@ -1,0 +1,26 @@
+Reconstruct the timeline for a clinical trial process from protocol development to the final report, considering all necessary phases and dependencies.
+
+### Expected Diagram Format
+Use _Mermaid’s gantt chart_ because the scenario involves tasks with durations, dependencies, and potential overlaps.
+
+### Event Space
+1. **Protocol Development**: This phase involves drafting and refining the trial protocol. It typically takes about 4 months and must be completed before any regulatory submissions.
+
+2. **Regulatory Submissions and Approvals**: Following protocol development, submissions are made to regulatory bodies. This phase can take 3 to 6 months, depending on the complexity of the trial and the efficiency of the regulatory body.
+
+3. **Patient Recruitment**: Recruitment starts after receiving regulatory approvals and usually takes 6 months. It can run in parallel with site preparation.
+
+4. **Site Preparation**: This involves setting up trial sites, training staff, and ensuring all logistics are in place. It starts immediately after protocol development and overlaps with regulatory submissions, taking about 3 months.
+
+5. **Trial Execution**: Once patients are recruited and sites are ready, the trial begins. This phase lasts for about 1 year and includes patient monitoring and data collection.
+
+6. **Data Analysis**: Begins as soon as the trial execution starts, running concurrently and continuing for 3 months after the trial concludes.
+
+7. **Final Report Preparation**: After data analysis is complete, the final report is prepared. This takes about 2 months and marks the conclusion of the trial.
+
+### Constraints
+- Regulatory submissions cannot begin until protocol development is complete.
+- Patient recruitment is contingent on receiving regulatory approvals.
+- Site preparation overlaps with regulatory submissions but must be completed before trial execution.
+- Data analysis starts with trial execution and extends beyond its completion.
+- The final report preparation can only start after data analysis is concluded.

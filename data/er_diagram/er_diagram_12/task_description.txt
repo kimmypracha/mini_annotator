@@ -1,0 +1,14 @@
+### Objective
+Design a data model for a video streaming platform that supports user management, subscription handling, video content organization, and user activity tracking.
+
+### Scenario Description
+In this platform, users can sign up and subscribe to different plans that grant them access to a library of videos. Each user has a unique profile and can have multiple devices registered to their account. Subscriptions can vary in terms of duration, cost, and content access level. Users can browse and watch videos, which are categorized into multiple genres. Each video has metadata including title, description, release date, and duration. Users' watch history is tracked to provide personalized recommendations and to resume playback. The platform also needs to manage content licensing, which may affect availability in different regions.
+
+### Modeling Considerations
+- Users may have multiple active subscriptions (e.g., family plans) and need to manage payment methods and billing history.
+- Videos can belong to multiple genres, and new genres can be added over time.
+- Watch history should track not only completed views but also partially watched videos, including timestamps for resume functionality.
+- Consider how to model content availability based on regional licensing agreements.
+- Subscriptions may include promotional periods or discounts, affecting billing calculations.
+- Users can rate and review videos, influencing recommendation algorithms.
+- There may be a need to track changes in subscription plans over time, such as upgrades or downgrades.

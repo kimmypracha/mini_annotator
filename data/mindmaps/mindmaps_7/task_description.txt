@@ -1,0 +1,14 @@
+#### Reading Passage
+In the pursuit of a comprehensive personal wellness plan, one must consider the intricate interplay between physical health, mental wellbeing, nutrition, and lifestyle habits. Physical health often serves as the foundation, encompassing regular exercise, adequate sleep, and preventive healthcare measures. Exercise not only strengthens the body but also releases endorphins, which can elevate mood and reduce stress, thereby intertwining with mental wellbeing. Sleep, often underestimated, plays a crucial role in both physical recovery and cognitive function, highlighting its dual impact on body and mind.
+
+Mental wellbeing, while influenced by physical health, stands as a pillar in its own right. Practices such as mindfulness, meditation, and stress management techniques are essential for maintaining mental clarity and emotional stability. These practices often require a supportive environment, which can be fostered through positive lifestyle habits. Social connections and community engagement, for instance, provide emotional support and a sense of belonging, which are vital for mental health.
+
+Nutrition is another critical component, with a balanced diet providing the necessary nutrients to fuel both body and mind. The choices one makes in their diet can significantly affect energy levels, mood, and overall health. For example, omega-3 fatty acids, found in fish, are known to support brain health, while excessive sugar intake can lead to energy crashes and mood swings.
+
+Lifestyle habits, encompassing daily routines and long-term practices, serve as the glue that binds these elements together. Habits such as time management, work-life balance, and regular health check-ups ensure that the wellness plan is sustainable and adaptable to life's changes. Moreover, the integration of technology, such as fitness trackers and mental health apps, can provide personalized insights and motivation.
+
+#### Structuring Constraints
+- Define the central concept of 'personal wellness'.
+- Require at least three second-level branches that explore different dimensions of wellness.
+- Identify at least one cross-cutting theme that links multiple aspects of the wellness plan.
+- Suggest perspectives such as immediate vs. long-term effects or individual vs. community impacts without dictating their arrangement.

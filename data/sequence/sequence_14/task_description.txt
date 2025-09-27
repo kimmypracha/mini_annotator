@@ -1,0 +1,13 @@
+## Objective
+Create a sequence diagram that illustrates the process a user goes through to start watching a video on a streaming platform. The diagram should detail each step from the user's initial action to the video playing, highlighting the interactions between the user, the streaming platform, and any other relevant systems.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects operate with one another and in what order. It is used to depict the sequence of messages exchanged between the components of a system to accomplish a specific task.
+
+## Constraints
+- The diagram must include the authentication process, showing how the user is verified before accessing the video content.
+- It should depict the interaction with the content delivery network (CDN) to retrieve the video data.
+- The diagram must also illustrate the process of quality adaptation, where the video quality is adjusted based on the user's network conditions.
+
+## Supplementary Data
+None provided.

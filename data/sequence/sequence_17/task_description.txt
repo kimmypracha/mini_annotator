@@ -1,0 +1,14 @@
+## Objective
+Design a sequence diagram that illustrates the complete two-factor authentication process when a user logs into a secure system. The diagram should capture the interactions between the user, the authentication server, and any other relevant entities involved in the authentication flow.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case, focusing on the order of messages exchanged between the objects.
+
+## Constraints
+- Include the initial login step where the user submits credentials.
+- Show the generation of an SMS or app-based token.
+- Include the step where the user verifies the token.
+- Depict the final step where access is granted to the user upon successful verification.
+
+## Supplementary Data
+None

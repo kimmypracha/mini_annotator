@@ -1,0 +1,1 @@
+{"diagram_type": "Flowchart", "data_path": "../data/v1/flowchart", "id": 13, "user_query": "Can you provide a flowchart for requesting new IT equipment in the company?", "requirements": ["Include approval by manager", "Show what happens if request is denied"], "supplementary": {"type": "csv", "filename": "it_equipment_request.csv"}, "used_complexity": true}

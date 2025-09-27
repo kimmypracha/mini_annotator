@@ -1,0 +1,25 @@
+Reconstruct the product development lifecycle from ideation to final launch, focusing on team responsibilities and phase overlaps.
+
+Expected Diagram Format: Use Mermaid’s gantt chart because the scenario involves tasks with durations, dependencies, and overlaps.
+
+Event Space:
+1. Ideation Phase: The marketing and product teams collaborate to brainstorm and outline the product concept. This phase typically takes about three weeks and must be completed before the design phase can start.
+
+2. Design Phase: The design team begins work on the product's visual and functional design. This phase lasts approximately four weeks and starts immediately after ideation. It overlaps with the initial prototyping phase by one week.
+
+3. Prototyping Phase: The engineering team develops a prototype based on the design specifications. This phase takes about five weeks and begins in the third week of the design phase, continuing in parallel with it.
+
+4. Testing Phase: Quality assurance begins testing the prototype for functionality and user experience. This phase starts after the prototyping phase is complete and lasts for two weeks.
+
+5. Revision Phase: Based on testing feedback, the design and engineering teams work together to make necessary revisions. This phase takes about two weeks and starts immediately after testing.
+
+6. Final Launch Preparation: The marketing team prepares for the product launch, including promotional materials and campaigns. This phase runs for three weeks and starts in the final week of the revision phase.
+
+7. Product Launch: The product is launched to the market. This is a single-day event that occurs immediately after launch preparations are complete.
+
+Constraints:
+- The design phase cannot begin until the ideation phase is completed.
+- Prototyping must start in the third week of the design phase, requiring coordination between design and engineering teams.
+- Testing cannot commence until the prototype is fully developed.
+- Revisions are dependent on testing feedback and must be completed before final launch preparations can begin.
+- Launch preparations overlap with the final week of revisions, requiring careful planning between marketing and engineering teams.

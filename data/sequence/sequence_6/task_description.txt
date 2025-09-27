@@ -1,0 +1,13 @@
+## Objective
+Create a sequence diagram that outlines the entire password reset process. The diagram should start from the initial request for a password reset and continue through to the setting of a new password. The purpose of this diagram is to visualize the flow of actions and interactions between the user and the system components involved in the password reset process.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects operate with one another and in what order. It is used to detail the sequence of messages exchanged between objects to carry out a specific function or process.
+
+## Constraints
+- The diagram must include the step of generating a token for password reset.
+- It should show the delivery of the reset link to the user.
+- The process must include a step where the reset is confirmed after the user sets a new password.
+
+## Supplementary Data
+No additional data provided. The diagram should be based on standard password reset processes typically involving user interaction and backend system operations.

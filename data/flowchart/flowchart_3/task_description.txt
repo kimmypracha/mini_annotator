@@ -1,0 +1,19 @@
+### Objective:
+Design a logical process to compute Fibonacci numbers recursively.
+
+### Problem Specification:
+
+**Process Input:**
+The process must accept a single integer, `n`, which represents the position in the Fibonacci sequence for which the Fibonacci number is to be computed. The input will always be a non-negative integer.
+
+**Process Output:**
+The process must yield the Fibonacci number corresponding to the input position `n`.
+
+**Constraints / Rules:**
+1. The Fibonacci sequence is defined as follows:
+   - `F(0) = 0`
+   - `F(1) = 1`
+   - For `n > 1`, `F(n) = F(n-1) + F(n-2)`
+2. The process must handle the base cases (`n = 0` and `n = 1`) directly without further recursion.
+3. For `n > 1`, the process must recursively compute the Fibonacci numbers for `n-1` and `n-2` and sum them to get `F(n)`.
+4. The process should be designed to handle any valid non-negative integer input efficiently, considering the nature of recursion.

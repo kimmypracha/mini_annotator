@@ -1,0 +1,1 @@
+{"diagram_type": "Flowchart", "data_path": "../data/v1/flowchart", "id": 7, "user_query": "Can you make a flowchart that outlines the steps a dev team takes to resolve a software bug?", "requirements": ["Include triage, assignment, fix, code review, and QA testing", "Add a retry path for bugs that fail validation"], "supplementary": null, "used_complexity": true}

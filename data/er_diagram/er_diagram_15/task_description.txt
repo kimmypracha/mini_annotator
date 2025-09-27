@@ -1,0 +1,16 @@
+### Objective
+Design an inventory management system to efficiently track and manage products, warehouses, suppliers, and purchase orders.
+
+### Scenario Description
+In this system, products are the central entity, each identified by a unique product code and described by attributes such as name, description, and price. Products are stored in various warehouses, each with a unique location identifier and capacity constraints. Warehouses need to track the quantity of each product they hold.
+
+Suppliers provide products to the company, and each supplier has a unique supplier ID, name, and contact information. Suppliers may offer multiple products, and a product can be sourced from multiple suppliers.
+
+Purchase orders are used to restock products. Each purchase order has a unique order ID, date, and status. A purchase order can include multiple products, specifying the quantity ordered and the supplier from whom the products are purchased.
+
+### Modeling Considerations
+- Products need to be associated with both suppliers and warehouses, potentially leading to complex many-to-many relationships.
+- Warehouses must track inventory levels, introducing the need for a junction entity or associative entity to manage product quantities per warehouse.
+- Suppliers may offer different products at different prices, suggesting a need to model price variations.
+- Purchase orders link suppliers and products, and must capture the ordered quantities and delivery status, introducing temporal aspects to the data model.
+- Consideration of how to handle products that are discontinued or suppliers that are no longer active, impacting inventory and order management.

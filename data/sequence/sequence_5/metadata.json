@@ -1,0 +1,1 @@
+{"diagram_type": "Sequence", "data_path": "../data/v1/sequence", "id": 5, "user_query": "Can you make a sequence diagram showing how a user searches and books a hotel room, including payment confirmation?", "requirements": ["Cover interactions with the booking interface, hotel database, and payment gateway."], "supplementary": null, "used_complexity": false}

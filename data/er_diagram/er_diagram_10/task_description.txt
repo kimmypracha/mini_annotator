@@ -1,0 +1,12 @@
+### Objective
+Design a healthcare system to manage patient-doctor interactions, including appointments, treatments, and prescriptions.
+
+### Scenario Description
+In a healthcare system, patients schedule appointments with doctors. Each appointment is associated with a specific date and time and may involve multiple treatments. Doctors prescribe treatments and medications during these appointments. Each treatment has a specific protocol and may require follow-up appointments. Prescriptions are issued based on treatments and must be tracked for dosage, frequency, and duration. Patients have unique identifiers and personal information that must be securely stored. Doctors also have unique identifiers, specialties, and qualifications. The system must track the history of patient interactions, including past appointments, treatments received, and prescriptions filled. Doctors can have multiple specialties and may treat various conditions. Patients may see multiple doctors for different health issues.
+
+### Modeling Considerations
+- **Role Overlap**: A doctor might also be a patient in the system, requiring careful management of dual roles.
+- **Temporal Tracking**: The system must track the history of appointments, treatments, and prescriptions over time.
+- **Derived Data**: Prescription details are derived from treatments and must be linked to specific appointments.
+- **Normalization Trade-offs**: Balancing the need to avoid data redundancy with the requirement to maintain comprehensive patient records.
+- **Constraints**: Ensuring prescriptions are only valid if linked to an appointment and treatment, and managing unique identifiers for all entities.

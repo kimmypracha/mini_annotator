@@ -1,0 +1,12 @@
+## Objective
+Create a sequence diagram that illustrates the process flow when a user orders food through a delivery app. The diagram should depict the interactions and events that occur among the app, the restaurant, the driver, and the delivery update process, providing a clear view of the behind-the-scenes operations.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case, focusing on the sequence of messages exchanged between the objects over time.
+
+## Constraints
+- The diagram must include the following entities: the app, the restaurant, the driver, and the delivery update process.
+- Ensure that the sequence of interactions accurately reflects the order and timing of events from the moment an order is placed until it is delivered.
+
+## Supplementary Data
+None

@@ -1,0 +1,12 @@
+## Objective
+Create a sequence diagram that illustrates the process of withdrawing cash from an ATM. The diagram should depict the interactions between the user, the ATM machine, and the bank's backend system, highlighting the sequence of events that occur during a cash withdrawal transaction.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It focuses on the sequence of messages exchanged between the objects to carry out the functionality.
+
+## Constraints
+- Include key steps such as card insertion, PIN verification, balance verification, and cash dispensing.
+- Ensure that the sequence of interactions is logical and follows the typical flow of an ATM withdrawal process.
+
+## Supplementary Data
+None

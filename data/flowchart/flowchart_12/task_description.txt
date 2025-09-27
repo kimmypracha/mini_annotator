@@ -1,0 +1,19 @@
+### Objective:
+Design a logical process to manage the enrollment of students in university courses.
+
+### Problem Specification:
+
+- **Process Input:**
+  - The process must accept student information, including their academic standing, major, and completed prerequisites.
+  - A list of available courses, each with its own prerequisites, capacity limits, and schedule.
+  - University enrollment policies, such as deadlines and priority rules (e.g., seniors have priority over juniors).
+
+- **Process Output:**
+  - The process must produce a confirmed list of courses in which the student is successfully enrolled.
+  - A notification of any courses the student could not enroll in, along with reasons (e.g., full capacity, missing prerequisites).
+
+- **Constraints / Rules:**
+  - The process must ensure that students meet all prerequisites before enrolling in a course.
+  - Enrollment must not exceed the maximum capacity of any course.
+  - The process must adhere to university-specific enrollment periods and deadlines.
+  - Students should not be enrolled in courses with scheduling conflicts.

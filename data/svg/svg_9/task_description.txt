@@ -1,0 +1,18 @@
+## Objective
+Create a diagram that visually explains how a binary search tree (BST) operates. The diagram should illustrate the organization of values within the tree and demonstrate the process of searching for a specific value. The purpose is to provide a clear understanding of the BST structure and its search functionality.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics): A vector image format for two-dimensional graphics that supports interactivity and animation, ideal for creating detailed and scalable diagrams.
+
+## Constraints
+- The tree must be balanced, ensuring the height difference between the left and right subtrees of any node is no more than one.
+- Include example values to demonstrate the ordering of nodes, such as a root node, left and right children.
+- Use arrows to clearly indicate the search path from the root to the target node.
+
+## Supplementary Data
+- **Root Node**: The topmost node of the tree, e.g., 50.
+- **Left Child**: Nodes with values less than their parent node, e.g., 25.
+- **Right Child**: Nodes with values greater than their parent node, e.g., 75.
+- **Search Path**: The sequence of nodes visited to find a specific value, e.g., 50 → 25 → 30.
+- **Balance**: The height difference between left and right subtrees should be no more than 1.
+- **Insertion**: New values should be placed in the correct position according to BST rules, e.g., inserting 30 follows the path 50 → 25 → 30.

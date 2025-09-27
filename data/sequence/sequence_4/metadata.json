@@ -1,0 +1,1 @@
+{"diagram_type": "Sequence", "data_path": "../data/v1/sequence", "id": 4, "user_query": "Could you create a sequence diagram that shows what happens behind the scenes when someone orders food through a delivery app?", "requirements": ["Include the app, restaurant, driver, and delivery update process."], "supplementary": null, "used_complexity": false}

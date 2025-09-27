@@ -1,0 +1,13 @@
+## Objective
+Create a sequence diagram that visualizes the process of a patient scheduling a medical appointment using an online system. The diagram should illustrate the interactions between the patient, the online scheduling system, and any other relevant entities involved in the process, such as the medical office or notification system. The purpose of the diagram is to clearly depict the sequence of events and interactions required to successfully schedule an appointment.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It focuses on the sequence of messages exchanged between the objects to carry out the functionality.
+
+## Constraints
+- The diagram must include a step where the system checks the availability of appointment slots.
+- It should depict the process of confirming the appointment once a suitable slot is found.
+- The diagram must also include the step where a reminder notification is sent to the patient.
+
+## Supplementary Data
+None

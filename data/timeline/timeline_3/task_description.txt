@@ -1,0 +1,28 @@
+### Objective
+Reconstruct the steps in preparing and submitting a comprehensive college application, including research, essay writing, and interviews.
+
+### Expected Diagram Format
+Use _Mermaid’s gantt chart_ because the scenario involves tasks with durations, dependencies, and potential overlaps.
+
+### Event Space
+1. **Research Colleges**: Begin by gathering information about potential colleges. This task takes about three weeks and must be completed before starting any applications.
+
+2. **Draft Personal Statement**: Once research is complete, begin drafting the personal statement. This takes approximately two weeks and can overlap with the next task.
+
+3. **Gather Recommendations**: While drafting the personal statement, reach out to teachers and mentors for recommendation letters. This process takes about three weeks and should be initiated early to ensure timely responses.
+
+4. **Finalize Essays**: After drafting, revise and finalize all essays. This takes about one week and must be completed before submitting applications.
+
+5. **Submit Applications**: Applications can be submitted once essays are finalized and recommendations are received. This task is time-sensitive and should be completed by the application deadlines.
+
+6. **Schedule Interviews**: After submitting applications, schedule interviews with colleges that require them. This task can run concurrently with waiting for application responses.
+
+7. **Prepare for Interviews**: Spend about one week preparing for interviews, which can overlap with the scheduling phase.
+
+8. **Attend Interviews**: Attend scheduled interviews, which occur after preparation and scheduling.
+
+### Constraints
+- The personal statement cannot be finalized until the research phase is complete.
+- Recommendations must be gathered before applications are submitted, creating a dependency on external responses.
+- Essays must be finalized before application submission, introducing a tight timeline.
+- Interviews can only be scheduled after applications are submitted, but preparation can begin earlier.

@@ -1,0 +1,13 @@
+## Objective
+Create a sequence diagram that illustrates the automated inventory restocking process in a retail store. The diagram should depict the interactions between different components involved in monitoring inventory levels, placing orders with suppliers, and confirming the delivery of stock.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a business process by depicting the sequence of messages exchanged between them over time.
+
+## Constraints
+- The diagram must include steps for inventory monitoring.
+- It should show the process of ordering from suppliers.
+- Delivery confirmation steps must be represented.
+
+## Supplementary Data
+No additional supplementary data provided.

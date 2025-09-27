@@ -1,0 +1,18 @@
+## Objective
+Create an engaging and easy-to-understand SVG illustration that uses a fun analogy to explain how digital communication works. The analogy should resemble sending a letter through a post office, depicting the journey of data as a cute delivery from one computer to another. The diagram should be beginner-friendly and visually appealing.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics) - A vector image format for two-dimensional graphics that supports interactivity and animation. It is ideal for creating detailed and scalable illustrations.
+
+## Constraints
+- Incorporate visual analogies such as mailboxes, post offices, and satellites to represent different stages of digital communication.
+- Clearly depict the data path from the sender's computer to the receiver's device.
+- Ensure the illustration is engaging and simple enough for beginners to understand.
+
+## Supplementary Data
+- **Sender's Computer**: Represented as the starting point where the message is created and sent, akin to a person writing and sending a letter.
+- **Router**: Acts like a local post office, directing outgoing data to the appropriate path.
+- **Network Cables**: Visualized as roads or pathways that physically transfer data, similar to postal routes.
+- **Satellites**: Depicted as means of transferring data over long distances, analogous to airmail.
+- **Receiver's Router**: Functions as the final local post office, directing the message to its final destination.
+- **Receiver's Device**: The endpoint where the message is received and displayed, akin to a mailbox where the letter is delivered.

@@ -1,0 +1,20 @@
+## Objective
+Create a simple yet accurate diagram of the solar system that illustrates all eight planets and their orbits around the sun. The diagram should visually represent each planet in order from the sun, showing their relative sizes and spacing as well as the direction of their orbits.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics) - A vector-based image format that allows for precise and scalable diagrams, ideal for illustrating complex systems like the solar system with clarity and accuracy.
+
+## Constraints
+- Include all eight planets in the correct order from the sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.
+- Ensure the planets are depicted with proportional sizing and spacing, allowing for approximate accuracy.
+- Clearly indicate the direction of each planet's orbit around the sun.
+
+## Supplementary Data
+- Mercury: Closest to the sun, smallest planet, lacks a significant atmosphere.
+- Venus: Second from the sun, similar in size to Earth, hottest planet.
+- Earth: Third from the sun, only known planet to support life.
+- Mars: Fourth from the sun, known as the Red Planet, potential evidence of past water.
+- Jupiter: Fifth from the sun, largest planet, classified as a gas giant.
+- Saturn: Sixth from the sun, famous for its prominent ring system.
+- Uranus: Seventh from the sun, an ice giant notable for rotating on its side.
+- Neptune: Eighth and farthest from the sun, known for its cold and windy conditions.

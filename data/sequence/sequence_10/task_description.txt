@@ -1,0 +1,13 @@
+## Objective
+Create a sequence diagram that illustrates the steps involved in processing an international wire transfer. The diagram should detail the interactions between the sender's bank and the receiver's bank, including the verification steps and the confirmation process. The purpose of this diagram is to provide a clear visualization of the sequence of events and interactions required to complete an international wire transfer.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It displays the sequence of messages exchanged between objects to carry out the functionality of a scenario.
+
+## Constraints
+- The diagram must include interactions between the sender's bank and the receiver's bank.
+- Verification steps must be clearly represented in the sequence.
+- The confirmation process should be included to show the completion of the wire transfer.
+
+## Supplementary Data
+No additional data provided.

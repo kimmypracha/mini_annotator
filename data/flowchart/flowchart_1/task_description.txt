@@ -1,0 +1,26 @@
+### Objective:
+Prepare a dish of Korean ground beef using only the ingredients available in your kitchen.
+
+### Background:
+You have decided to cook a Korean-style ground beef dish for dinner. However, you must work with the ingredients currently available in your kitchen, without purchasing additional items. This requires creativity and adaptability to ensure the dish is flavorful and authentic.
+
+### Problem Specification:
+
+**Input Data / Inventory:**
+- 1 pound of ground beef
+- Soy sauce (1 bottle)
+- Sesame oil (1 bottle)
+- Garlic (3 cloves)
+- Sugar (1 cup)
+- Green onions (a bunch)
+- Rice (2 cups)
+- Salt and pepper (to taste)
+- Cooking oil (1 bottle)
+
+**Constraints:**
+- The dish must be prepared within 45 minutes.
+- You cannot use any ingredients other than those listed above.
+- The dish should serve at least four people.
+- Cooking must be done using a stovetop and a single frying pan.
+
+The task involves determining the best way to combine these ingredients to create a flavorful Korean ground beef dish, considering the constraints and available resources.

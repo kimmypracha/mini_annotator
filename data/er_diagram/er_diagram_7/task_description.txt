@@ -1,0 +1,15 @@
+### Objective
+Design a data model for a food delivery application that supports the management of users, restaurants, menus, orders, and delivery drivers.
+
+### Scenario Description
+In this food delivery app, users can browse menus from various restaurants, place orders, and have them delivered by drivers. Each restaurant has its own menu, which can be updated with new items or prices. Users can register on the platform, view restaurant menus, and place orders. Once an order is placed, it is assigned to a delivery driver who picks up the order from the restaurant and delivers it to the user. The app needs to track the status of each order from placement to delivery. Additionally, users can rate both restaurants and delivery drivers, adding another layer of interaction.
+
+### Modeling Considerations
+- **Users**: Need to store personal information, order history, and ratings given.
+- **Restaurants**: Must manage their menus, which include multiple items with details like price and availability.
+- **Menus**: Are associated with restaurants and need to be flexible to accommodate changes in items.
+- **Orders**: Should capture details about the items ordered, the user who placed the order, the restaurant fulfilling it, and the driver delivering it.
+- **Delivery Drivers**: Require tracking of their delivery assignments and ratings received.
+- **Role Overlap**: Users might also be restaurant owners or delivery drivers, requiring careful role management.
+- **Temporal Tracking**: Orders need status updates (e.g., placed, prepared, out for delivery, delivered) tracked over time.
+- **Derived Data**: Ratings and order statuses might be derived from interactions and need to be consistently updated.

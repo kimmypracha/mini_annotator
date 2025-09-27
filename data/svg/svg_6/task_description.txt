@@ -1,0 +1,18 @@
+## Objective
+Create a diagram that illustrates the flow of energy through the trophic levels in an ecosystem. The diagram should visually represent how energy is transferred from producers at the base of the food chain to top predators, with a clear indication of energy loss at each level, such as through heat dissipation. The purpose of this diagram is to provide a clear understanding of energy dynamics within an ecosystem.
+
+## Expected Diagram Format
+SVG (Scalable Vector Graphics)  
+SVG is a vector image format for two-dimensional graphics that supports interactivity and animation. It is ideal for creating diagrams that need to be scalable and maintain clarity at any size.
+
+## Constraints
+- The diagram must use a pyramid or layered structure to represent the different trophic levels.
+- Arrows should be included to depict the direction of energy flow from producers to top predators.
+- Clearly indicate energy loss at each level, such as through heat dissipation.
+
+## Supplementary Data
+- **Producers:** Plants, algae. These form the base of the food chain.
+- **Primary Consumers:** Herbivores, such as rabbits, which consume the producers.
+- **Secondary Consumers:** Small carnivores, such as foxes, that prey on herbivores.
+- **Tertiary Consumers:** Larger carnivores, such as eagles, that prey on smaller carnivores.
+- **Decomposers:** Fungi and bacteria, which break down dead matter and recycle nutrients back into the ecosystem.

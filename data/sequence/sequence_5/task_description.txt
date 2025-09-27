@@ -1,0 +1,12 @@
+## Objective
+Create a sequence diagram that illustrates the process by which a user searches for and books a hotel room, culminating in payment confirmation. The diagram should detail the interactions between the user, the booking interface, the hotel database, and the payment gateway, highlighting the sequence of operations from search initiation to booking confirmation.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It displays the sequence of messages exchanged between objects to carry out the functionality of a scenario.
+
+## Constraints
+- The diagram must include interactions with the booking interface, hotel database, and payment gateway.
+- Ensure that the sequence of operations covers the entire process from search initiation to payment confirmation.
+
+## Supplementary Data
+None

@@ -1,0 +1,15 @@
+## Objective
+Create a sequence diagram that illustrates the process of initiating and joining a video conference call. The diagram should detail the interactions between different components and participants involved in the process, from the creation of the meeting to the setup of media streaming.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It focuses on the order of messages exchanged between the objects to achieve a specific outcome.
+
+## Constraints
+- The diagram must include the following steps:
+  - Meeting creation process.
+  - Invitation of participants to the meeting.
+  - Establishment of connections between participants and the conference system.
+  - Setup of media streaming for the video call.
+
+## Supplementary Data
+No additional supplementary data provided.

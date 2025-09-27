@@ -1,0 +1,18 @@
+### Objective
+Design a library management system to efficiently handle book lending, member management, and staff operations.
+
+### Scenario Description
+A library system needs to manage a collection of books, a roster of members, and a team of staff. Books have attributes like title, author, ISBN, and copies available. Members register with the library, providing personal details and receiving a unique member ID. They can borrow books, which creates a loan record including the loan date and due date. Staff members manage the library operations, and some may have the ability to borrow books as well. The system should track the history of loans for each book and member, and manage the availability of books based on current loans.
+
+Key entities include:
+- **Books**: Each book has a unique identifier (ISBN), title, author, and multiple copies.
+- **Members**: Individuals who register to borrow books, with personal details and a unique member ID.
+- **Loans**: Records of books borrowed by members, including loan date, due date, and return date.
+- **Staff**: Employees managing library operations, some of whom may also borrow books.
+
+### Modeling Considerations
+- **Role Overlap**: Staff members can also be members, allowing them to borrow books.
+- **Historical Tracking**: Loan records must keep historical data to track borrowing patterns and book popularity.
+- **Book Copies**: Each book can have multiple copies, and the system must manage the availability of these copies.
+- **Derived Attributes**: The availability of a book is derived from its total copies minus the number of active loans.
+- **Normalization**: Consider whether to normalize entities like book copies or to treat them as attributes of the book entity.

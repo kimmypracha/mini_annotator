@@ -1,0 +1,1 @@
+{"diagram_type": "Sequence", "data_path": "../data/v1/sequence", "id": 19, "user_query": "Could you draw a sequence diagram showing how players are matched in an online multiplayer game?", "requirements": ["Show player queue entry, skill-based matching algorithm, lobby creation, and game session start."], "supplementary": null, "used_complexity": false}

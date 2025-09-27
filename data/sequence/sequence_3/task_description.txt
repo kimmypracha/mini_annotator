@@ -1,0 +1,12 @@
+## Objective
+Create a sequence diagram that illustrates the process of signing up and verifying an email. The diagram should start from the account creation phase and proceed through to the confirmation of the email on the server. This visualization is intended to clarify the sequence of interactions between the user, the application, and the server during the signup and email verification process.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It depicts the sequence of messages exchanged between the entities involved in a process.
+
+## Constraints
+- Clearly depict the steps involved in sending the verification email and the subsequent confirmation process.
+- Ensure that the sequence of events from account creation to email confirmation is accurately represented.
+
+## Supplementary Data
+None

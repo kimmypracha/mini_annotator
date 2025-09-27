@@ -1,0 +1,17 @@
+### Objective:
+Design a logical process for requesting new IT equipment within a company.
+
+### Problem Specification:
+
+- **Process Input:**
+  - The process must accept requests from any employee within the company, specifying the type of IT equipment needed, the purpose of the request, and any relevant project or department information.
+
+- **Process Output:**
+  - The process must result in either the approval and procurement of the requested equipment or a denial with a reason provided to the requester.
+
+- **Constraints / Rules:**
+  - All requests must be initiated through a standardized form that captures necessary details such as employee ID, department, equipment type, and justification for the request.
+  - Requests must be reviewed and approved by the employee's direct manager and the IT department to ensure alignment with company policies and budget constraints.
+  - The IT department must verify the availability of the requested equipment in current inventory or initiate a purchase if not available.
+  - The process must include a feedback mechanism to inform the requester of the status of their request at each stage.
+  - The process must comply with company policies regarding equipment standardization and budget limitations.

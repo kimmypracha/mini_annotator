@@ -1,0 +1,12 @@
+## Objective
+Design a sequence diagram that illustrates the complete checkout process in an e-commerce platform. The diagram should clearly depict the interactions between the user, the e-commerce platform, and any external systems involved in the checkout process, such as payment gateways and inventory management systems. The purpose of the diagram is to provide a detailed view of the sequence of operations that occur from the moment a user initiates the checkout to the final order confirmation.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case. It focuses on the order of messages exchanged between objects to accomplish a specific task.
+
+## Constraints
+- The diagram must include the following steps: cart validation, inventory check, payment processing, and order confirmation.
+- Ensure that each step is represented as an interaction between relevant entities, such as the user, e-commerce platform, and any external services.
+
+## Supplementary Data
+None

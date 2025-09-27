@@ -1,0 +1,16 @@
+### Objective:
+Design a logical process to triage patients in an emergency room setting.
+
+### Problem Specification:
+
+- **Process Input:**
+  - The process must accept information about each patient, including their symptoms, vital signs, age, medical history, and any immediate life-threatening conditions.
+
+- **Process Output:**
+  - The process must categorize each patient into a triage level, such as immediate, urgent, less urgent, or non-urgent, based on their condition and the severity of their symptoms.
+
+- **Constraints / Rules:**
+  - The process must prioritize patients with life-threatening conditions for immediate care.
+  - The process should consider the availability of medical resources and staff when determining triage levels.
+  - The process must be adaptable to handle a varying number of patients and a wide range of medical conditions.
+  - The process must ensure that patients are reassessed periodically to update their triage level if their condition changes.

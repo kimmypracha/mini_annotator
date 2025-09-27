@@ -1,0 +1,12 @@
+## Objective
+Create a sequence diagram that visualizes the journey of a package from the initial shipment creation to its final delivery. The diagram should detail each step in the process, including tracking updates, to provide a comprehensive view of the package's journey.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular sequence of time. It focuses on the order of messages exchanged between the components involved in the process.
+
+## Constraints
+- The diagram must include the following steps: shipment creation, transit updates, delivery attempt, and delivery confirmation.
+- Ensure that each step is clearly marked and follows the logical sequence from shipment to delivery.
+
+## Supplementary Data
+No additional data provided.

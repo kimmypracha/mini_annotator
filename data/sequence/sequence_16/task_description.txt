@@ -1,0 +1,15 @@
+## Objective
+Create a sequence diagram that illustrates the entire process of ordering prescription medication. The diagram should start with a doctor's prescription submission and end with the delivery of the medication by the pharmacy. The purpose of this diagram is to visualize the interactions and sequence of events involved in this process.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects interact in a particular scenario of a use case, focusing on the sequence of messages exchanged between objects.
+
+## Constraints
+- The diagram must include the following steps: 
+  - Doctor prescription submission
+  - Pharmacy verification
+  - Insurance approval
+  - Medication dispensing
+
+## Supplementary Data
+None

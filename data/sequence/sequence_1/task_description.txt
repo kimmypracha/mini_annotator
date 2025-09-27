@@ -1,0 +1,11 @@
+## Objective
+Create a sequence diagram that illustrates the login process. The diagram should start from the moment a user enters their credentials and continue through the system verifying these credentials and granting access. The purpose of the diagram is to visualize the interactions between the user, the system, and any external components involved in the authentication process.
+
+## Expected Diagram Format
+Sequence Diagram: A type of diagram that shows how objects operate with one another and in what order. It is used to detail the sequence of messages exchanged between components to achieve a specific outcome.
+
+## Constraints
+- The diagram must include communication with the authentication server, detailing the interaction necessary for verifying user credentials.
+
+## Supplementary Data
+None
