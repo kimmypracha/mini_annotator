@@ -1,4 +1,4 @@
-# app.py
+## app.py
 
 import json
 from pathlib import Path
@@ -17,9 +17,18 @@ PASSWORDS = {
     "andy": "annotations/annotator_3.csv",
 }
 
+# --- App Constants ---
+CATEGORIES = [
+    "",
+    "Unsure",
+    "Need Discussion",
+    "Need to Change Original Data",
+    "Too Simple",
+    "Too Complicated",
+]
+
+
 # --- Login & Logout Logic ---
-
-
 def login():
     st.header("Annotator Login")
     password = st.text_input("Enter your password:", type="password")
@@ -41,13 +50,11 @@ def logout():
 
 
 # --- Main Annotation Interface ---
-
-
 def main_app():
     annotation_file_path = Path(st.session_state["annotator_file"])
 
     try:
-        df = pd.read_csv(annotation_file_path)
+        df = pd.read_csv(annotation_file_path).fillna("")
     except FileNotFoundError:
         st.error(f"Error: Annotation file '{annotation_file_path}' not found.")
         st.stop()
@@ -56,7 +63,7 @@ def main_app():
         st.session_state.current_index = 0
 
     current_index = st.session_state.current_index
-    current_annotation = df.loc[current_index, "annotation"]
+    current_item = df.iloc[current_index]
     total_items = len(df)
 
     # --- 🕹️ Sidebar Controls ---
@@ -65,16 +72,14 @@ def main_app():
         st.write(f"File: `{annotation_file_path.name}`")
         if st.button("Logout"):
             logout()
-
         st.write("---")
 
-        annotated_count = df["annotation"].notna().sum()
+        annotated_count = df["annotation"].replace("", np.nan).notna().sum()
         progress = annotated_count / total_items
         st.metric(
             label="Annotation Progress", value=f"{annotated_count} / {total_items}"
         )
         st.progress(progress)
-
         st.write("---")
 
         st.subheader("Navigation")
@@ -83,19 +88,20 @@ def main_app():
             if current_index > 0:
                 st.session_state.current_index -= 1
                 st.rerun()
-
         if next_col.button("Next ➡️", use_container_width=True):
             if current_index < total_items - 1:
                 st.session_state.current_index += 1
                 st.rerun()
-
         st.write("---")
 
         st.subheader("Current Item Status")
-        if pd.notna(current_annotation):
+        current_annotation = current_item["annotation"]
+        if pd.notna(current_annotation) and current_annotation != "":
             st.success(f"✅ Annotated as: **{current_annotation}**")
             if st.button("🗑️ Clear Annotation", use_container_width=True):
-                df.loc[current_index, "annotation"] = np.nan
+                cols_to_clear = ["annotation", "comment", "revised_query", "category"]
+                for col in cols_to_clear:
+                    df.loc[current_index, col] = ""
                 df.to_csv(annotation_file_path, index=False)
                 st.toast("Annotation cleared!")
                 st.rerun()
@@ -104,10 +110,7 @@ def main_app():
 
     # --- Main Content ---
     st.title("📝 Text Annotation Tool")
-
-    current_item = df.iloc[current_index]
     file_path = Path(current_item["file_path"])
-
     col1, col2 = st.columns([1, 2])
 
     with col1:
@@ -134,19 +137,52 @@ def main_app():
             st.stop()
 
     st.write("---")
+
+    st.subheader("Optional Fields")
+    default_category = current_item.get("category", "")
+    category_index = (
+        CATEGORIES.index(default_category) if default_category in CATEGORIES else 0
+    )
+    st.selectbox(
+        "Category:", options=CATEGORIES, index=category_index, key="category_input"
+    )
+
+    st.text_area(
+        "Comment / Suggestion:",
+        value=current_item.get("comment", ""),
+        key="comment_input",
+    )
+    st.text_area(
+        "Revised Query:", value=current_item.get("revised_query", ""), key="query_input"
+    )
+
+    st.write("---")
+
     st.subheader("Is this text description natural?")
     button_cols = st.columns([1, 1, 5])
 
-    def annotate(annotation_value):
-        df.loc[current_index, "annotation"] = annotation_value
+    # --- ✨ New Annotation Logic with Toggle Behavior ---
+    def handle_annotation_click(clicked_value):
+        # If user clicks the currently selected button, clear the annotation (toggle off)
+        if clicked_value == current_annotation:
+            cols_to_clear = ["annotation", "comment", "revised_query", "category"]
+            for col in cols_to_clear:
+                df.loc[current_index, col] = ""
+            st.toast("Annotation cleared!")
+        # Otherwise, set the new annotation
+        else:
+            df.loc[current_index, "annotation"] = clicked_value
+            df.loc[current_index, "comment"] = st.session_state.comment_input
+            df.loc[current_index, "revised_query"] = st.session_state.query_input
+            df.loc[current_index, "category"] = st.session_state.category_input
+            st.toast(f"Saved as '{clicked_value}'!")
+            # Auto-advance to the next item
+            if current_index < total_items - 1:
+                st.session_state.current_index += 1
+
         df.to_csv(annotation_file_path, index=False)
-        st.toast(f"Saved as '{annotation_value}'!")
-        if current_index < total_items - 1:
-            st.session_state.current_index += 1
         st.rerun()
 
-    # --- 🔘 Button Highlighting Logic ---
-    # Determine button type based on the current item's annotation
     natural_button_type = "primary" if current_annotation == "Natural" else "secondary"
     not_natural_button_type = (
         "primary" if current_annotation == "Not Natural" else "secondary"
@@ -155,12 +191,11 @@ def main_app():
     if button_cols[0].button(
         "👍 Natural", use_container_width=True, type=natural_button_type
     ):
-        annotate("Natural")
-
+        handle_annotation_click("Natural")
     if button_cols[1].button(
         "👎 Not Natural", use_container_width=True, type=not_natural_button_type
     ):
-        annotate("Not Natural")
+        handle_annotation_click("Not Natural")
 
 
 # --- App Entry Point ---
