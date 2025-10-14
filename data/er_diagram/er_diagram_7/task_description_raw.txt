@@ -1,0 +1,34 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves multiple interacting entities that are common in real-world applications, such as users, restaurants, menus, orders, and delivery drivers. The relationships between these entities are complex and require careful consideration of cardinalities and constraints. The scenario reflects a real-world system that students can relate to, making it easier to understand while still challenging to model accurately.
+
+### 2. Design Challenges
+The scenario presents several design challenges, including the need to model dynamic roles (e.g., users can be customers or restaurant owners), the need to track historical data (e.g., order history), and overlapping entities (e.g., a user can have multiple roles). Additionally, the scenario requires careful consideration of normalization to ensure efficient data retrieval and storage, as well as handling many-to-many relationships, such as between restaurants and menus or orders and menu items.
+
+### 3. Inference of Relationships
+The scenario implicitly provides context to infer relationships and cardinalities through the natural interactions between entities. For example, orders are placed by users at restaurants, which implies a relationship between users, restaurants, and orders. Similarly, delivery drivers are assigned to orders, suggesting a relationship between orders and drivers. The scenario's complexity requires students to deduce these relationships based on the described workflows and interactions, testing their reasoning accuracy.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for additional features, such as user reviews, loyalty programs, or integration with payment systems. Future requirements, such as expanding to include multiple delivery methods or internationalization, could influence design choices by necessitating additional entities or attributes. The scenario's flexibility encourages students to design a scalable database that can accommodate future growth and changes.
+
+---
+
+## Problem Description
+
+### Objective
+The system aims to support a comprehensive food delivery platform that connects users, restaurants, and delivery drivers to facilitate the ordering and delivery of food items.
+
+### Scenario Description
+In this food delivery platform, users can register as either customers or restaurant owners. Customers browse restaurant menus, place orders, and receive deliveries. Restaurant owners manage their menus and track orders. Each restaurant offers a unique menu, which can change over time, and includes various food items with specific details such as price and description.
+
+Orders are placed by customers and include multiple menu items from a single restaurant. Once an order is placed, it is assigned to a delivery driver responsible for picking up the order from the restaurant and delivering it to the customer. Delivery drivers have schedules and can manage multiple deliveries simultaneously. The system must track the status of each order, from placement to delivery, providing updates to both customers and restaurant owners.
+
+### Constraints
+1. Users can have multiple roles, such as being both a customer and a restaurant owner, but they must register separately for each role.
+2. Each restaurant can have multiple menus over time, but only one active menu is available for ordering at any given time.
+3. Orders must be associated with a single restaurant but can include multiple menu items.
+4. Delivery drivers can handle multiple orders concurrently, but each order is assigned to only one driver at a time.
+5. The system must maintain a history of all orders, including details such as order date, delivery status, and payment information.
+6. Restaurants can update their menus, but changes should not affect past orders or historical data.
+7. Users should have the ability to rate and review both restaurants and delivery drivers, with each review linked to a specific order.

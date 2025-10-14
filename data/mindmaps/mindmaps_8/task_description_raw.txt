@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is Software Development Lifecycle (SDLC). It should be framed at an intermediate level suitable for individuals with some foundational knowledge in software development, such as undergraduate students or entry-level professionals.  
+
+### Scope Definition  
+This field includes topics such as planning, analysis, design, implementation, testing, deployment, and maintenance of software systems. It does not cover specific programming languages, user interface design, or project management methodologies outside the scope of SDLC phases.  
+
+### Tone and Focus  
+The context should sound neutral and concise, clearly defining the conceptual boundaries of the SDLC without delving into specific user actions or external project management techniques.  
+
+## Problem  
+
+### Domain Context  
+The Software Development Lifecycle (SDLC) encompasses a series of phases that guide the development and maintenance of software systems. It includes planning, requirements analysis, design, implementation, testing, deployment, and maintenance. Each phase has specific objectives and deliverables, but the SDLC does not cover detailed programming techniques or user interface design specifics. The intended audience includes individuals with a foundational understanding of software development processes, such as undergraduate students or entry-level professionals.  
+
+### Guiding Questions  
+- What are the main phases of the Software Development Lifecycle, and what is the primary focus of each phase?  
+- How do the objectives of the planning phase differ from those of the design phase in the SDLC?  
+- What are the key deliverables associated with the testing phase, and why are they critical to the SDLC?  
+- In what ways does the maintenance phase ensure the longevity and effectiveness of a software system?  

@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "French Language Learning." This should be framed for beginners or intermediate learners who are looking to understand the components involved in learning French.
+
+### Scope Definition  
+This field includes topics such as vocabulary acquisition, grammar rules, speaking and pronunciation, listening comprehension, and resources or tools for learning. It does not cover advanced linguistic theories, cultural studies, or specific teaching methodologies.
+
+### Tone and Focus  
+The context should sound neutral and concise by clearly defining the boundaries of French language learning, focusing on the foundational components without delving into instructional methods or user-specific strategies.
+
+## Problem  
+
+### Domain Context  
+French Language Learning encompasses the study of vocabulary, grammar, pronunciation, and listening comprehension necessary for understanding and communicating in French. It is intended for beginners or intermediate learners who aim to build a foundational understanding of the language. This domain includes the basic linguistic elements and tools that facilitate language acquisition but excludes advanced linguistic analysis or cultural immersion techniques.
+
+### Guiding Questions  
+1. What are the main components of French vocabulary that beginners should focus on?  
+2. How do fundamental French grammar rules differ from those in English?  
+3. What are the key elements of effective pronunciation in French?  
+4. How can listening skills be developed to improve comprehension in French?  

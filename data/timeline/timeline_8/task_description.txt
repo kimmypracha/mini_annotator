@@ -1,22 +1,36 @@
-Reconstruct the timeline for completing a research paper, starting from the literature review and ending with the final submission. This involves several stages, including drafting, peer review, and revisions, each with specific dependencies and durations.
+## The Scenario
 
-Expected Diagram Format: Use Mermaid’s gantt chart because the scenario involves tasks with durations, dependencies, and potential overlaps.
+### Background  
+The graduate student is working on a research paper as part of their degree requirements. This paper is crucial for their academic progress and must be completed within the semester. The student has access to academic resources but must manage their time alongside other coursework.
 
-Event Space:
-1. **Literature Review**: This phase involves gathering and reviewing relevant literature. It takes approximately three weeks and must be completed before drafting begins.
+### Objective  
+The goal is to complete and submit a high-quality research paper by the end of the semester. This involves conducting thorough research, writing, and revising based on feedback to meet academic standards.
 
-2. **Drafting the Paper**: Writing the initial draft takes about four weeks and can start immediately after the literature review is completed.
+### Event Descriptions  
+1. **Literature Review**  
+   The student conducts a comprehensive review of existing literature related to their research topic. This involves gathering sources, reading, and synthesizing information. Estimated duration: 2 weeks.
 
-3. **Initial Peer Review**: Once the draft is complete, it is sent for peer review. This process takes about two weeks and must be completed before any revisions can be made.
+2. **Research Design and Data Collection**  
+   The student plans the research methodology and collects necessary data. This phase includes designing experiments or surveys and gathering results. Estimated duration: 3 weeks.
 
-4. **Revisions**: Based on peer review feedback, revisions are made. This stage takes approximately two weeks and cannot begin until the peer review is completed.
+3. **First Draft Writing**  
+   The student writes the initial draft of the paper, incorporating findings from the literature review and data collection. This draft includes all sections of the paper. Estimated duration: 2 weeks.
 
-5. **Final Proofreading**: After revisions, the paper undergoes final proofreading, which takes about one week. This can only start after revisions are complete.
+4. **Peer Review**  
+   The student submits the first draft to peers for feedback. This involves sharing the draft and receiving comments and suggestions for improvement. Estimated duration: 1 week.
 
-6. **Submission**: The final step is submitting the paper. This is a one-day task that occurs immediately after proofreading.
+5. **Revisions Based on Feedback**  
+   The student revises the paper based on peer feedback, improving clarity, argumentation, and structure. This may involve additional research or rewriting sections. Estimated duration: 1 week.
 
-Constraints:
-- Drafting cannot begin until the literature review is complete.
-- Revisions depend on the completion of the peer review.
-- Proofreading requires the revisions to be finished first.
-- Submission follows immediately after proofreading, with no delay.
+6. **Final Editing and Proofreading**  
+   The student performs a final edit and proofread of the paper, focusing on grammar, style, and formatting to ensure it meets submission guidelines. Estimated duration: 1 week.
+
+7. **Submission**  
+   The student submits the completed paper to the academic department or journal. This involves ensuring all submission requirements are met. Estimated duration: 1 day.
+
+### Constraints  
+- The literature review must be completed before the research design and data collection begin.
+- Peer review cannot commence until the first draft is finished.
+- Revisions must incorporate peer feedback before final editing.
+- The final editing and proofreading require access to the university's writing center resources.
+- Submission must occur before the semester deadline, aligning with academic calendar constraints.

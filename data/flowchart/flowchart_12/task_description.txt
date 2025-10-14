@@ -1,19 +1,19 @@
-### Objective:
-Design a logical process to manage the enrollment of students in university courses.
+## Problem Statement
+### Objective  
+Design a flowchart to guide the process of enrolling in courses at a university.
 
-### Problem Specification:
+### Background or Scenario  
+At a university, students need to enroll in courses each semester. The process involves checking course prerequisites, ensuring availability, and adhering to enrollment timelines.
 
-- **Process Input:**
-  - The process must accept student information, including their academic standing, major, and completed prerequisites.
-  - A list of available courses, each with its own prerequisites, capacity limits, and schedule.
-  - University enrollment policies, such as deadlines and priority rules (e.g., seniors have priority over juniors).
+### Problem Specification  
+#### Input or Requirements  
+- Students' academic records, including completed courses and current academic standing.
+- List of available courses for the semester, including prerequisites, credits, and capacity.
+- Academic calendar specifying enrollment open and close dates.
+- Enrollment system interface for managing course selection and registration.
 
-- **Process Output:**
-  - The process must produce a confirmed list of courses in which the student is successfully enrolled.
-  - A notification of any courses the student could not enroll in, along with reasons (e.g., full capacity, missing prerequisites).
-
-- **Constraints / Rules:**
-  - The process must ensure that students meet all prerequisites before enrolling in a course.
-  - Enrollment must not exceed the maximum capacity of any course.
-  - The process must adhere to university-specific enrollment periods and deadlines.
-  - Students should not be enrolled in courses with scheduling conflicts.
+#### Constraints or Rules  
+- Enrollment must occur within the specified dates in the academic calendar.
+- Students must satisfy all prerequisites for a course before enrolling.
+- Course capacity limits must not be exceeded.
+- Students are restricted to enrolling in a maximum number of credits per semester.

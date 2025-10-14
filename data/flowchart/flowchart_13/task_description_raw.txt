@@ -1,0 +1,44 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits the query because the task involves designing a workflow process for requesting new IT equipment within a company. The focus is on structuring the steps and relationships between entities involved in the system rather than producing a specific output.
+
+### 2. Context Framing  
+The problem is set within a corporate environment where employees may need to request new IT equipment, such as computers, accessories, or software, to perform their job duties effectively. A structured process ensures that requests are handled efficiently, approvals are obtained, and equipment is procured in a timely manner.
+
+### 3. Input and Requirements  
+Entities and components involved in the system include:
+- Employee: The individual requesting new IT equipment.
+- Manager: The person responsible for approving or denying the request.
+- IT Department: The team that processes approved requests and procures the equipment.
+- Procurement Department: The team responsible for purchasing the equipment.
+- Equipment Inventory: A record of available equipment that might fulfill the request.
+
+### 4. Constraints  
+- Requests must be submitted using a designated form or system.
+- Managers must approve requests before they are forwarded to the IT Department.
+- The IT Department must check existing inventory before initiating a purchase.
+- Budget limitations may affect approval and procurement processes.
+- Requests must comply with company policies and standards for equipment.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to handle multiple decision points and interactions between different departments. A flowchart is appropriate to visualize the sequence of steps, conditional branches based on approvals, and interactions between employees, managers, and departments.
+
+## Problem Statement
+### Objective  
+Design a flowchart that outlines the process for requesting new IT equipment within a company, ensuring all necessary approvals and checks are conducted efficiently.
+
+### Background or Scenario  
+In a corporate setting, employees periodically require new IT equipment to perform their tasks. To manage these requests efficiently, a structured process that involves approval, inventory checks, and procurement is necessary.
+
+### Problem Specification  
+#### Input or Requirements  
+- Employee initiates a request for new IT equipment.
+- Manager reviews and approves or denies the request.
+- IT Department checks current inventory for availability.
+- If equipment is unavailable, the Procurement Department purchases the required items.
+
+#### Constraints or Rules  
+- Requests must be submitted through an official channel.
+- Manager approval is mandatory before IT Department involvement.
+- Existing inventory must be checked prior to new purchases.
+- All actions must adhere to budgetary constraints and company policies.

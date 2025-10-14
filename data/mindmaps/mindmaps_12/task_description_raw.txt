@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Culinary Knife Skills," specifically targeted at a beginner to intermediate audience, such as home cooks or culinary students.  
+
+### Scope Definition  
+This field includes topics such as different types of kitchen knives, basic cutting techniques, knife safety practices, and maintenance tips for knives. It does not cover advanced culinary techniques, professional chef-level skills, or unrelated kitchen equipment.  
+
+### Tone and Focus  
+The context should remain neutral and concise, focusing on defining the boundaries of culinary knife skills without implying instructional actions. It should clearly delineate what is included in the domain and what is not.  
+
+## Problem  
+
+### Domain Context  
+Culinary Knife Skills encompass the fundamental knowledge and techniques related to using kitchen knives effectively and safely. This domain is intended for beginner to intermediate audiences, such as home cooks or culinary students. It includes understanding different types of knives, mastering basic cutting techniques, practicing safety measures, and knowing how to maintain and care for knives. Advanced culinary techniques, professional chef-level skills, and unrelated kitchen equipment fall outside this domain.  
+
+### Guiding Questions  
+- What are the main types of kitchen knives, and what are their specific uses?  
+- What are the fundamental cutting techniques that one should know when using kitchen knives?  
+- What safety practices are essential when handling and using kitchen knives?  
+- How should kitchen knives be maintained to ensure longevity and performance?  

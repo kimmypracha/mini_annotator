@@ -1,0 +1,35 @@
+## Reasoning Design
+### 1. Task Type  
+Specific Task – This classification fits the query because it involves a realistic scenario of cooking in a kitchen using specific ingredients and tools.
+
+### 2. Context Framing  
+The problem is set in the context of preparing a breakfast item, pancakes, using available kitchen ingredients and equipment. The task is about determining if one can make fluffy pancakes with the current resources.
+
+### 3. Input and Requirements  
+- Ingredients: Flour, milk, eggs, baking powder, sugar, salt, butter (specify quantities if known, or list as available).
+- Kitchen Equipment: Mixing bowl, whisk, frying pan, spatula, measuring cups/spoons, stove.
+
+### 4. Constraints  
+- The ingredients must be from what is currently available in the kitchen; no additional shopping is allowed.
+- The pancakes must be fluffy, which typically requires a specific ratio of ingredients and proper mixing techniques.
+- The process must be completed using the available kitchen equipment.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to determine if the available ingredients and equipment can produce the desired result (fluffy pancakes). A flowchart is appropriate as it helps visualize decision points, such as checking ingredient availability and adjusting quantities.
+
+## Problem Statement
+### Objective  
+Design a flowchart to determine if you can make fluffy pancakes using the ingredients and equipment currently available in your kitchen.
+
+### Background or Scenario  
+You are in your kitchen and want to make fluffy pancakes for breakfast. You need to assess if you have all the necessary ingredients and tools and decide how to proceed with the preparation.
+
+### Problem Specification
+#### Input or Requirements  
+- Ingredients: Flour, milk, eggs, baking powder, sugar, salt, butter (quantities as available).
+- Kitchen Equipment: Mixing bowl, whisk, frying pan, spatula, measuring cups/spoons, stove.
+
+#### Constraints or Rules  
+- Use only the ingredients and equipment currently available in the kitchen.
+- Aim to achieve fluffy pancakes, which may require adjusting ingredient ratios or techniques.
+- No additional shopping or equipment is allowed.

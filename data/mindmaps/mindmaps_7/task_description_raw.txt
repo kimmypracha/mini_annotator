@@ -1,0 +1,22 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Personal Wellness Planning," with a focus on integrating multiple aspects of health and lifestyle. This should be framed at an introductory to intermediate level, suitable for individuals interested in understanding the components of wellness.  
+
+### Scope Definition  
+This field includes topics such as physical health, mental wellbeing, nutrition, and lifestyle habits. It excludes specific medical advice, professional therapeutic techniques, or detailed exercise regimens that require specialized knowledge.  
+
+### Tone and Focus  
+The context should be neutral and concise, defining the conceptual boundaries of personal wellness planning without delving into specific activities or user goals. It should clearly outline the components of wellness and their general significance.  
+
+## Problem  
+
+### Domain Context  
+Personal wellness planning encompasses the integration of various aspects of health and lifestyle to achieve a balanced and healthy life. This domain includes the study of physical health, mental wellbeing, nutrition, and lifestyle habits, focusing on how these elements contribute to overall wellness. It is intended for individuals seeking to understand the foundational components of wellness, without delving into specialized medical or therapeutic practices.  
+
+### Guiding Questions  
+- What are the main components of a comprehensive personal wellness plan?  
+- How does physical health contribute to overall wellness, and what are its key elements?  
+- What role does mental wellbeing play in personal wellness, and what are its primary aspects?  
+- How can nutrition influence the different dimensions of wellness?  
+- What lifestyle habits are essential for maintaining a balanced and healthy life?  

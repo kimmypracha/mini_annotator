@@ -1,12 +1,10 @@
-#### Reading Passage
-World War II, a cataclysmic event in global history, was precipitated by a complex interplay of political, economic, and social factors that had been brewing for decades. Politically, the Treaty of Versailles, which ended World War I, left Germany in a state of humiliation and economic distress, fostering a fertile ground for the rise of Adolf Hitler and the Nazi Party. The failure of the League of Nations to enforce collective security further emboldened aggressive nations. Economically, the Great Depression of the 1930s destabilized economies worldwide, leading to protectionist policies and a retreat from international cooperation. This economic turmoil exacerbated political tensions, as nations sought to secure resources and markets through expansionist policies. Socially, the interwar period saw a rise in nationalism and militarism, with propaganda fueling public support for aggressive foreign policies.
+## Problem  
 
-As the war unfolded, key events such as the invasion of Poland, the Battle of Britain, and the attack on Pearl Harbor marked significant turning points. Each event was not merely a military maneuver but also a political statement, influencing alliances and global strategies. The Holocaust, a horrific genocide, underscored the war's profound social impact, challenging humanity's moral compass. The use of atomic bombs on Hiroshima and Nagasaki introduced a new era of warfare, with ethical implications that continue to resonate.
+### Domain Context  
+World War II history encompasses the study of the political, economic, and social factors that led to the conflict, the key events and battles that occurred during the war, and the global aftermath that reshaped international relations and societies. This field is intended for an undergraduate audience with a basic understanding of 20th-century history. It includes analyzing the rise of totalitarian regimes, the impact of the Treaty of Versailles, and the economic conditions of the 1930s, as well as the examination of major battles, alliances, and the war's profound effects on the post-war world order. It excludes detailed military tactics or unrelated historical events.  
 
-In the aftermath, the world witnessed a dramatic reshaping of political boundaries and the emergence of the United States and the Soviet Union as superpowers, setting the stage for the Cold War. Economically, the Marshall Plan facilitated European recovery, while the Bretton Woods Conference established a new financial order. Socially, the war prompted movements for decolonization and civil rights, as oppressed peoples sought self-determination and equality. The United Nations was established in an attempt to prevent future conflicts, reflecting a global desire for peace and cooperation.
-
-#### Structuring Constraints
-- Define the central concept of World War II's causes and effects.
-- Require multiple second-level branches, such as political, economic, and social dimensions.
-- Identify at least one cross-cutting theme, such as nationalism or technological advancement.
-- Suggest perspectives or dimensions, such as ethical implications or regional impacts, without explicitly organizing them.
+### Guiding Questions  
+1. What were the main political, economic, and social factors that contributed to the outbreak of World War II?  
+2. How did the Treaty of Versailles and the economic conditions of the 1930s influence the political landscape of Europe leading up to the war?  
+3. What were some of the key events and turning points during World War II, and how did they shape the course of the conflict?  
+4. In what ways did World War II impact global political structures and societies in the aftermath of the conflict?

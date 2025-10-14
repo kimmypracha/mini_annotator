@@ -1,28 +1,39 @@
-Reconstruct the timeline for a full construction project, from site preparation to finishing work. The project involves several phases, each with specific tasks that have dependencies and potential for delays. The solver must infer the order and duration of tasks based on contextual clues.
+## The Scenario
 
-### Expected Diagram Format
-Use _Mermaid’s gantt chart_ because the scenario involves durations, dependencies, and potential overlaps between tasks.
+### Background  
+A construction project manager is tasked with overseeing the build of a new residential building. The project is located in an urban area with limited space for staging materials and equipment. The client expects a high-quality finish and has set a firm move-in date. The manager must coordinate various subcontractors and manage resources efficiently to meet the deadline.
 
-### Event Space
-1. **Site Preparation**: This involves clearing the land, which takes about two weeks. It must be completed before any foundation work can begin.
+### Objective  
+The goal is to complete the construction of the residential building on time and within budget, ensuring all quality standards are met. Success depends on effective scheduling, resource allocation, and risk management.
 
-2. **Foundation Work**: Laying the foundation takes approximately three weeks and can only start after site preparation is complete.
+### Event Descriptions  
+1. **Site Preparation**  
+   The site is cleared, leveled, and prepared for construction. This involves demolishing existing structures and removing debris. Duration: 2 weeks.
 
-3. **Structural Framing**: This phase runs for about four weeks and begins immediately after the foundation is set.
+2. **Foundation Work**  
+   Excavation and pouring of the building's foundation. This requires precision and favorable weather conditions. Duration: 3 weeks.
 
-4. **Roof Installation**: Takes about two weeks and starts concurrently with the last week of structural framing.
+3. **Structural Framing**  
+   Erection of the building's framework, including walls and roof trusses. Multiple crews work simultaneously. Duration: 4 weeks.
 
-5. **Electrical and Plumbing**: These tasks take three weeks and can start once the structural framing is halfway done.
+4. **Plumbing and Electrical Installation**  
+   Installation of plumbing and electrical systems within the framed structure. Coordination between trades is essential. Duration: 3 weeks.
 
-6. **Interior Finishing**: Includes drywall, painting, and flooring, taking about five weeks. This can only start after electrical and plumbing are completed.
+5. **Exterior Finishing**  
+   Application of exterior cladding, windows, and roofing materials. Weather conditions can impact progress. Duration: 2 weeks.
 
-7. **Exterior Finishing**: Such as siding and landscaping, which runs for three weeks and can start once the roof installation is complete.
+6. **Interior Finishing**  
+   Installation of drywall, flooring, and interior fixtures. Requires coordination with design specifications. Duration: 4 weeks.
 
-8. **Inspection and Final Adjustments**: This phase takes about one week and occurs after all other tasks are completed.
+7. **Inspection and Quality Assurance**  
+   Comprehensive inspection to ensure compliance with building codes and quality standards. Must be completed before occupancy. Duration: 1 week.
 
-### Constraints
-- Foundation work cannot begin until site preparation is fully completed.
-- Roof installation overlaps with the final week of structural framing, requiring coordination between teams.
-- Electrical and plumbing must be completed before interior finishing can commence.
-- Exterior finishing can start once the roof is installed, but must be coordinated with ongoing interior work to avoid conflicts.
-- Inspection and final adjustments are contingent on the completion of all other tasks, introducing a potential bottleneck if earlier phases are delayed.
+8. **Landscaping and Site Cleanup**  
+   Final landscaping and removal of construction debris. Enhances curb appeal and prepares the site for occupancy. Duration: 1 week.
+
+### Constraints  
+- Foundation work cannot commence until site preparation is fully completed.
+- Structural framing requires the availability of both carpenters and steelworkers, who are shared with another project.
+- Plumbing and electrical installation must be completed before any interior finishing begins.
+- Exterior finishing is weather-dependent and may require additional buffer time for delays.
+- Inspection and quality assurance must be completed before landscaping and site cleanup can begin.

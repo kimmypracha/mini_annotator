@@ -1,17 +1,19 @@
-### Objective:
-Design a logical process for requesting new IT equipment within a company.
+## Problem Statement
+### Objective  
+Design a flowchart that outlines the process for requesting new IT equipment within a company, ensuring all necessary approvals and checks are conducted efficiently.
 
-### Problem Specification:
+### Background or Scenario  
+In a corporate setting, employees periodically require new IT equipment to perform their tasks. To manage these requests efficiently, a structured process that involves approval, inventory checks, and procurement is necessary.
 
-- **Process Input:**
-  - The process must accept requests from any employee within the company, specifying the type of IT equipment needed, the purpose of the request, and any relevant project or department information.
+### Problem Specification  
+#### Input or Requirements  
+- Employee initiates a request for new IT equipment.
+- Manager reviews and approves or denies the request.
+- IT Department checks current inventory for availability.
+- If equipment is unavailable, the Procurement Department purchases the required items.
 
-- **Process Output:**
-  - The process must result in either the approval and procurement of the requested equipment or a denial with a reason provided to the requester.
-
-- **Constraints / Rules:**
-  - All requests must be initiated through a standardized form that captures necessary details such as employee ID, department, equipment type, and justification for the request.
-  - Requests must be reviewed and approved by the employee's direct manager and the IT department to ensure alignment with company policies and budget constraints.
-  - The IT department must verify the availability of the requested equipment in current inventory or initiate a purchase if not available.
-  - The process must include a feedback mechanism to inform the requester of the status of their request at each stage.
-  - The process must comply with company policies regarding equipment standardization and budget limitations.
+#### Constraints or Rules  
+- Requests must be submitted through an official channel.
+- Manager approval is mandatory before IT Department involvement.
+- Existing inventory must be checked prior to new purchases.
+- All actions must adhere to budgetary constraints and company policies.

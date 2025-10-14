@@ -1,0 +1,47 @@
+## Strategic Reasoning
+
+### The Decision-Maker's Context
+The decision-maker is a university student facing the intense period of exam season. They are juggling multiple priorities, including coursework that directly impacts their grades, career preparation activities that influence their future job prospects, and personal tasks necessary for maintaining well-being. The inherent tension lies in the limited time available to allocate effectively across these competing demands, each with its own set of immediate and long-term consequences.
+
+### The Core Trade-Offs
+The two most critical dimensions for this scenario are 'Immediate Academic Impact' and 'Long-Term Career Benefit'. These axes are chosen because they encapsulate the immediate need to perform well in exams and the ongoing requirement to prepare for post-graduation opportunities. Balancing these dimensions is crucial for the decision-maker to not only succeed academically but also ensure a smooth transition into their professional life.
+
+### Rationale for Item Selection
+The selected items represent a spectrum of activities that force the decision-maker to weigh the immediate academic benefits against the potential long-term career advantages. Each item presents unique trade-offs between focusing on current academic success and investing in future career opportunities, compelling the decision-maker to consider what they can afford to prioritize or defer.
+
+### Why This Framework Is Needed
+Visualizing this challenge on a two-dimensional matrix allows the decision-maker to clearly see how each activity aligns with their immediate academic goals versus their long-term career aspirations. This framework helps in making informed decisions about where to allocate their limited time and energy, providing clarity amidst the complexity of competing priorities.
+
+## The Decision Scenario
+
+### Objective
+To effectively manage time and energy during exam season, balancing coursework, career preparation, and personal tasks to achieve both immediate academic success and long-term career goals.
+
+### Background
+The decision-maker is a university student in their final year, preparing for exams while also seeking job opportunities post-graduation. They are under pressure to maintain high academic performance, which directly affects their GPA, while simultaneously engaging in activities that enhance their employability. Personal tasks like health and well-being are also critical to sustain their overall productivity and mental health.
+
+### Items for Consideration
+
+> **Final Exam Study Sessions**
+> Intensive review sessions organized by the department, offering a deep dive into potential exam topics. These sessions are known to significantly boost exam performance but require substantial time commitment during peak study periods.
+
+> **Resume and LinkedIn Profile Update**
+> Updating professional profiles to reflect recent projects and skills. This task is crucial for upcoming job applications but can be time-consuming, diverting attention from immediate study needs.
+
+> **Networking Event with Industry Professionals**
+> A career fair hosted by the university, providing opportunities to connect with potential employers. While beneficial for future job prospects, attending requires skipping a day of study.
+
+> **Group Project Completion**
+> A major component of a core course, requiring collaboration with peers to finalize a presentation. This project directly impacts the course grade and demands coordination and time outside of individual study.
+
+> **Mock Interviews with Career Services**
+> Practice interviews scheduled with the career center to improve job interview skills. These sessions offer valuable feedback but coincide with critical exam preparation days.
+
+> **Weekly Yoga Class**
+> A personal time commitment aimed at reducing stress and maintaining physical health. While beneficial for mental clarity, attending these classes means less time available for studying.
+
+> **Research Paper Submission**
+> A paper for an elective course that requires final edits and submission before the exam period ends. Completing this task is essential for course completion but may detract from studying for major exams.
+
+> **Volunteer Work at Local Non-Profit**
+> An ongoing commitment that enhances the resume and provides a sense of fulfillment. However, it requires a regular time investment that could otherwise be used for academic or career preparation.

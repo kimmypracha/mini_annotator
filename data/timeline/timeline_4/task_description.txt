@@ -1,19 +1,39 @@
-Reconstruct the timeline for planning a wedding over the course of a year, focusing on key tasks and milestones that must be completed in sequence or in parallel. This includes booking the venue, sending invitations, arranging catering, dress fittings, and rehearsals.
+## The Scenario
 
-Expected Diagram Format: Use Mermaid’s gantt chart because this scenario involves durations, start-after constraints, and dependencies between tasks.
+### Background  
+The couple has just gotten engaged and decided to plan their wedding themselves to ensure it reflects their personal style and preferences. They have a year to prepare and a modest budget, requiring them to be strategic in their choices. They aim to host a memorable event for family and friends, balancing tradition with their unique flair.
 
-Event Space:
-1. **Venue Booking**: This is one of the first tasks and must be completed before invitations can be sent. It typically takes about a month to finalize.
-2. **Invitation Design and Printing**: Begins after the venue is booked and takes approximately two months to complete.
-3. **Invitation Mailing**: Starts immediately after invitations are printed and takes about two weeks.
-4. **Catering Arrangements**: Can begin once the venue is booked and should be finalized at least six months before the wedding.
-5. **Dress Fittings**: Begin parallel to catering arrangements and require multiple sessions over several months, concluding two months before the wedding.
-6. **Rehearsal Dinner Planning**: Starts three months before the wedding and requires coordination with the venue and catering.
-7. **Final Venue Walkthrough**: Occurs one month before the wedding to ensure all arrangements are in place.
-8. **Wedding Rehearsal**: Takes place the day before the wedding.
+### Objective  
+The goal is to successfully plan and execute a wedding that aligns with the couple's vision, stays within budget, and is enjoyed by all attendees. The timeline is crucial to ensure all elements come together seamlessly on the wedding day.
 
-Constraints:
-- Invitations cannot be sent until the venue is booked and the design is finalized.
-- Catering and dress fittings run in parallel but must be completed well before the wedding.
-- The rehearsal dinner planning must consider the availability of the venue and catering services.
-- The final venue walkthrough is dependent on all prior arrangements being confirmed.
+### Event Descriptions  
+1. **Venue Booking**  
+   The couple visits potential venues, comparing options based on capacity, location, and cost. They finalize the booking with a deposit. Estimated duration: 1 month.
+
+2. **Catering Selection**  
+   They meet with caterers, sample menus, and negotiate contracts to fit their budget. Estimated duration: 2 weeks.
+
+3. **Invitation Design and Printing**  
+   The couple collaborates with a designer to create custom invitations. Once approved, the invitations are printed and prepared for mailing. Estimated duration: 3 weeks.
+
+4. **Dress and Suit Fittings**  
+   The bride and groom schedule fittings with a tailor, allowing time for adjustments and final alterations. Estimated duration: 2 months.
+
+5. **Rehearsal Dinner Planning**  
+   They choose a venue for the rehearsal dinner, coordinate with family, and finalize the guest list and menu. Estimated duration: 1 month.
+
+6. **Music and Entertainment Booking**  
+   The couple researches bands or DJs, attends performances, and secures entertainment for the reception. Estimated duration: 1 month.
+
+7. **Floral Arrangements**  
+   They consult with a florist to choose seasonal flowers and design bouquets and decorations. Estimated duration: 3 weeks.
+
+8. **Photography and Videography**  
+   After reviewing portfolios, the couple books a photographer and videographer to capture the day. Estimated duration: 2 weeks.
+
+### Constraints  
+- The venue must be booked before invitations are printed, as the location details are needed.
+- Dress and suit fittings require the venue to be booked first to match the formality of the event.
+- The rehearsal dinner planning cannot commence until the guest list is finalized.
+- Floral arrangements depend on the season, requiring consultation close to the wedding date.
+- Music and entertainment must be booked after the venue to ensure compatibility with space and acoustics.

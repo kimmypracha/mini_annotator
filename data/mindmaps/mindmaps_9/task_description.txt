@@ -1,18 +1,10 @@
-### Reading Passage
+## Problem  
 
-The multifaceted impacts of climate change are increasingly evident across various dimensions of our planet and society. One cannot overlook the environmental repercussions, which manifest in phenomena such as rising sea levels, shifting weather patterns, and the increased frequency of extreme weather events. These changes disrupt ecosystems, leading to biodiversity loss as species struggle to adapt to rapidly changing habitats. For instance, coral reefs, which are highly sensitive to temperature changes, face bleaching events that threaten marine biodiversity.
+### Domain Context  
+Climate change impacts encompass the various ways in which changes in the Earth's climate affect natural systems, human societies, and economies. This field includes the study of environmental effects such as rising sea levels, increased frequency of extreme weather events, and loss of biodiversity. It also examines social and economic consequences, including effects on agriculture, health, and infrastructure. This domain does not cover mitigation strategies or policy responses to climate change.
 
-Simultaneously, the economic ramifications are profound, affecting industries ranging from agriculture to insurance. Crop yields are impacted by altered precipitation patterns and extreme temperatures, which in turn influence food security and commodity prices globally. The insurance sector faces heightened risks as natural disasters become more frequent and severe, challenging existing models and necessitating new strategies for risk management.
-
-On a societal level, climate change exacerbates existing inequalities, disproportionately affecting vulnerable communities who have the least resources to adapt. This is evident in the increased incidence of climate-induced migration, where people are forced to leave their homes due to uninhabitable conditions. Health impacts are also significant, with rising temperatures contributing to the spread of vector-borne diseases and heat-related illnesses.
-
-Moreover, the political landscape is reshaped as nations grapple with the need for coordinated global responses. International agreements, such as the Paris Agreement, aim to unify efforts in reducing greenhouse gas emissions, yet the path to consensus is fraught with challenges. Differing national interests and economic dependencies on fossil fuels complicate negotiations, highlighting the tension between immediate economic growth and long-term sustainability.
-
-Technological innovations offer a glimmer of hope, as advancements in renewable energy and carbon capture technologies present viable pathways to mitigate climate change effects. However, the transition to a low-carbon economy requires substantial investment and policy support, underscoring the interconnectedness of technological, economic, and political spheres.
-
-### Structuring Constraints
-
-1. Define the central concept of climate change impacts.
-2. Require multiple second-level branches that explore environmental, economic, and societal impacts.
-3. Identify at least one cross-cutting theme, such as adaptation or mitigation strategies.
-4. Suggest perspectives or dimensions, such as technological, political, and health-related, without prescribing their arrangement.
+### Guiding Questions  
+- What are the main categories of impacts resulting from climate change on the environment and society?  
+- How does climate change affect biodiversity and ecosystems?  
+- In what ways does climate change influence human health and economic stability?  
+- What are the mechanisms through which climate change leads to increased frequency and severity of natural disasters?

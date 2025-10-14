@@ -1,14 +1,19 @@
+## Problem Description
+
 ### Objective
-Design a data model for a video streaming platform that supports user management, subscription handling, video content organization, and user activity tracking.
+The system is designed to support a video streaming platform that manages user subscriptions, video content, and user interactions, providing a seamless and personalized viewing experience.
 
 ### Scenario Description
-In this platform, users can sign up and subscribe to different plans that grant them access to a library of videos. Each user has a unique profile and can have multiple devices registered to their account. Subscriptions can vary in terms of duration, cost, and content access level. Users can browse and watch videos, which are categorized into multiple genres. Each video has metadata including title, description, release date, and duration. Users' watch history is tracked to provide personalized recommendations and to resume playback. The platform also needs to manage content licensing, which may affect availability in different regions.
+The video streaming platform caters to a diverse user base, offering a wide range of video content across various genres. Users can register on the platform, create profiles, and subscribe to different service tiers that determine their access to content. Each subscription tier offers distinct benefits, such as ad-free viewing or access to exclusive content.
 
-### Modeling Considerations
-- Users may have multiple active subscriptions (e.g., family plans) and need to manage payment methods and billing history.
-- Videos can belong to multiple genres, and new genres can be added over time.
-- Watch history should track not only completed views but also partially watched videos, including timestamps for resume functionality.
-- Consider how to model content availability based on regional licensing agreements.
-- Subscriptions may include promotional periods or discounts, affecting billing calculations.
-- Users can rate and review videos, influencing recommendation algorithms.
-- There may be a need to track changes in subscription plans over time, such as upgrades or downgrades.
+Users can browse and search for videos by genre, title, or popularity. Each video is categorized under one or more genres, and users can view detailed information about the video, including its description, duration, and release date. Users have the ability to create watchlists and maintain a watch history that records every video they have watched, along with timestamps and viewing duration.
+
+The platform supports content creators who can upload videos, manage their content, and track viewership statistics. Creators may also categorize their videos under multiple genres to reach a broader audience. The system must efficiently manage video metadata, storage, and retrieval to ensure a smooth user experience.
+
+### Constraints
+1. Users must have an active subscription to access most video content, with some exceptions for promotional content or free trials.
+2. Subscription plans are billed periodically, and users can upgrade or downgrade their plans at any time, affecting their access rights.
+3. Each video may belong to multiple genres, and genres can evolve over time with the addition of new categories or merging of existing ones.
+4. The watch history must be maintained for each user, capturing detailed information about each viewing session, including timestamps and video segments watched.
+5. Content creators have permissions to manage only their uploaded videos, including editing metadata and viewing aggregated statistics.
+6. The platform must support scalability to handle increasing numbers of users, videos, and concurrent streaming sessions without performance degradation.

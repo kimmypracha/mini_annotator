@@ -1,12 +1,22 @@
-**Objective:**  
-Design a logical process to outline the legal steps involved in tenant eviction due to non-payment of rent.  
+## Problem Statement
+### Objective  
+Design a flowchart to outline the legal process for evicting a tenant due to non-payment of rent.
 
-**Problem Specification:**  
-- **Process Input:**  
-The process must accept information regarding the tenant's rental agreement, the amount of rent due, and any prior communication regarding payment issues.  
-- **Process Output:**  
-The process must yield a clear sequence of steps that a landlord must follow to legally evict a tenant for non-payment, including any necessary documentation and legal notices.  
-- **Constraints / Rules:**  
-1. The process must comply with local landlord-tenant laws and regulations.  
-2. The landlord must provide written notice to the tenant before initiating eviction proceedings.  
-3. The process must include steps for potential tenant responses or defenses against eviction.
+### Background or Scenario  
+A landlord is facing a situation where a tenant has not paid rent for several months. The landlord needs to initiate the eviction process legally to regain possession of the property. This process involves specific legal steps and compliance with local laws.
+
+### Problem Specification  
+#### Input or Requirements  
+- **Landlord**: Property owner seeking eviction.
+- **Tenant**: Occupant of the property who has failed to pay rent.
+- **Notice of Non-Payment**: A formal document notifying the tenant of overdue rent.
+- **Eviction Notice**: Legal notice served to inform the tenant of the intent to evict.
+- **Court Proceedings**: Legal process involving hearings and judgments.
+- **Local Eviction Laws**: Regulations governing the eviction process in the relevant jurisdiction.
+
+#### Constraints or Rules  
+- The notice of non-payment must be served according to local laws, typically providing a period for the tenant to pay overdue rent.
+- An eviction notice can only be served after the period specified in the notice of non-payment has elapsed without resolution.
+- The eviction process must comply with all local legal requirements, including timelines and documentation.
+- The tenant has the right to contest the eviction in court.
+- A court order is required to proceed with the physical eviction of the tenant.

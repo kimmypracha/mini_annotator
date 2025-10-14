@@ -1,20 +1,18 @@
+## Problem Description
+
 ### Objective
-Design a data model for a real estate platform that supports the management of properties, agents, clients, and transactions.
+The system aims to support a real estate platform where properties are listed, bought, and sold through interactions between agents and clients, with all transactions recorded and managed efficiently.
 
 ### Scenario Description
-In this real estate platform, various entities interact to facilitate the buying, selling, and renting of properties. The primary entities include:
+In this real estate platform, properties can be listed for sale or rent by real estate agents. Each property has specific attributes such as location, size, and price. Agents are responsible for managing property listings and facilitating transactions between clients. Clients can be individuals or businesses interested in buying, selling, or renting properties. They interact with agents to view listings, make offers, and close deals.
 
-- **Properties**: These are the real estate assets available for sale or rent. Each property has attributes such as location, size, price, and type (e.g., residential, commercial).
+Transactions are central to the platform, recording details of property sales or rentals, including the involved parties, transaction dates, and financial terms. Agents may represent multiple clients and handle various properties simultaneously. Clients can engage with multiple agents and may have multiple active transactions at any given time.
 
-- **Agents**: Real estate agents manage the properties. They have attributes like name, contact information, and license number. An agent can manage multiple properties.
-
-- **Clients**: These are individuals or organizations interested in buying, selling, or renting properties. Clients have attributes like name, contact details, and preferences.
-
-- **Transactions**: These represent the deals made on properties, including sales and rentals. A transaction involves a property, an agent, and one or more clients. Transactions have attributes like date, amount, and type (sale or rent).
-
-### Modeling Considerations
-- **Role Overlap**: An individual might act as both a client and an agent in different transactions, requiring careful role management.
-- **Derived Attributes**: The status of a property (e.g., available, under contract, sold) might be derived from its transactions.
-- **Temporal Tracking**: Historical data on transactions and property listings should be maintained to analyze market trends.
-- **Normalization Trade-offs**: Deciding the level of normalization, especially for transactions, to balance between data redundancy and query efficiency.
-- **Edge Cases**: Handling scenarios where a property is co-listed by multiple agents or a transaction involves multiple clients.
+### Constraints
+1. Each property must be managed by a single agent at any given time, but agents can manage multiple properties.
+2. A client can be both a buyer and a seller, depending on the transaction context, and may have multiple roles in different transactions.
+3. Transactions must record historical data, including the date, involved parties, and financial details, to ensure accurate reporting and auditing.
+4. Agents must have a valid license to operate, and their performance metrics should be tracked for quality assurance.
+5. Properties can be listed in multiple categories (e.g., residential, commercial) but must adhere to zoning regulations.
+6. Clients should be able to view their transaction history and current listings, requiring secure access and data privacy measures.
+7. The system should support future expansion to include rental management and international property listings.

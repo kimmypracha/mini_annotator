@@ -1,0 +1,46 @@
+## Strategic Reasoning
+
+### The Decision-Maker's Context
+The decision-maker is a co-founder of a tech startup that has recently launched a SaaS product. The startup is in its growth phase, facing limited financial resources and a small team. The co-founders are under pressure to scale the business quickly while ensuring customer satisfaction and product reliability. They must balance immediate operational needs with strategic growth initiatives.
+
+### The Core Trade-Offs
+The two critical dimensions for this scenario are 'Immediate Impact' and 'Long-term Growth Potential'. Immediate Impact refers to how quickly an action can influence the startup's current operations or revenue, while Long-term Growth Potential considers the future scalability and sustainability of the business. These dimensions are crucial as they help in evaluating the balance between short-term survival and long-term success.
+
+### Rationale for Item Selection
+The selected items—product development, marketing, hiring, and customer support—represent core functions that directly influence both the immediate and future trajectory of the startup. Each item presents unique challenges and opportunities, forcing the decision-maker to weigh the benefits of quick wins against foundational investments for future growth.
+
+### Why This Framework Is Needed
+Visualizing this challenge on a two-dimensional matrix allows the decision-maker to clearly see where each function stands in terms of its immediate and long-term contributions to the business. This framework helps to clarify priorities and allocate resources effectively, ensuring that both urgent needs and strategic goals are addressed.
+
+## The Decision Scenario
+
+### Objective
+The primary goal is to allocate the startup's limited resources in a way that maximizes both immediate operational effectiveness and positions the company for sustainable growth.
+
+### Background
+The startup is a small tech company that has recently launched its first SaaS product. The team is composed of a few co-founders and a handful of employees. They are working under tight budget constraints and are eager to expand their customer base while maintaining a high level of product quality and customer satisfaction. The co-founders need to decide how to allocate their limited resources across key business functions to achieve their growth objectives.
+
+### Items for Consideration
+
+> **Enhancing Core Product Features**
+> The product team suggests adding new features that customers have requested, which could improve user satisfaction and retention. However, this requires significant development time and may delay other planned updates.
+
+> **Digital Marketing Campaign**
+> The marketing team proposes a targeted digital ad campaign aimed at increasing brand awareness and acquiring new customers. This requires a substantial upfront investment but promises a potential uptick in user sign-ups.
+
+> **Hiring a Customer Support Specialist**
+> Currently, customer support is managed by the co-founders, leading to delays in response times. Hiring a dedicated specialist could improve customer satisfaction and free up the co-founders to focus on strategic initiatives.
+
+> **Building a Scalable Infrastructure**
+> The engineering team recommends investing in scalable cloud infrastructure to handle future growth. This would ensure reliability as the user base expands, but it requires a significant initial outlay and time commitment.
+
+> **Developing a Strategic Partnership**
+> An opportunity has arisen to partner with a larger company that could integrate the startup's product into their service offering. This could provide a steady stream of new users, but it requires negotiation and potential customization of the product.
+
+> **Launching a Customer Feedback Initiative**
+> The team proposes a structured initiative to gather and analyze customer feedback, aiming to refine the product and improve user experience. This involves both time and resources but could lead to valuable insights for future development.
+
+> **Expanding the Sales Team**
+> The sales department is currently understaffed, limiting outreach efforts. Expanding the team could accelerate customer acquisition, but it involves recruitment costs and additional salaries.
+
+By considering these items, the startup's co-founders must navigate the complex interplay between immediate operational needs and strategic growth opportunities, making decisions that will define the company's trajectory.

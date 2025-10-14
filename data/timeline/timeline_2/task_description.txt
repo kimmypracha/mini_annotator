@@ -1,25 +1,44 @@
-Reconstruct the product development lifecycle from ideation to final launch, focusing on team responsibilities and phase overlaps.
+## The Scenario
 
-Expected Diagram Format: Use Mermaid’s gantt chart because the scenario involves tasks with durations, dependencies, and overlaps.
+### Background  
+The project manager is responsible for coordinating the development of a new software application. The company has a reputation for innovation but is facing increased competition. The project must be completed efficiently to maintain the company's market position. The development involves multiple teams: design, development, testing, and marketing, each with specific roles and resource limitations.
 
-Event Space:
-1. Ideation Phase: The marketing and product teams collaborate to brainstorm and outline the product concept. This phase typically takes about three weeks and must be completed before the design phase can start.
+### Objective  
+The goal is to successfully launch the new software product within a competitive timeline while ensuring high quality and effective market entry. The project must align with the company's strategic objectives and resource capabilities.
 
-2. Design Phase: The design team begins work on the product's visual and functional design. This phase lasts approximately four weeks and starts immediately after ideation. It overlaps with the initial prototyping phase by one week.
+### Event Descriptions  
 
-3. Prototyping Phase: The engineering team develops a prototype based on the design specifications. This phase takes about five weeks and begins in the third week of the design phase, continuing in parallel with it.
+1. **Ideation and Concept Development**  
+   The product management team brainstorms and refines the product concept. This phase involves market research and stakeholder input. Estimated duration: 2 weeks.
 
-4. Testing Phase: Quality assurance begins testing the prototype for functionality and user experience. This phase starts after the prototyping phase is complete and lasts for two weeks.
+2. **Design Phase**  
+   The design team creates wireframes and mockups based on the approved concept. This phase requires creativity and iterative feedback. Estimated duration: 3 weeks.
 
-5. Revision Phase: Based on testing feedback, the design and engineering teams work together to make necessary revisions. This phase takes about two weeks and starts immediately after testing.
+3. **Development Phase**  
+   The software development team codes the core functionalities. This phase requires technical expertise and collaboration with the design team. Estimated duration: 6 weeks.
 
-6. Final Launch Preparation: The marketing team prepares for the product launch, including promotional materials and campaigns. This phase runs for three weeks and starts in the final week of the revision phase.
+4. **Testing and Quality Assurance**  
+   The QA team conducts thorough testing to identify and fix bugs. This phase involves coordination with the development team for issue resolution. Estimated duration: 4 weeks.
 
-7. Product Launch: The product is launched to the market. This is a single-day event that occurs immediately after launch preparations are complete.
+5. **Marketing Strategy Development**  
+   The marketing team develops a comprehensive strategy for product launch. This phase involves market analysis and campaign planning. Estimated duration: 3 weeks.
 
-Constraints:
-- The design phase cannot begin until the ideation phase is completed.
-- Prototyping must start in the third week of the design phase, requiring coordination between design and engineering teams.
-- Testing cannot commence until the prototype is fully developed.
-- Revisions are dependent on testing feedback and must be completed before final launch preparations can begin.
-- Launch preparations overlap with the final week of revisions, requiring careful planning between marketing and engineering teams.
+6. **Beta Release and Feedback Collection**  
+   A beta version is released to a select group of users for feedback. This phase involves monitoring user experience and gathering insights. Estimated duration: 2 weeks.
+
+7. **Final Adjustments and Polishing**  
+   The development team makes final adjustments based on beta feedback. This phase focuses on refining the user experience. Estimated duration: 2 weeks.
+
+8. **Launch Preparation**  
+   The marketing and product teams prepare for the official launch. This phase includes finalizing promotional materials and logistics. Estimated duration: 1 week.
+
+9. **Official Product Launch**  
+   The new software product is launched to the public. This phase involves coordinated efforts from all teams to ensure a successful release. Estimated duration: 1 day.
+
+### Constraints  
+
+- The design phase cannot start until the ideation and concept development phase is complete.
+- The development phase requires completed wireframes and mockups from the design team.
+- Testing and quality assurance cannot begin until the development phase is substantially complete.
+- The marketing strategy development must be completed before the beta release.
+- Final adjustments and polishing depend on feedback from the beta release.

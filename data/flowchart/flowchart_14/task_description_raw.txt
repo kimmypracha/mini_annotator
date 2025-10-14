@@ -1,0 +1,42 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits the query because the process of borrowing a book from a library involves multiple entities and steps, such as verifying membership, checking book availability, and recording the transaction, which are components of a system.
+
+### 2. Context Framing  
+The problem is set in the context of a library system where a user wishes to borrow a book. This scenario is common in public and private libraries, where organized procedures are necessary to manage book loans effectively.
+
+### 3. Input and Requirements  
+Entities involved include:
+- Library member (user)
+- Library catalog (database of books)
+- Library staff or self-service kiosk (for processing transactions)
+- Library system (software for managing checkouts)
+
+### 4. Constraints  
+- A user must have a valid library membership.
+- The book must be available in the library’s collection.
+- The user must not have exceeded their borrowing limit.
+- The transaction must be recorded in the library system.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning because it involves decision points (e.g., checking membership validity and book availability) and multiple possible paths depending on the conditions met. A flowchart is appropriate as it visually represents the process flow, decisions, and possible outcomes.
+
+## Problem Statement
+### Objective  
+Design a flowchart to represent the process of borrowing a book from the library.
+
+### Background or Scenario  
+In a library setting, patrons often borrow books for a specified period. This involves verifying membership, checking the availability of the desired book, and recording the loan transaction. The process must ensure that all necessary conditions are met to maintain order and accountability in the library.
+
+### Problem Specification
+#### Input or Requirements  
+- Library member ID
+- Desired book title or ISBN
+- Library catalog data showing book availability
+- Library policy on borrowing limits
+
+#### Constraints or Rules  
+- The member must present a valid library ID.
+- The book must be listed as available in the catalog.
+- The member must not have outstanding dues or exceed the borrowing limit.
+- The loan must be recorded in the library system with a due date for return.

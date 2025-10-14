@@ -1,18 +1,36 @@
-Organizing an annual conference requires careful planning and coordination of multiple tasks. The process includes booking the venue, coordinating with speakers, managing attendee registration, promoting the event, and conducting post-event follow-up. Each task has specific dependencies and durations that must be considered to ensure a successful event.
+## The Scenario
 
-### Expected Diagram Format
-Use _Mermaid’s gantt chart_ to represent the tasks, durations, and dependencies involved in organizing the conference.
+### Background  
+The event planning team is responsible for organizing an annual conference that attracts industry professionals from across the country. The conference's success is crucial for the organization's reputation and future funding. The team must balance logistical challenges, such as venue booking and speaker coordination, with promotional efforts to maximize attendance.
 
-### Event Space
-1. **Venue Booking**: This task must be completed before any other activities can begin. It typically takes about a month to finalize the contract and logistics.
-2. **Speaker Coordination**: Begins shortly after the venue is confirmed. This involves reaching out to potential speakers, which takes about two months, and must be completed before promotional activities can start.
-3. **Attendee Registration**: Opens once the speakers are confirmed and runs in parallel with promotional activities. Registration typically remains open for three months.
-4. **Promotional Activities**: Start as soon as the speakers are confirmed and run concurrently with registration, lasting for about two months.
-5. **Event Execution**: Occurs over three days, following the completion of registration and promotional activities.
-6. **Post-Event Follow-Up**: Begins immediately after the event and lasts for about two weeks, involving feedback collection and financial reconciliation.
+### Objective  
+The primary goal is to execute a successful conference that meets attendance targets, receives positive feedback, and strengthens the organization's standing in the industry.
 
-### Constraints
-- Venue booking must be completed before speaker coordination can begin.
-- Speaker coordination must be finalized before promotional activities and registration can start.
-- Promotional activities and attendee registration run concurrently but must both be completed before the event execution.
-- Post-event follow-up cannot start until the event execution is complete.
+### Event Descriptions  
+1. **Venue Booking**  
+   The team secures a suitable venue that can accommodate all attendees and technical requirements. The venue selection involves negotiations with the venue management and requires a deposit. Estimated duration: 2 weeks.
+
+2. **Speaker Coordination**  
+   The team reaches out to potential speakers, confirms their participation, and coordinates travel and accommodation arrangements. This involves contract negotiations and managing speaker schedules. Estimated duration: 3 weeks.
+
+3. **Attendee Registration Setup**  
+   The team sets up an online registration system, ensuring it is user-friendly and secure. This includes testing the system and troubleshooting any issues. Estimated duration: 1 week.
+
+4. **Promotional Campaign**  
+   The marketing team launches a promotional campaign to attract attendees. This includes social media marketing, email blasts, and partnerships with industry publications. Estimated duration: 4 weeks.
+
+5. **Vendor Coordination**  
+   The team coordinates with vendors for catering, audio-visual equipment, and other necessary services. This involves reviewing contracts and ensuring all logistical needs are met. Estimated duration: 2 weeks.
+
+6. **Conference Day Execution**  
+   The team oversees the conference day, ensuring all sessions run smoothly, addressing any issues that arise, and managing attendee flow. This requires on-the-ground coordination and problem-solving. Estimated duration: 1 day.
+
+7. **Post-Event Follow-Up**  
+   After the conference, the team sends thank-you notes to speakers and attendees, gathers feedback through surveys, and conducts a debrief meeting to assess the event's success. Estimated duration: 1 week.
+
+### Constraints  
+- The venue booking must be finalized before any promotional activities can begin.
+- Speaker coordination cannot start until the venue is confirmed, as speakers need venue details.
+- The attendee registration system must be operational before the promotional campaign launches.
+- Vendor coordination requires the venue's technical specifications, which are only available after booking.
+- Post-event follow-up is contingent on the completion of the conference day execution.

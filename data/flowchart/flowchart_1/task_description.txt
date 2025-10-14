@@ -1,26 +1,24 @@
-### Objective:
-Prepare a dish of Korean ground beef using only the ingredients available in your kitchen.
+## Problem Statement
+### Objective  
+Design a flowchart to guide the process of cooking Korean ground beef using only the provided ingredients.
 
-### Background:
-You have decided to cook a Korean-style ground beef dish for dinner. However, you must work with the ingredients currently available in your kitchen, without purchasing additional items. This requires creativity and adaptability to ensure the dish is flavorful and authentic.
+### Background or Scenario  
+You want to prepare a Korean-inspired ground beef dish for dinner using only the ingredients you currently have in your kitchen. The goal is to create a flavorful and satisfying meal that can be served with rice.
 
-### Problem Specification:
+### Problem Specification
+#### Input or Requirements  
+- Ground beef: 1 pound  
+- Soy sauce: 2 tablespoons  
+- Brown sugar: 2 tablespoons  
+- Garlic: 2 cloves  
+- Ginger: 1 teaspoon (grated)  
+- Green onions: 2 stalks  
+- Sesame oil: 1 tablespoon  
+- Rice: 2 cups (cooked)  
+- Optional: Red pepper flakes to taste  
 
-**Input Data / Inventory:**
-- 1 pound of ground beef
-- Soy sauce (1 bottle)
-- Sesame oil (1 bottle)
-- Garlic (3 cloves)
-- Sugar (1 cup)
-- Green onions (a bunch)
-- Rice (2 cups)
-- Salt and pepper (to taste)
-- Cooking oil (1 bottle)
-
-**Constraints:**
-- The dish must be prepared within 45 minutes.
-- You cannot use any ingredients other than those listed above.
-- The dish should serve at least four people.
-- Cooking must be done using a stovetop and a single frying pan.
-
-The task involves determining the best way to combine these ingredients to create a flavorful Korean ground beef dish, considering the constraints and available resources.
+#### Constraints or Rules  
+- Use only the ingredients provided.  
+- The cooking process should be completed within 45 minutes.  
+- The dish should be suitable for at least 2 servings.  
+- Ensure the final dish has a balance of flavors typical of Korean cuisine.

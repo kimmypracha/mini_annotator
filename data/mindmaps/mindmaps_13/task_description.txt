@@ -1,11 +1,11 @@
-In the realm of portrait photography, the interplay of light, composition, camera settings, and posing forms a complex tapestry that photographers must weave to capture the essence of their subject. Lighting, often considered the cornerstone of photography, can dramatically alter the mood and tone of a portrait. Natural light, with its soft, diffused quality, is prized for its ability to render skin tones beautifully, yet it is unpredictable and varies with time and weather. Artificial lighting, on the other hand, offers control and consistency, allowing photographers to sculpt the face with shadows and highlights. Techniques such as Rembrandt lighting, characterized by a small triangle of light on the shadowed cheek, or butterfly lighting, which creates a shadow under the nose, are staples in a photographer’s toolkit. Yet, the choice of lighting is not merely technical; it is deeply artistic, influencing the emotional impact of the portrait.
+## Problem  
 
-Composition rules guide the photographer in framing their subject. The rule of thirds, a fundamental principle, suggests placing the subject off-center to create a more dynamic image, while leading lines can draw the viewer’s eye into the portrait, enhancing depth and interest. However, breaking these rules can lead to striking compositions that convey a sense of tension or harmony, depending on the photographer’s intent. Camera settings, such as aperture, shutter speed, and ISO, must be meticulously adjusted to complement the lighting and composition. A wide aperture, for instance, can blur the background, isolating the subject and adding a dreamy quality to the portrait. Conversely, a narrow aperture increases depth of field, keeping more of the scene in focus, which might be desirable in environmental portraits where context is key.
+### Domain Context  
+Portrait photography is a specialized field within photography that focuses on capturing the likeness, personality, and mood of individuals or groups. It encompasses fundamental concepts such as lighting techniques, composition rules, camera settings, and posing strategies. This domain is intended for beginners and intermediate photographers who seek to understand the essential elements that contribute to effective portraiture. It does not extend to other genres of photography or advanced editing processes.
 
-Posing, often overlooked, is crucial in conveying the subject’s personality and mood. Subtle adjustments in posture, the tilt of the head, or the placement of hands can transform a portrait from static to expressive. The interaction between photographer and subject plays a significant role here; a relaxed subject is more likely to reveal genuine emotion, which is often the hallmark of a compelling portrait. Thus, the photographer must be both a technician and a psychologist, coaxing the best from their subject while managing the myriad technical elements that contribute to a successful portrait.
-
-Structuring Constraints:
-1. Define the central concept of portrait photography.
-2. Require multiple second-level branches, such as lighting, composition, camera settings, and posing.
-3. Identify at least one cross-cutting theme, like the balance between technical precision and artistic expression.
-4. Suggest perspectives or dimensions, such as emotional impact, technical control, and artistic creativity, without prescribing their arrangement.
+### Guiding Questions  
+- What are the main components of portrait photography that influence the quality of a portrait?  
+- How do different lighting techniques affect the mood and appearance of a portrait?  
+- What are the fundamental composition rules that enhance the visual impact of a portrait?  
+- In what ways do camera settings, such as aperture and shutter speed, influence the outcome of a portrait photograph?  
+- How can posing techniques be used to convey the subject's personality and mood effectively?

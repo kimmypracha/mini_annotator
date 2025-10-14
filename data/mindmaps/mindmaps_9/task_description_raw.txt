@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Climate Change Impacts," which is a subfield of environmental science and policy. The appropriate level for this topic is undergraduate to general public, as it involves understanding broad impacts across different domains.
+
+### Scope Definition  
+This field includes topics such as the environmental, economic, social, and health impacts of climate change. It also covers specific areas like biodiversity loss, sea-level rise, and agricultural productivity. It does not include mitigation strategies or climate change policies, which belong to different subfields.
+
+### Tone and Focus  
+The context should sound neutral and concise by defining the scope of climate change impacts clearly, without delving into specific actions or strategies. It should focus on the breadth of impacts rather than solutions or policy measures.
+
+## Problem  
+
+### Domain Context  
+Climate change impacts encompass the various ways in which changes in the Earth's climate affect natural systems, human societies, and economies. This field includes the study of environmental effects such as rising sea levels, increased frequency of extreme weather events, and loss of biodiversity. It also examines social and economic consequences, including effects on agriculture, health, and infrastructure. This domain does not cover mitigation strategies or policy responses to climate change.
+
+### Guiding Questions  
+- What are the main categories of impacts resulting from climate change on the environment and society?  
+- How does climate change affect biodiversity and ecosystems?  
+- In what ways does climate change influence human health and economic stability?  
+- What are the mechanisms through which climate change leads to increased frequency and severity of natural disasters?  

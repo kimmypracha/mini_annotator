@@ -1,0 +1,44 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits because the query involves creating a structural workflow process that outlines the steps, decisions, and actions involved in a hiring process from a candidate's perspective.
+
+### 2. Context Framing  
+The problem is framed within the context of a candidate navigating the hiring process after submitting a job application. This is a common scenario faced by job seekers who want to understand the sequence of events, decisions, and potential outcomes involved in pursuing a job opportunity.
+
+### 3. Input and Requirements  
+The entities involved in this system-design task include:  
+- **Candidate:** The person applying for the job.  
+- **Job Application:** The submitted application form or resume.  
+- **Hiring Team:** The group responsible for evaluating applications and conducting interviews.  
+- **Interview Process:** The stages of interviews that the candidate might face.  
+- **Decision Points:** Points at which the candidate or hiring team makes a decision (e.g., progressing to the next stage, accepting an offer).
+
+### 4. Constraints  
+- The candidate must have submitted a complete application to be considered.  
+- The candidate might be required to participate in multiple interview rounds.  
+- The hiring process may include background checks or additional assessments.  
+- There are time constraints for responding to interview invitations and job offers.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to map out the flow of actions and decisions from the candidate's perspective. A flowchart is appropriate as it visually represents the sequence of events, choices, and potential outcomes in an organized manner, helping the candidate understand the process comprehensively.
+
+## Problem Statement
+### Objective  
+Design a flowchart that illustrates the hiring process from the perspective of a candidate, detailing the steps, decisions, and potential actions required after submitting a job application.
+
+### Background or Scenario  
+As a job candidate, you have submitted your application for a position and want to understand the subsequent steps in the hiring process. This includes knowing what actions you might need to take and what decisions will be made by you or the hiring team.
+
+### Problem Specification
+#### Input or Requirements  
+- **Candidate Information:** Name, contact details, position applied for.  
+- **Submitted Application:** Confirmation of application submission.  
+- **Interview Invitations:** Notifications for interview scheduling.  
+- **Job Offer:** Details of the offer if the candidate is selected.  
+- **Decision Points:** Accepting interview invitations, completing assessments, responding to job offers.
+
+#### Constraints or Rules  
+- The candidate must respond to interview invitations within a specified timeframe.  
+- The candidate should prepare for interviews as per the guidelines provided.  
+- Background checks or additional assessments may be required before a final offer is made.  
+- The candidate has a limited time to accept or decline a job offer once received.

@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Time Management Strategies for Students." It should be framed at a level suitable for students, likely ranging from high school to undergraduate levels.
+
+### Scope Definition  
+This field includes topics such as study scheduling, prioritization methods, techniques to avoid procrastination, and strategies for balancing academic and personal time. It does not cover general time management strategies for professionals or non-academic contexts.
+
+### Tone and Focus  
+The context should be neutral and concise, clearly defining the conceptual boundaries of time management strategies specifically tailored for students. It should avoid instructional language and focus on the domain's core ideas.
+
+## Problem  
+
+### Domain Context  
+Time management strategies for students encompass methods and techniques aimed at optimizing the use of time to enhance academic performance and personal well-being. This domain includes study scheduling, prioritization methods, techniques to avoid procrastination, and strategies for balancing academic and personal commitments. It excludes general time management techniques not specifically tailored to the student experience or professional contexts.
+
+### Guiding Questions  
+1. What are the main components of effective time management strategies for students?  
+2. How do different study scheduling techniques impact academic performance?  
+3. What are common prioritization methods used by students, and how do they differ in effectiveness?  
+4. What psychological or behavioral factors contribute to procrastination, and how can they be addressed within a student's time management framework?

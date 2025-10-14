@@ -1,16 +1,20 @@
-### Objective:
-Design a logical process to outline the hiring journey from a candidate's perspective, starting from the submission of a job application.
+## Problem Statement
+### Objective  
+Design a flowchart that illustrates the hiring process from the perspective of a candidate, detailing the steps, decisions, and potential actions required after submitting a job application.
 
-### Problem Specification:
+### Background or Scenario  
+As a job candidate, you have submitted your application for a position and want to understand the subsequent steps in the hiring process. This includes knowing what actions you might need to take and what decisions will be made by you or the hiring team.
 
-**Process Input:**
-- The process must begin with the submission of a job application by a candidate.
+### Problem Specification
+#### Input or Requirements  
+- **Candidate Information:** Name, contact details, position applied for.  
+- **Submitted Application:** Confirmation of application submission.  
+- **Interview Invitations:** Notifications for interview scheduling.  
+- **Job Offer:** Details of the offer if the candidate is selected.  
+- **Decision Points:** Accepting interview invitations, completing assessments, responding to job offers.
 
-**Process Output:**
-- The process must yield a clear sequence of steps and potential decisions the candidate might face, leading to a final hiring decision or rejection.
-
-**Constraints / Rules:**
-- The process should include common stages such as application review, interviews (phone, video, or in-person), assessments or tests, and final decision-making.
-- The process must account for possible feedback or requests for additional information from the candidate.
-- The process should consider scenarios where the candidate might need to follow up or withdraw their application.
-- The process should be adaptable to different company policies and practices, recognizing that not all steps may apply to every situation.
+#### Constraints or Rules  
+- The candidate must respond to interview invitations within a specified timeframe.  
+- The candidate should prepare for interviews as per the guidelines provided.  
+- Background checks or additional assessments may be required before a final offer is made.  
+- The candidate has a limited time to accept or decline a job offer once received.

@@ -1,0 +1,52 @@
+## Reasoning Design
+### 1. Task Type  
+Specific Task – This classification fits the query because it involves a realistic scenario in the practical world: cooking a dish using specified ingredients.
+
+### 2. Context Framing  
+The problem is framed around preparing a meal using available ingredients, which is a common real-world situation. This task involves deciding how to utilize these ingredients effectively to achieve a specific culinary goal.
+
+### 3. Input and Requirements  
+- **Ingredients**:  
+  - Ground beef: 1 pound  
+  - Soy sauce: 2 tablespoons  
+  - Brown sugar: 2 tablespoons  
+  - Garlic: 2 cloves  
+  - Ginger: 1 teaspoon (grated)  
+  - Green onions: 2 stalks  
+  - Sesame oil: 1 tablespoon  
+  - Rice: 2 cups (cooked)  
+  - Optional: Red pepper flakes to taste  
+
+### 4. Constraints  
+- The dish must be cooked using only the ingredients listed.
+- The cooking method should be suitable for a standard kitchen setup.
+- The preparation and cooking time should not exceed 45 minutes.
+- The dish should serve at least 2 people.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to determine the order of operations, such as when to add each ingredient, how to balance flavors, and the appropriate cooking times. A flowchart is suitable for representing these decisions and actions, providing a clear visual guide for the cooking process.
+
+## Problem Statement
+### Objective  
+Design a flowchart to guide the process of cooking Korean ground beef using only the provided ingredients.
+
+### Background or Scenario  
+You want to prepare a Korean-inspired ground beef dish for dinner using only the ingredients you currently have in your kitchen. The goal is to create a flavorful and satisfying meal that can be served with rice.
+
+### Problem Specification
+#### Input or Requirements  
+- Ground beef: 1 pound  
+- Soy sauce: 2 tablespoons  
+- Brown sugar: 2 tablespoons  
+- Garlic: 2 cloves  
+- Ginger: 1 teaspoon (grated)  
+- Green onions: 2 stalks  
+- Sesame oil: 1 tablespoon  
+- Rice: 2 cups (cooked)  
+- Optional: Red pepper flakes to taste  
+
+#### Constraints or Rules  
+- Use only the ingredients provided.  
+- The cooking process should be completed within 45 minutes.  
+- The dish should be suitable for at least 2 servings.  
+- Ensure the final dish has a balance of flavors typical of Korean cuisine.

@@ -1,0 +1,36 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves a common and complex system with multiple interacting entities. E-commerce platforms are prevalent in the real world, and their complexity provides a strong test of design reasoning. The scenario includes typical e-commerce elements such as users, products, orders, and payments, which are familiar yet intricate enough to challenge students in determining relationships and cardinalities.
+
+### 2. Design Challenges
+The scenario presents several design challenges, such as handling the dynamic roles of users (e.g., buyers, sellers), managing overlapping relationships between orders and payments, and ensuring proper normalization to avoid redundancy. Additionally, the need to track historical data for orders and payments adds complexity, requiring students to consider temporal aspects in their design.
+
+### 3. Inference of Relationships
+The scenario implicitly provides enough context to infer relationships and cardinalities through the natural interactions between entities. For instance, users can place multiple orders, each containing multiple products, and each order can have one or more associated payments. These interactions are typical in e-commerce systems, making it suitable for testing reasoning accuracy without explicitly stating the relationships.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future features such as user reviews, product categories, and promotional discounts. Future requirements, such as supporting multiple currencies or integrating with external payment gateways, could influence design choices, encouraging students to consider flexible and scalable database structures.
+
+---
+
+## Problem Description
+
+### Objective
+The system aims to support an e-commerce platform that facilitates the buying and selling of products, manages user interactions, processes orders, and handles payments efficiently.
+
+### Scenario Description
+The e-commerce platform serves as an online marketplace where users can register as buyers or sellers. Sellers can list products for sale, providing details such as price, description, and stock availability. Buyers can browse products, add them to a shopping cart, and place orders. Each order may consist of multiple products and can be modified before final confirmation. Once an order is placed, the system tracks its status from processing to delivery.
+
+Payments are an integral part of the system, with each order requiring at least one payment transaction. The platform supports various payment methods, including credit cards, digital wallets, and bank transfers. Payment transactions need to be securely recorded, with details such as transaction date, amount, and payment method.
+
+The platform also needs to manage user accounts, allowing users to update their profiles, view order history, and manage payment preferences. Sellers require additional functionalities to manage their product listings, track sales, and analyze performance through sales reports.
+
+### Constraints
+1. Users can have multiple roles, such as buyer and seller, and need to switch roles seamlessly within the platform.
+2. Each product listed by a seller must have a unique identifier and be associated with only one seller, ensuring clear ownership and accountability.
+3. Orders must be able to accommodate multiple products, and each product can appear in multiple orders over time.
+4. Payments must be linked to specific orders, with the possibility of multiple payments for a single order to accommodate partial payments or split transactions.
+5. The system must maintain a history of order statuses and payment transactions for auditing and customer service purposes.
+6. User profiles must include secure storage of payment preferences, with options to update or remove payment methods as needed.
+7. The platform should support internationalization, allowing for multiple currencies and languages, which affects product pricing and order processing.

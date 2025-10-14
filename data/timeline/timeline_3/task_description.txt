@@ -1,28 +1,39 @@
-### Objective
-Reconstruct the steps in preparing and submitting a comprehensive college application, including research, essay writing, and interviews.
+## The Scenario
 
-### Expected Diagram Format
-Use _Mermaid’s gantt chart_ because the scenario involves tasks with durations, dependencies, and potential overlaps.
+### Background  
+A high school senior is preparing to apply to a range of colleges, each with its own set of requirements and deadlines. The student must manage their time efficiently to meet all application components, including essays, recommendation letters, and interviews, while maintaining their academic performance.
 
-### Event Space
-1. **Research Colleges**: Begin by gathering information about potential colleges. This task takes about three weeks and must be completed before starting any applications.
+### Objective  
+The goal is to successfully complete and submit all college applications by their respective deadlines, ensuring that all components are polished and reflect the student's best work.
 
-2. **Draft Personal Statement**: Once research is complete, begin drafting the personal statement. This takes approximately two weeks and can overlap with the next task.
+### Event Descriptions  
+1. **Research Colleges**  
+   The student spends time researching potential colleges, focusing on programs, campus culture, and admission requirements. Estimated duration: 2 weeks.
 
-3. **Gather Recommendations**: While drafting the personal statement, reach out to teachers and mentors for recommendation letters. This process takes about three weeks and should be initiated early to ensure timely responses.
+2. **Standardized Test Preparation**  
+   The student prepares for standardized tests, dedicating time to study and practice. Estimated duration: 1 month.
 
-4. **Finalize Essays**: After drafting, revise and finalize all essays. This takes about one week and must be completed before submitting applications.
+3. **Write Personal Statement**  
+   The student drafts, revises, and finalizes their personal statement, seeking feedback from teachers and peers. Estimated duration: 3 weeks.
 
-5. **Submit Applications**: Applications can be submitted once essays are finalized and recommendations are received. This task is time-sensitive and should be completed by the application deadlines.
+4. **Request Recommendation Letters**  
+   The student requests recommendation letters from teachers, providing them with necessary information and deadlines. Estimated duration: 1 week.
 
-6. **Schedule Interviews**: After submitting applications, schedule interviews with colleges that require them. This task can run concurrently with waiting for application responses.
+5. **Complete College-Specific Essays**  
+   The student writes and edits essays required by specific colleges, tailoring each to the institution's prompts. Estimated duration: 4 weeks.
 
-7. **Prepare for Interviews**: Spend about one week preparing for interviews, which can overlap with the scheduling phase.
+6. **Submit Applications**  
+   The student completes and submits applications through the appropriate platforms, ensuring all components are included. Estimated duration: 1 week.
 
-8. **Attend Interviews**: Attend scheduled interviews, which occur after preparation and scheduling.
+7. **Prepare for Interviews**  
+   The student prepares for potential interviews, researching common questions and practicing responses. Estimated duration: 2 weeks.
 
-### Constraints
-- The personal statement cannot be finalized until the research phase is complete.
-- Recommendations must be gathered before applications are submitted, creating a dependency on external responses.
-- Essays must be finalized before application submission, introducing a tight timeline.
-- Interviews can only be scheduled after applications are submitted, but preparation can begin earlier.
+8. **Send Test Scores**  
+   The student arranges for standardized test scores to be sent to each college. Estimated duration: 1 week.
+
+### Constraints  
+- Recommendation letters require at least two weeks' notice for teachers to prepare.
+- Personal statement feedback must be incorporated before starting college-specific essays.
+- Standardized test scores must be available before application submission.
+- Interviews can only be scheduled after applications are submitted.
+- College-specific essays must be completed before the application submission.

@@ -1,17 +1,10 @@
-### Reading Passage
+## Problem  
 
-In the realm of student life, effective time management emerges as a pivotal skill, not merely for academic success but also for maintaining a balanced lifestyle. At the heart of this lies the art of study scheduling, a practice that involves more than just allocating hours to subjects. It requires a nuanced understanding of one's peak productivity times, which can vary significantly among individuals. For instance, some students find their cognitive abilities are sharpest in the early morning, while others thrive in the quiet of the night. This self-awareness allows for the creation of a personalized study timetable that maximizes efficiency.
+### Domain Context  
+Time management strategies for students encompass methods and techniques aimed at optimizing the use of time to enhance academic performance and personal well-being. This domain includes study scheduling, prioritization methods, techniques to avoid procrastination, and strategies for balancing academic and personal commitments. It excludes general time management techniques not specifically tailored to the student experience or professional contexts.
 
-Yet, scheduling alone is insufficient without the implementation of prioritization methods. The Eisenhower Box, for example, offers a framework for distinguishing between urgent and important tasks, thus helping students focus on what truly matters. However, prioritization is not a static process; it demands continuous reassessment as deadlines approach and new assignments emerge. This dynamic nature of prioritization underscores the importance of flexibility in time management.
-
-Avoiding procrastination is another cornerstone of effective time management. Techniques such as the Pomodoro Technique, which breaks work into intervals with short breaks, can enhance focus and reduce the tendency to delay tasks. The underlying psychology of procrastination often ties back to fear of failure or perfectionism, suggesting that addressing these root causes can lead to more sustainable habits.
-
-Balancing academic and personal time is perhaps the most challenging aspect, as it requires students to set boundaries and make deliberate choices about their time. This balance is not merely about dividing hours but also about ensuring that time spent on personal activities is rejuvenating rather than draining. Engaging in hobbies, social interactions, and physical exercise can replenish energy levels, thereby indirectly boosting academic performance.
-
-Interestingly, the interplay between these strategies can be seen in how they influence one another. For example, effective scheduling can reduce procrastination by providing a clear roadmap of tasks, while prioritization can aid in balancing academic and personal commitments by highlighting what needs immediate attention. This interconnectedness suggests that mastering time management is less about isolated techniques and more about developing an integrated approach that adapts to the evolving demands of student life.
-
-### Structuring Constraints
-- Define the central concept of time management for students.
-- Require multiple second-level branches, such as scheduling, prioritization, and procrastination.
-- Identify at least one cross-cutting theme, such as flexibility or self-awareness.
-- Suggest perspectives or dimensions, like psychological, practical, and lifestyle, without dictating their arrangement.
+### Guiding Questions  
+1. What are the main components of effective time management strategies for students?  
+2. How do different study scheduling techniques impact academic performance?  
+3. What are common prioritization methods used by students, and how do they differ in effectiveness?  
+4. What psychological or behavioral factors contribute to procrastination, and how can they be addressed within a student's time management framework?

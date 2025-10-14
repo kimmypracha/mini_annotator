@@ -1,0 +1,47 @@
+## Strategic Reasoning
+
+### The Decision-Maker's Context
+The decision-maker is a marketing manager at a mid-sized company preparing for a major product launch. They are tasked with coordinating various promotional activities while dealing with limited resources and a tight timeline. The manager must balance immediate visibility with long-term brand building, all while staying within budget constraints. This decision is non-trivial due to the need to align multiple moving parts and ensure a cohesive campaign.
+
+### The Core Trade-Offs
+The two most critical dimensions for this scenario are 'Immediate Impact' versus 'Resource Intensity'. Immediate Impact refers to the potential for each task to generate buzz and drive engagement at the time of the launch. Resource Intensity considers the time, manpower, and budget required to execute each task. These axes are crucial as they highlight the tension between achieving quick wins and managing limited resources effectively.
+
+### Rationale for Item Selection
+The selected items represent a diverse range of marketing activities, each with distinct demands and potential outcomes. They force the decision-maker to weigh the benefits of high-impact, resource-heavy initiatives against more sustainable, less resource-intensive options. This comparison is meaningful as it directly addresses the core trade-offs of impact versus resource allocation.
+
+### Why This Framework Is Needed
+Visualizing this challenge on a two-dimensional matrix allows the decision-maker to see how each task aligns with their strategic goals and constraints. It provides clarity on which tasks can deliver the most value within the available resources, helping to prioritize actions that align with both short-term and long-term objectives.
+
+## The Decision Scenario
+
+### Objective
+The goal is to execute a successful product launch campaign that maximizes brand visibility and engagement while staying within budget and resource constraints.
+
+### Background
+The marketing manager is leading the campaign for a new tech gadget. The company is aiming to capture a significant market share quickly, but with a limited marketing budget and a small team. The manager must decide how to allocate resources across various promotional activities to achieve the highest impact.
+
+### Items for Consideration
+
+> **Social Media Blitz**
+> A concentrated effort across all major social media platforms to generate buzz and engagement. This involves daily posts, live Q&A sessions, and influencer partnerships. It requires a dedicated team to manage content and interactions, with potential for high immediate visibility.
+
+> **Press Release Distribution**
+> Crafting a compelling press release and distributing it to industry publications and news outlets. This task is less resource-intensive but relies heavily on the quality of the release and existing media relationships. It has the potential to reach a broad audience if picked up by major outlets.
+
+> **Blog Series on Product Use Cases**
+> Developing a series of blog posts that delve into innovative use cases for the product. This content can be repurposed for newsletters and social media. It requires consistent effort from the content team but can establish long-term authority and SEO benefits.
+
+> **Launch Event Planning**
+> Organizing a virtual or in-person launch event featuring product demonstrations, guest speakers, and interactive sessions. This is resource-heavy, requiring coordination of logistics, technology, and guest management, but offers high engagement and media coverage potential.
+
+> **Influencer Collaboration**
+> Partnering with key influencers in the industry to create authentic content and reviews. This requires careful selection and negotiation to ensure alignment with brand values. It can offer significant reach and credibility if executed well.
+
+> **Email Marketing Campaign**
+> Designing a targeted email campaign to existing subscribers and potential leads. This involves crafting personalized messages and offers, with moderate resource requirements. It provides direct engagement and measurable conversion potential.
+
+> **Video Content Production**
+> Producing high-quality video content showcasing the product's features and benefits. This includes scripting, filming, and editing, which are resource-intensive but can be highly engaging and shareable across platforms.
+
+> **User-Generated Content Initiative**
+> Encouraging customers to share their experiences and content related to the product. This initiative leverages community engagement with minimal direct resource input, relying on incentives and organic reach.

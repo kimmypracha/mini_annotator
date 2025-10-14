@@ -1,0 +1,46 @@
+## Reasoning Design
+
+### 1. Task Type  
+System-Design Task – This classification fits because the query involves creating a workflow process for an employee expense reimbursement system. The focus is on designing the components and their interactions rather than producing a single output.
+
+### 2. Context Framing  
+In a corporate setting, employees often incur expenses that need to be reimbursed by the company. A structured process ensures these reimbursements are handled efficiently and accurately, adhering to company policies and financial regulations.
+
+### 3. Input and Requirements  
+The system involves several entities and components:
+- Employees: Individuals submitting reimbursement requests.
+- Expense Reports: Documents detailing the expenses incurred.
+- Approvers: Managers or supervisors who review and approve the expenses.
+- Finance Department: Entity responsible for processing the approved reimbursements.
+- Company Policy: Guidelines dictating allowable expenses and reimbursement limits.
+
+### 4. Constraints  
+- All expenses must comply with the company’s reimbursement policy.
+- Approvals must be obtained from designated approvers before submission to the finance department.
+- Reimbursements are processed within a specified time frame after approval.
+- Expense reports must include valid receipts for all claimed expenses.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to account for various interactions and decision points within the process. A flowchart effectively represents the sequential and conditional steps, showing how different components interact and ensuring compliance with policies.
+
+## Problem Statement
+
+### Objective  
+Design a flowchart to represent the employee expense reimbursement process, ensuring compliance with company policies and efficient processing.
+
+### Background or Scenario  
+In a corporate environment, employees need a reliable system to submit expenses for reimbursement. The process must ensure that all submissions are reviewed, approved, and processed in a timely manner, adhering to established company policies.
+
+### Problem Specification
+
+#### Input or Requirements  
+- Employees submit expense reports with detailed documentation and receipts.
+- Reports are reviewed by designated approvers who verify compliance with policies.
+- Approved reports are forwarded to the finance department for processing.
+- The finance department issues reimbursements to employees.
+
+#### Constraints or Rules  
+- Expenses must align with company policies regarding allowable costs.
+- Approvals are mandatory before processing by the finance department.
+- Reimbursements are completed within a set time after approval.
+- All claims must be supported by valid receipts.

@@ -1,0 +1,22 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Portrait Photography." It should be framed at a beginner to intermediate level, focusing on foundational concepts and techniques.
+
+### Scope Definition  
+This field includes topics such as lighting techniques, composition rules, camera settings, and posing tips specific to portrait photography. It does not cover unrelated photography genres or advanced post-processing techniques.
+
+### Tone and Focus  
+The context should be neutral and concise, clearly defining the boundaries of portrait photography by focusing on its core elements, without implying any instructional activities or user actions.
+
+## Problem  
+
+### Domain Context  
+Portrait photography is a specialized field within photography that focuses on capturing the likeness, personality, and mood of individuals or groups. It encompasses fundamental concepts such as lighting techniques, composition rules, camera settings, and posing strategies. This domain is intended for beginners and intermediate photographers who seek to understand the essential elements that contribute to effective portraiture. It does not extend to other genres of photography or advanced editing processes.
+
+### Guiding Questions  
+- What are the main components of portrait photography that influence the quality of a portrait?  
+- How do different lighting techniques affect the mood and appearance of a portrait?  
+- What are the fundamental composition rules that enhance the visual impact of a portrait?  
+- In what ways do camera settings, such as aperture and shutter speed, influence the outcome of a portrait photograph?  
+- How can posing techniques be used to convey the subject's personality and mood effectively?  

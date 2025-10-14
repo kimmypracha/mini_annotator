@@ -1,10 +1,19 @@
-**Objective:**
-Design a logical process to determine the shortest paths from a source node in a weighted graph using Dijkstra's algorithm.
+## Problem Statement
+### Objective  
+Design a flowchart to implement Dijkstra's algorithm to find the shortest paths from a given source node to all other nodes in a weighted graph.
 
-**Problem Specification:**
-- **Process Input:** The process must accept a weighted graph represented as a set of nodes and edges, where each edge has a non-negative weight, and a designated source node from which to calculate the shortest paths.
-- **Process Output:** The process must yield a definitive list of the shortest paths from the source node to all other reachable nodes in the graph, including the total distance for each path.
-- **Constraints / Rules:** The process must ensure that:
-  1. Each node is visited only once to avoid cycles.
-  2. The algorithm must handle graphs with varying edge weights and must not allow negative weights.
-  3. The process must maintain a priority queue to efficiently select the next node with the smallest tentative distance.
+### Background or Scenario  
+You are tasked with developing a system that efficiently calculates the shortest paths in a network. This system will be used in applications such as GPS navigation, network routing, or any scenario that requires determining optimal paths.
+
+### Problem Specification
+#### Input or Requirements  
+- **Graph (G):** A collection of nodes and edges, where each edge has a non-negative weight.
+- **Source Node (S):** A specified starting point in the graph.
+
+#### Output  
+- A list or table showing the shortest path distances from the source node to each other node in the graph.
+
+#### Constraints or Rules  
+- The graph must be connected.
+- All edge weights are non-negative.
+- The graph is finite with a specified number of nodes and edges.

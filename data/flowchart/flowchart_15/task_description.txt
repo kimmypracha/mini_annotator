@@ -1,17 +1,20 @@
-### Objective:
-Design a logical process to manage the escalation of customer calls in a call center.
+## Problem Statement
+### Objective  
+Design a flowchart to manage the escalation process for customer calls in a call center, ensuring efficient resolution and proper documentation at each level.
 
-### Problem Specification:
+### Background or Scenario  
+In a busy call center, customer service representatives (CSRs) handle incoming calls. When they cannot resolve an issue, the call must be escalated to a Team Leader, and if necessary, further escalated to a Manager. The goal is to ensure customer issues are resolved efficiently while maintaining a clear record of each interaction.
 
-**Process Input:**
-The process must accept incoming customer calls, each with associated information such as the customer's issue type, urgency level, and any previous interaction history.
+### Problem Specification
+#### Input or Requirements  
+- **Customer Call**: Details about the caller and the issue they are experiencing.  
+- **CSR Availability**: Whether a CSR is available to take the call.  
+- **Issue Type**: The category of the issue (e.g., billing, technical).  
+- **Resolution Status**: Updated at each level to indicate if the issue is resolved.  
+- **Documentation**: Record of the interaction and any actions taken.
 
-**Process Output:**
-The process must determine the appropriate escalation path for each call, which could include transferring to a higher-level support agent, involving a supervisor, or providing a resolution at the current level.
-
-**Constraints / Rules:**
-1. Calls must be categorized based on issue type and urgency level.
-2. Calls that cannot be resolved at the initial level must be escalated to a higher-level support agent.
-3. If a call involves a high-priority issue or a dissatisfied customer, it must be escalated to a supervisor.
-4. The process must allow for feedback loops where unresolved issues are re-evaluated for further escalation.
-5. The process should aim to minimize customer wait time and ensure efficient resolution of issues.
+#### Constraints or Rules  
+- CSRs have a 10-minute window to resolve calls before escalation.  
+- Team Leaders handle escalated calls, with a maximum of three calls at a time.  
+- Managers are involved only if Team Leaders cannot resolve issues within 15 minutes.  
+- All interactions must be documented thoroughly at each level of escalation.

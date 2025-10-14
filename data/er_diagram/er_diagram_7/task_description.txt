@@ -1,15 +1,18 @@
+## Problem Description
+
 ### Objective
-Design a data model for a food delivery application that supports the management of users, restaurants, menus, orders, and delivery drivers.
+The system aims to support a comprehensive food delivery platform that connects users, restaurants, and delivery drivers to facilitate the ordering and delivery of food items.
 
 ### Scenario Description
-In this food delivery app, users can browse menus from various restaurants, place orders, and have them delivered by drivers. Each restaurant has its own menu, which can be updated with new items or prices. Users can register on the platform, view restaurant menus, and place orders. Once an order is placed, it is assigned to a delivery driver who picks up the order from the restaurant and delivers it to the user. The app needs to track the status of each order from placement to delivery. Additionally, users can rate both restaurants and delivery drivers, adding another layer of interaction.
+In this food delivery platform, users can register as either customers or restaurant owners. Customers browse restaurant menus, place orders, and receive deliveries. Restaurant owners manage their menus and track orders. Each restaurant offers a unique menu, which can change over time, and includes various food items with specific details such as price and description.
 
-### Modeling Considerations
-- **Users**: Need to store personal information, order history, and ratings given.
-- **Restaurants**: Must manage their menus, which include multiple items with details like price and availability.
-- **Menus**: Are associated with restaurants and need to be flexible to accommodate changes in items.
-- **Orders**: Should capture details about the items ordered, the user who placed the order, the restaurant fulfilling it, and the driver delivering it.
-- **Delivery Drivers**: Require tracking of their delivery assignments and ratings received.
-- **Role Overlap**: Users might also be restaurant owners or delivery drivers, requiring careful role management.
-- **Temporal Tracking**: Orders need status updates (e.g., placed, prepared, out for delivery, delivered) tracked over time.
-- **Derived Data**: Ratings and order statuses might be derived from interactions and need to be consistently updated.
+Orders are placed by customers and include multiple menu items from a single restaurant. Once an order is placed, it is assigned to a delivery driver responsible for picking up the order from the restaurant and delivering it to the customer. Delivery drivers have schedules and can manage multiple deliveries simultaneously. The system must track the status of each order, from placement to delivery, providing updates to both customers and restaurant owners.
+
+### Constraints
+1. Users can have multiple roles, such as being both a customer and a restaurant owner, but they must register separately for each role.
+2. Each restaurant can have multiple menus over time, but only one active menu is available for ordering at any given time.
+3. Orders must be associated with a single restaurant but can include multiple menu items.
+4. Delivery drivers can handle multiple orders concurrently, but each order is assigned to only one driver at a time.
+5. The system must maintain a history of all orders, including details such as order date, delivery status, and payment information.
+6. Restaurants can update their menus, but changes should not affect past orders or historical data.
+7. Users should have the ability to rate and review both restaurants and delivery drivers, with each review linked to a specific order.

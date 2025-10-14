@@ -1,18 +1,17 @@
+## Problem Description
+
 ### Objective
-Design a platform to manage a social media network where users can interact with each other, share content, and join groups.
+Design a database system to support a social media platform that enables users to connect, share content, and interact within groups, while receiving timely notifications about relevant activities.
 
 ### Scenario Description
-In this social media platform, users can create profiles, make posts, and establish friendships with other users. Each user has a unique profile with attributes such as username, email, and profile picture. Users can post content, which includes text, images, or videos, and these posts can be liked or commented on by other users.
+The social media platform allows users to create profiles, connect with other users as friends, and join interest-based groups. Users can create and share posts, which may be associated with their personal profile or with a group they belong to. Posts can include text, images, or videos, and users can interact with posts through comments and reactions.
 
-Users can also form friendships, which are mutual connections between two users. A user can have many friends, and each friendship is a bidirectional relationship.
+Groups serve as communities for users with shared interests, and each group can have multiple members. Users can join multiple groups, and groups can have different privacy settings, affecting who can join or view content. Users receive notifications about activities such as new posts in their groups, comments on their posts, or friend requests. Notifications are time-sensitive and should be stored for historical reference.
 
-Groups are another key feature, where users can join or create groups based on shared interests. Each group has a name, description, and a list of members. Users can post within groups, and these posts are visible to all group members.
-
-Notifications are generated for users based on various activities such as new friend requests, comments on their posts, or updates in groups they are part of. Notifications need to track the type of event, the user involved, and the timestamp.
-
-### Modeling Considerations
-- Users can have multiple roles, such as group admin or regular member, which may overlap.
-- Posts can belong to either a user or a group, creating a potential overlap in entity relationships.
-- Notifications are derived from other interactions and may require a complex structure to capture the source and type of event.
-- The friendship relationship is inherently bidirectional, requiring careful modeling to avoid redundancy.
-- Consider how to efficiently handle large volumes of posts and interactions, potentially through normalization or denormalization strategies.
+### Constraints
+- Users can have multiple friends, and friendships are mutual, requiring careful handling of bidirectional relationships.
+- A user can be a member of multiple groups, and a group can have multiple users, necessitating a many-to-many relationship.
+- Posts can be created by users and associated either with their profile or a group, introducing overlapping relationships.
+- Notifications must be generated for specific events and stored with timestamps to track when they were created and viewed.
+- Groups may have hierarchical structures, where sub-groups exist within larger groups, potentially affecting membership and content visibility.
+- Privacy settings for users and groups must be considered, influencing who can view or interact with certain posts and notifications.

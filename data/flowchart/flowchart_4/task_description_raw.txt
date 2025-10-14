@@ -1,0 +1,38 @@
+## Reasoning Design
+### 1. Task Type  
+Algorithmic Task – This classification fits the query because Dijkstra's algorithm is a computational process that involves finding the shortest paths in a weighted graph, which can be represented using abstract reasoning and clear computational steps.
+
+### 2. Context Framing  
+The problem is framed in the context of network routing or any situation where determining the shortest path between nodes in a graph is necessary. This is a common problem in computer science and operations research, where the goal is to optimize pathfinding.
+
+### 3. Input and Requirements  
+- **Graph (G):** A graph represented as a set of nodes (vertices) and edges (connections between nodes), where each edge has a non-negative weight (cost or distance).
+- **Source Node (S):** The starting node from which the shortest paths to all other nodes in the graph are to be determined.
+
+### 4. Constraints  
+- The graph must be connected, meaning there is a path between any two nodes.
+- All edge weights must be non-negative.
+- The graph is finite, with a defined number of nodes and edges.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning because it involves iteratively selecting the shortest path while updating tentative distances and ensuring that each node is processed correctly. A flowchart is appropriate as it can visually represent the decision-making process and the iterative nature of the algorithm, clarifying the sequence of operations and conditions checked during execution.
+
+## Problem Statement
+### Objective  
+Design a flowchart to implement Dijkstra's algorithm to find the shortest paths from a given source node to all other nodes in a weighted graph.
+
+### Background or Scenario  
+You are tasked with developing a system that efficiently calculates the shortest paths in a network. This system will be used in applications such as GPS navigation, network routing, or any scenario that requires determining optimal paths.
+
+### Problem Specification
+#### Input or Requirements  
+- **Graph (G):** A collection of nodes and edges, where each edge has a non-negative weight.
+- **Source Node (S):** A specified starting point in the graph.
+
+#### Output  
+- A list or table showing the shortest path distances from the source node to each other node in the graph.
+
+#### Constraints or Rules  
+- The graph must be connected.
+- All edge weights are non-negative.
+- The graph is finite with a specified number of nodes and edges.

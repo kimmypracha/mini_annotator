@@ -1,0 +1,33 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is ideal for evaluating ER modeling skills because it involves a common and complex domain: human resources management within a company. It requires understanding how to model entities such as employees, departments, job roles, and salary records, which are fundamental in many organizational contexts. The real-world characteristics, such as dynamic job roles and salary adjustments, make it a strong test of design reasoning, as they require careful consideration of relationships and constraints.
+
+### 2. Design Challenges
+The scenario presents several challenges for database modeling. One challenge is the dynamic nature of job roles, where employees can change positions or hold multiple roles simultaneously. Another challenge is tracking historical salary records, which requires understanding temporal aspects and ensuring data integrity over time. Additionally, modeling the hierarchical structure of departments and the relationships between employees and departments adds complexity.
+
+### 3. Inference of Relationships
+The scenario implicitly provides context to infer relationships and cardinalities through descriptions of employee assignments, departmental structures, and salary adjustments. For example, the need to track which employees belong to which departments and how job roles are associated with salary records suggests specific relationships and cardinalities. This is suitable for testing reasoning accuracy as it requires students to deduce these connections based on operational logic rather than explicit instructions.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future requirements such as integrating performance reviews, employee benefits, or training records. These potential extensions could influence design choices by necessitating additional entities or relationships, prompting considerations of normalization and data integrity. The system's ability to adapt to organizational changes, such as restructuring or new job roles, also highlights the need for a flexible and scalable design.
+
+---
+
+## Problem Description
+
+### Objective
+The system is designed to manage and organize employee data, departmental structures, job roles, and salary records within a company's human resources department. It aims to facilitate efficient data management, support dynamic role assignments, and ensure accurate historical record-keeping.
+
+### Scenario Description
+In this HR system, each employee is associated with one or more job roles within the company. Employees can be assigned to specific departments, reflecting the company's organizational structure. Departments may have sub-departments, forming a hierarchical structure. Employees can change roles over time, and the system must track these changes to maintain accurate historical records.
+
+Salary records are maintained for each employee, capturing salary adjustments over time due to promotions, role changes, or company-wide salary reviews. The system must ensure that salary records reflect the correct job role and department at the time of each adjustment. Additionally, the system should accommodate employees holding multiple roles simultaneously, each with potentially different salary structures.
+
+### Constraints
+- Employees must be linked to at least one department, but they can be associated with multiple departments if they hold cross-departmental roles.
+- Each department can have multiple sub-departments, and a department can belong to only one parent department, forming a strict hierarchy.
+- An employee can hold multiple job roles, and each role may have different salary structures.
+- Historical salary records must be preserved, capturing the effective date of each salary change and the associated job role and department.
+- Employees can be promoted or transferred between departments, and these changes must be reflected accurately in their role and salary records.
+- The system should handle exceptions such as temporary roles or interim departmental assignments, ensuring these are recorded and managed appropriately.

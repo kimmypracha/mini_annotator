@@ -1,17 +1,36 @@
-Reconstruct the steps in executing a marketing campaign, focusing on the temporal sequence and dependencies between tasks such as brainstorming, content creation, ad scheduling, and performance tracking.
+## The Scenario
 
-Expected Diagram Format: Use Mermaid’s gantt chart because the scenario involves tasks with durations, dependencies, and potential overlaps.
+### Background  
+The company is preparing to launch a new tech gadget. The marketing team must develop a comprehensive campaign to generate buzz and drive sales. The team consists of content creators, designers, and analysts, each with specific roles. The campaign must be ready in time for the product launch, which is a fixed date.
 
-Event Space:
-1. Brainstorming Session: This initial phase involves the team gathering ideas and strategies for the campaign. It typically lasts about a week and must be completed before any content creation begins.
-2. Content Creation: Following brainstorming, the team begins developing the necessary marketing materials. This phase takes approximately two weeks and is dependent on the completion of the brainstorming session.
-3. Ad Scheduling: Once some content is ready, the team can start scheduling ads. This task can overlap with the latter part of content creation and takes about a week.
-4. Team Collaboration and Review: Before the ads go live, a review meeting is held to ensure all elements are aligned. This occurs towards the end of ad scheduling and lasts a few days.
-5. Launch of Ads: Ads go live after scheduling and review are complete. This marks the beginning of the performance tracking phase.
-6. Performance Tracking: This ongoing task starts immediately after the ads launch and continues for the duration of the campaign, requiring regular updates and adjustments based on data.
+### Objective  
+The goal is to create and execute a marketing campaign that effectively reaches the target audience, maximizes engagement, and supports the product launch. Success is measured by timely delivery and campaign performance metrics.
 
-Constraints:
-- Content creation cannot start until brainstorming is completed.
-- Ad scheduling can begin once some content is ready, overlapping with content creation.
-- Team collaboration and review must occur before the ads are launched.
-- Performance tracking starts only after the ads are live, but it requires continuous attention, potentially overlapping with other ongoing tasks.
+### Event Descriptions  
+1. **Brainstorming Session**  
+   The marketing team gathers to generate ideas for the campaign. This involves all team members and lasts for two days. The session aims to outline key themes and strategies.
+
+2. **Content Creation**  
+   Writers and designers develop marketing materials, including blog posts, social media content, and visuals. This phase requires five days and involves collaboration between content creators and designers.
+
+3. **Ad Scheduling**  
+   The advertising team plans and schedules digital ads across various platforms. This task takes three days and requires coordination with the content team to ensure alignment with campaign themes.
+
+4. **Team Collaboration Meeting**  
+   A meeting is held to review progress, align on strategies, and address any challenges. This involves the entire team and takes one day.
+
+5. **Performance Tracking Setup**  
+   Analysts set up tools and metrics for tracking campaign performance. This task takes two days and involves configuring analytics platforms and defining KPIs.
+
+6. **Campaign Launch**  
+   The campaign goes live across all channels. This involves the entire team and lasts one day, marking the official start of the marketing efforts.
+
+7. **Performance Review**  
+   The team analyzes initial campaign data to assess effectiveness and make adjustments. This involves analysts and strategists and takes two days.
+
+### Constraints  
+- Content creation cannot start until the brainstorming session is complete.
+- Ad scheduling requires finalized content from the creation phase.
+- The team collaboration meeting must occur after the brainstorming session but before the campaign launch.
+- Performance tracking setup must be completed before the campaign launch.
+- The performance review can only occur after the campaign has been live for at least one day.

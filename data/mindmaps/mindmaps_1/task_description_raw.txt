@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is Computer Science, specifically focusing on the subfields of Data Structures, Operating Systems, and Algorithms. The appropriate level for this context is undergraduate, as it involves preparing for final exams in these subjects.
+
+### Scope Definition  
+This field includes topics such as the design and analysis of algorithms, data organization and manipulation through data structures, and the principles and functioning of operating systems. It excludes areas outside these core subjects, such as software engineering or computer networks, unless they directly relate to the specified topics.
+
+### Tone and Focus  
+The context should remain neutral and concise, clearly defining the boundaries of the subfields without suggesting any actions or methods for organizing study materials. It should focus on the conceptual understanding of each subfield.
+
+## Problem  
+
+### Domain Context  
+Computer Science at the undergraduate level encompasses several core areas, including Data Structures, Operating Systems, and Algorithms. These areas cover the organization and manipulation of data, the design and analysis of computational processes, and the management of computer resources. Topics outside this scope, such as advanced software development or network security, are not included unless they directly pertain to these core subjects.
+
+### Guiding Questions  
+- What are the fundamental components of Data Structures, Operating Systems, and Algorithms in Computer Science?  
+- How do different data structures, such as arrays, linked lists, and trees, manage and organize data?  
+- What are the primary functions and responsibilities of an operating system in managing hardware and software resources?  
+- How are algorithms designed and analyzed for efficiency and correctness in solving computational problems?  

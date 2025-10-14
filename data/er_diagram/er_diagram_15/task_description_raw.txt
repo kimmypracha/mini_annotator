@@ -1,0 +1,35 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves multiple interconnected entities that are common in real-world business operations. Inventory management systems are crucial for businesses that deal with physical goods, requiring careful tracking of products, suppliers, warehouses, and orders. This scenario provides a strong test of design reasoning due to its complexity and the need to balance various relationships and constraints.
+
+### 2. Design Challenges
+The scenario presents several challenges for database modeling, such as managing the dynamic roles of entities (e.g., a supplier can provide multiple products, and a product can be stored in multiple warehouses). There are overlapping relationships, such as products being linked to both suppliers and warehouses, and trade-offs in normalization when considering how to efficiently track stock levels and purchase orders. Additionally, the need to handle historical tracking of purchase orders and inventory changes adds complexity.
+
+### 3. Inference of Relationships
+The scenario implicitly provides enough context to infer relationships and cardinalities through the natural interactions between entities. For example, products are stored in warehouses, and each warehouse can hold multiple products, suggesting a many-to-many relationship. Purchase orders involve suppliers and products, indicating a need to track which products are ordered from which suppliers. This setup tests reasoning accuracy by requiring students to deduce the correct relationships and cardinalities based on operational logic rather than explicit instructions.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future requirements such as integrating sales data, handling returns, or expanding to multiple geographical regions. Future requirements could influence design choices by necessitating additional entities or relationships, such as customer data or transportation logistics, which would require careful consideration of how the existing model can accommodate new data without significant restructuring.
+
+---
+
+## Problem Description
+
+### Objective
+The system is designed to support the efficient management of inventory across multiple warehouses, track supplier relationships, and handle purchase orders for a company dealing in physical goods.
+
+### Scenario Description
+In this inventory management system, the company manages a wide range of products sourced from various suppliers. Each product can be stored in multiple warehouses, which are located in different regions to optimize distribution and minimize delivery times. Suppliers provide products to the company, and each supplier may offer multiple products. The company places purchase orders to replenish stock, which involves specifying the products and quantities needed from a particular supplier.
+
+Products have unique identifiers, descriptions, and pricing details. Warehouses track the quantity of each product they hold, and this information must be updated in real-time as stock levels change due to incoming shipments or outgoing orders. Suppliers have contact information and a history of their interactions with the company, including past orders and delivery performance.
+
+Purchase orders are critical transactions that need to be tracked from creation to fulfillment. Each order includes details such as the date of order, expected delivery date, and the status of the order (e.g., pending, shipped, received). The system must also handle exceptions, such as delays in delivery or discrepancies in order quantities, and provide reports on inventory levels, supplier performance, and order histories.
+
+### Constraints
+1. Each product must be uniquely identifiable and associated with one or more suppliers.
+2. Warehouses can store multiple products, and each product can be stored in multiple warehouses, with specific stock levels tracked per warehouse.
+3. Suppliers can supply multiple products, and each product can have multiple suppliers, but a purchase order is linked to a single supplier.
+4. Purchase orders must be tracked over time, with status updates reflecting their progress from order placement to fulfillment.
+5. The system should be able to generate reports on inventory levels, supplier performance, and order histories, requiring efficient data organization and retrieval.
+6. The system must handle exceptions such as delivery delays or order discrepancies, necessitating a flexible yet robust data model.

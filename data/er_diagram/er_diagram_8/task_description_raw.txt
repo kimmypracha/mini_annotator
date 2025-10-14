@@ -1,0 +1,39 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves a complex and realistic domain—education technology. Learning management systems (LMS) are widely used and have intricate relationships between entities such as users, courses, lessons, enrollments, and assessments. This scenario requires students to think critically about the relationships and interactions between different entities, such as the dynamic roles of users (e.g., students and instructors), the hierarchical nature of courses and lessons, and the temporal aspects of enrollments and assessments.
+
+### 2. Design Challenges
+The scenario presents several design challenges, including:
+- Dynamic roles: Users can have multiple roles (e.g., a user can be both a student and an instructor).
+- Hierarchical content: Courses contain multiple lessons, and understanding this hierarchy is crucial for modeling.
+- Temporal aspects: Enrollments and assessments have time-based attributes (e.g., enrollment dates, assessment deadlines).
+- Overlapping entities: Assessments may belong to multiple courses or lessons, requiring careful consideration of relationships.
+- Normalization trade-offs: Balancing the need for efficient querying with the complexity of maintaining normalized data.
+
+### 3. Inference of Relationships
+The scenario provides enough context to infer relationships and cardinalities through the natural description of how users interact with the system. For example, the concept of enrollment implies a many-to-many relationship between users and courses. The hierarchical structure of courses and lessons suggests a one-to-many relationship. The need for assessments to be linked to both courses and lessons implies a more complex relationship that must be reasoned out. This setup tests the student's ability to accurately interpret and model these relationships.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension and scalability by allowing for future features such as course prerequisites, user-generated content, or advanced assessment types. Future requirements could influence design choices by necessitating additional entities or relationships, such as tracking user progress or integrating external learning resources. The system's design must be flexible enough to accommodate these potential changes without significant restructuring.
+
+---
+
+## Problem Description
+
+### Objective
+The system is designed to facilitate the management and delivery of educational content through an online platform, supporting users in roles such as students and instructors, and enabling the administration of courses, lessons, enrollments, and assessments.
+
+### Scenario Description
+In an educational institution, a Learning Management System (LMS) is implemented to support online learning. The system allows users to register and assume roles as students, instructors, or administrators. Instructors create courses, each consisting of multiple lessons. Students enroll in courses and complete lessons at their own pace. Assessments are integral to the learning process, allowing students to demonstrate their understanding of course material. These assessments can be associated with entire courses or specific lessons, depending on the instructional design.
+
+The LMS must handle various workflows, such as course creation by instructors, student enrollment management, lesson delivery, and assessment grading. Users must be able to switch roles if they have the appropriate permissions, such as a student who becomes an instructor. The system should support tracking of student progress and provide feedback through assessment results.
+
+### Constraints
+- Users can have multiple roles, but each role has specific permissions and capabilities within the system.
+- Courses are composed of lessons, and each lesson belongs to one and only one course.
+- Students can enroll in multiple courses, and each course can have many students enrolled.
+- Assessments can be linked to either courses or individual lessons, and a single assessment may apply to multiple lessons or courses.
+- Enrollment periods are defined for each course, and students can only access course materials during this period.
+- Assessments have deadlines, and submissions must be tracked with timestamps to enforce these deadlines.
+- The system must support the possibility of users changing roles over time, such as a student becoming an instructor, without losing historical data on their past activities.

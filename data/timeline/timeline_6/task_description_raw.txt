@@ -1,0 +1,53 @@
+## Strategic Reasoning
+
+### The Scenario Context
+The scenario involves a construction project manager overseeing the development of a new residential building. The manager faces constraints such as tight deadlines, limited workforce availability, and potential weather-related delays. The project must be completed efficiently to meet the client's move-in date.
+
+### Complexity and Diagram Choice
+The complexity of this scenario necessitates a Gantt chart due to the intricate dependencies between tasks, varied durations, and the need to visualize potential overlaps and buffer times. A Gantt chart will effectively illustrate the sequence and timing of each phase, allowing for adjustments as needed.
+
+### Rationale for Event Selection
+The selected events encompass key phases of construction, from initial site preparation to final finishing work. This range tests the planner's ability to manage dependencies, allocate resources effectively, and anticipate potential delays. The events are chosen to reflect real-world challenges in construction management.
+
+### Scenario Plausibility
+The scenario is realistic, as it reflects common challenges in construction projects, such as coordinating multiple teams, managing supply deliveries, and dealing with unforeseen delays. The constraints add layers of complexity that are typical in the industry.
+
+## The Scenario
+
+### Background  
+A construction project manager is tasked with overseeing the build of a new residential building. The project is located in an urban area with limited space for staging materials and equipment. The client expects a high-quality finish and has set a firm move-in date. The manager must coordinate various subcontractors and manage resources efficiently to meet the deadline.
+
+### Objective  
+The goal is to complete the construction of the residential building on time and within budget, ensuring all quality standards are met. Success depends on effective scheduling, resource allocation, and risk management.
+
+### Event Descriptions  
+1. **Site Preparation**  
+   The site is cleared, leveled, and prepared for construction. This involves demolishing existing structures and removing debris. Duration: 2 weeks.
+
+2. **Foundation Work**  
+   Excavation and pouring of the building's foundation. This requires precision and favorable weather conditions. Duration: 3 weeks.
+
+3. **Structural Framing**  
+   Erection of the building's framework, including walls and roof trusses. Multiple crews work simultaneously. Duration: 4 weeks.
+
+4. **Plumbing and Electrical Installation**  
+   Installation of plumbing and electrical systems within the framed structure. Coordination between trades is essential. Duration: 3 weeks.
+
+5. **Exterior Finishing**  
+   Application of exterior cladding, windows, and roofing materials. Weather conditions can impact progress. Duration: 2 weeks.
+
+6. **Interior Finishing**  
+   Installation of drywall, flooring, and interior fixtures. Requires coordination with design specifications. Duration: 4 weeks.
+
+7. **Inspection and Quality Assurance**  
+   Comprehensive inspection to ensure compliance with building codes and quality standards. Must be completed before occupancy. Duration: 1 week.
+
+8. **Landscaping and Site Cleanup**  
+   Final landscaping and removal of construction debris. Enhances curb appeal and prepares the site for occupancy. Duration: 1 week.
+
+### Constraints  
+- Foundation work cannot commence until site preparation is fully completed.
+- Structural framing requires the availability of both carpenters and steelworkers, who are shared with another project.
+- Plumbing and electrical installation must be completed before any interior finishing begins.
+- Exterior finishing is weather-dependent and may require additional buffer time for delays.
+- Inspection and quality assurance must be completed before landscaping and site cleanup can begin.

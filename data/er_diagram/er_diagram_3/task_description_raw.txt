@@ -1,0 +1,34 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves a common real-world application with multiple interacting entities. Blogging systems are widely understood, yet they offer complexity in the form of user interactions, content categorization, and metadata management. The scenario requires careful consideration of relationships between entities such as users, posts, comments, and tags, making it an excellent test of design reasoning.
+
+### 2. Design Challenges
+The scenario presents several challenges, including the need to model dynamic roles (users can be authors and commenters), manage many-to-many relationships (posts with tags and categories), and handle historical tracking (comments and post edits). Additionally, there are overlapping relationships, such as users interacting with posts both as authors and through comments, which require careful consideration of cardinalities and normalization.
+
+### 3. Inference of Relationships
+The scenario implicitly provides enough context to infer relationships and cardinalities through the natural interactions between users, posts, comments, tags, and categories. For example, the need for users to create posts and comments suggests a one-to-many relationship between users and posts/comments, while the tagging system implies a many-to-many relationship between posts and tags. The context of categorizing posts further adds layers to the relationship inference, challenging students to think critically about how these entities interact.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future features such as user roles (e.g., moderators), post versioning, or advanced search functionalities. These potential expansions influence design choices, encouraging students to consider flexible and scalable database structures that can accommodate additional entities or relationships without significant redesign.
+
+---
+
+## Problem Description
+
+### Objective
+The system is designed to support a comprehensive blogging platform where users can create, manage, and interact with blog content. It should facilitate user-generated content, categorization, and community engagement through comments and tagging.
+
+### Scenario Description
+In this blogging system, users can register and log in to create blog posts. Each post can belong to one or more categories, which help organize content into thematic groups. Users can also apply multiple tags to posts, allowing for flexible content discovery and filtering. Comments are a key feature, enabling users to engage with posts by leaving feedback or starting discussions. Each comment is associated with a specific post and is authored by a user.
+
+Posts and comments can be edited by their authors, and the system should maintain a history of these edits for accountability and transparency. Users have profiles that include information such as their username, email, and a bio. The system should support user interactions, such as liking posts or comments, and allow users to follow other users to receive updates on their activity.
+
+### Constraints
+- Each user must have a unique username and email address.
+- A post can belong to multiple categories, and a category can contain multiple posts.
+- Tags are user-generated and can be applied to multiple posts, while a post can have multiple tags.
+- Comments are tied to a specific post and can only be edited by their original author.
+- The system must track the history of edits for both posts and comments, including timestamps and changes made.
+- Users can follow other users to receive notifications about new posts or comments made by those they follow.
+- The system should support a moderation feature where certain users have the ability to flag inappropriate content, though this feature may be implemented in future iterations.

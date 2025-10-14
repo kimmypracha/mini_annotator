@@ -1,17 +1,19 @@
-### Objective:
-Design a logical process to facilitate the borrowing of a book from a library.
+## Problem Statement
+### Objective  
+Design a flowchart to represent the process of borrowing a book from the library.
 
-### Problem Specification:
+### Background or Scenario  
+In a library setting, patrons often borrow books for a specified period. This involves verifying membership, checking the availability of the desired book, and recording the loan transaction. The process must ensure that all necessary conditions are met to maintain order and accountability in the library.
 
-- **Process Input:**
-  - The process must accept a request from a library member to borrow a specific book. The request includes the member's ID and the book's title or ISBN.
+### Problem Specification
+#### Input or Requirements  
+- Library member ID
+- Desired book title or ISBN
+- Library catalog data showing book availability
+- Library policy on borrowing limits
 
-- **Process Output:**
-  - The process must determine whether the book can be borrowed and, if so, complete the transaction, updating the library's records accordingly.
-
-- **Constraints / Rules:**
-  - The member must have a valid library membership.
-  - The book must be available in the library's inventory (i.e., not already checked out by another member).
-  - The member must not have exceeded the maximum number of books allowed to be borrowed at one time.
-  - The member must not have any outstanding fines or overdue books.
-  - The process must update the library's inventory and the member's borrowing record upon successful borrowing.
+#### Constraints or Rules  
+- The member must present a valid library ID.
+- The book must be listed as available in the catalog.
+- The member must not have outstanding dues or exceed the borrowing limit.
+- The loan must be recorded in the library system with a due date for return.

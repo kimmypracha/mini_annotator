@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Social Media Marketing," specifically focusing on strategies and tactics within this domain. The level should be framed for marketing professionals or advanced students in marketing, as it involves strategic planning and analysis.  
+
+### Scope Definition  
+The domain of Social Media Marketing includes topics such as content planning, platform-specific tactics, audience engagement, and performance tracking. It does not cover unrelated marketing areas like traditional advertising methods or non-digital marketing strategies.  
+
+### Tone and Focus  
+The context should sound neutral and concise, clearly defining the conceptual boundaries of Social Media Marketing strategies. It should focus on the strategic elements within the field without implying any user actions or tasks.  
+
+## Problem  
+
+### Domain Context  
+Social Media Marketing is a domain that encompasses the strategic use of social media platforms to promote products, services, or brands. It involves content planning, platform-specific tactics, audience engagement, and performance tracking. This field is intended for marketing professionals or advanced students who are interested in the strategic aspects of using social media for marketing purposes. Topics outside this domain include traditional advertising methods and non-digital marketing strategies.  
+
+### Guiding Questions  
+1. What are the main components of a successful social media marketing strategy?  
+2. How does content planning differ across various social media platforms?  
+3. What tactics are most effective for engaging with audiences on different social media platforms?  
+4. What metrics are essential for tracking the performance of social media marketing efforts?  

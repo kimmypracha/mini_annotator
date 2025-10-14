@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "World War II History," specifically focusing on the causes, events, and consequences of the war. This should be framed at an undergraduate level, suitable for individuals with a foundational understanding of 20th-century history.  
+
+### Scope Definition  
+This field includes topics such as political, economic, and social factors leading to World War II, key events during the war, and its global aftermath. It excludes unrelated historical periods, non-war-related events, and in-depth military strategies or tactics.  
+
+### Tone and Focus  
+The context should be neutral and concise, clearly defining the boundaries of World War II history without implying any actions or instructional guidance.  
+
+## Problem  
+
+### Domain Context  
+World War II history encompasses the study of the political, economic, and social factors that led to the conflict, the key events and battles that occurred during the war, and the global aftermath that reshaped international relations and societies. This field is intended for an undergraduate audience with a basic understanding of 20th-century history. It includes analyzing the rise of totalitarian regimes, the impact of the Treaty of Versailles, and the economic conditions of the 1930s, as well as the examination of major battles, alliances, and the war's profound effects on the post-war world order. It excludes detailed military tactics or unrelated historical events.  
+
+### Guiding Questions  
+1. What were the main political, economic, and social factors that contributed to the outbreak of World War II?  
+2. How did the Treaty of Versailles and the economic conditions of the 1930s influence the political landscape of Europe leading up to the war?  
+3. What were some of the key events and turning points during World War II, and how did they shape the course of the conflict?  
+4. In what ways did World War II impact global political structures and societies in the aftermath of the conflict?  

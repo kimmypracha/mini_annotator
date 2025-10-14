@@ -1,16 +1,18 @@
+## Problem Description
+
 ### Objective
-Design a blogging system that supports user-generated content, allowing for rich interactions between users, blog posts, comments, tags, and categories.
+The system is designed to support a comprehensive blogging platform where users can create, manage, and interact with blog content. It should facilitate user-generated content, categorization, and community engagement through comments and tagging.
 
 ### Scenario Description
-In this blogging platform, users can register and create profiles. Each user can author multiple blog posts, which are the core content of the platform. Blog posts need to be categorized into one or more categories for organizational purposes and can be tagged with multiple tags for better searchability and filtering.
+In this blogging system, users can register and log in to create blog posts. Each post can belong to one or more categories, which help organize content into thematic groups. Users can also apply multiple tags to posts, allowing for flexible content discovery and filtering. Comments are a key feature, enabling users to engage with posts by leaving feedback or starting discussions. Each comment is associated with a specific post and is authored by a user.
 
-Users can also engage with blog posts by leaving comments. A comment is associated with both the user who wrote it and the blog post it pertains to. This introduces a need to track not only the content of the comment but also metadata such as the timestamp and potentially the user's role (e.g., guest, registered user).
+Posts and comments can be edited by their authors, and the system should maintain a history of these edits for accountability and transparency. Users have profiles that include information such as their username, email, and a bio. The system should support user interactions, such as liking posts or comments, and allow users to follow other users to receive updates on their activity.
 
-Tags and categories are essential for content organization. Tags are keywords that can be applied to any blog post, while categories are more structured and might have a hierarchical relationship (e.g., a category "Technology" might have subcategories like "AI" or "Blockchain").
-
-### Modeling Considerations
-- Users can have multiple roles, such as author and commenter, which might need to be tracked separately.
-- Blog posts can belong to multiple categories and have multiple tags, suggesting many-to-many relationships.
-- Comments are dependent on both users and blog posts, requiring careful consideration of foreign keys and dependencies.
-- Tags and categories might need to support hierarchical structures or be normalized for efficient querying.
-- Consideration of how to handle user-generated content that might need moderation or versioning (e.g., edited comments or posts).
+### Constraints
+- Each user must have a unique username and email address.
+- A post can belong to multiple categories, and a category can contain multiple posts.
+- Tags are user-generated and can be applied to multiple posts, while a post can have multiple tags.
+- Comments are tied to a specific post and can only be edited by their original author.
+- The system must track the history of edits for both posts and comments, including timestamps and changes made.
+- Users can follow other users to receive notifications about new posts or comments made by those they follow.
+- The system should support a moderation feature where certain users have the ability to flag inappropriate content, though this feature may be implemented in future iterations.

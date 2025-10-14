@@ -1,18 +1,18 @@
+## Problem Description
+
 ### Objective
-Design a library management system to efficiently handle book lending, member management, and staff operations.
+The system is designed to manage the operations of a library, including book inventory, member management, loan processing, and staff administration.
 
 ### Scenario Description
-A library system needs to manage a collection of books, a roster of members, and a team of staff. Books have attributes like title, author, ISBN, and copies available. Members register with the library, providing personal details and receiving a unique member ID. They can borrow books, which creates a loan record including the loan date and due date. Staff members manage the library operations, and some may have the ability to borrow books as well. The system should track the history of loans for each book and member, and manage the availability of books based on current loans.
+The library system supports a diverse collection of books, each identified by a unique identifier and categorized by genre, author, and publication details. Members of the library can borrow books, with each member having a unique membership ID and personal details. The library staff, who manage the day-to-day operations, have roles that include cataloging books, processing loans, and assisting members. Each staff member is identified by a staff ID and role-specific information.
 
-Key entities include:
-- **Books**: Each book has a unique identifier (ISBN), title, author, and multiple copies.
-- **Members**: Individuals who register to borrow books, with personal details and a unique member ID.
-- **Loans**: Records of books borrowed by members, including loan date, due date, and return date.
-- **Staff**: Employees managing library operations, some of whom may also borrow books.
+The system must handle the process of loaning books to members, which involves recording the loan date, due date, and return date. Members can reserve books if they are currently on loan, and the system should manage the queue of reservations. Staff members are responsible for approving loans and managing reservations, ensuring that books are returned on time, and updating the system accordingly.
 
-### Modeling Considerations
-- **Role Overlap**: Staff members can also be members, allowing them to borrow books.
-- **Historical Tracking**: Loan records must keep historical data to track borrowing patterns and book popularity.
-- **Book Copies**: Each book can have multiple copies, and the system must manage the availability of these copies.
-- **Derived Attributes**: The availability of a book is derived from its total copies minus the number of active loans.
-- **Normalization**: Consider whether to normalize entities like book copies or to treat them as attributes of the book entity.
+### Constraints
+1. A book can be loaned to only one member at a time, but it can have multiple reservations from different members.
+2. Each loan must be processed and approved by a staff member, who is responsible for ensuring that the book is available and the member is eligible to borrow.
+3. Members can borrow multiple books simultaneously, but there is a limit to the number of active loans a member can have at any given time.
+4. The system must track the history of all loans, including past loans that have been completed, to manage member borrowing limits and generate reports.
+5. Staff roles can vary, with some staff members having the ability to manage inventory, while others focus on member services or loan processing.
+6. Books can be re-categorized or updated in the system by authorized staff, reflecting changes in inventory or library organization.
+7. The system should support notifications for members regarding due dates, overdue books, and reservation availability, requiring integration with member contact information.

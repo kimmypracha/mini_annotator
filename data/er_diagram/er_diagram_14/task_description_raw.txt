@@ -1,0 +1,38 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it reflects a complex, real-world system that students are likely familiar with, yet it requires careful consideration of relationships and constraints. Social media platforms involve dynamic interactions between users, content generation, and community features, making it a strong test of design reasoning. The scenario's complexity arises from the need to model both static data (like user profiles) and dynamic interactions (like posts and notifications).
+
+### 2. Design Challenges
+The scenario presents several challenges: 
+- Users can have multiple roles simultaneously (e.g., group members, friends, content creators).
+- Posts need to be associated with both users and groups, introducing overlapping relationships.
+- Notifications are event-driven and must be tracked historically, requiring considerations for temporal data.
+- The concept of "friends" implies a bidirectional relationship, which can be tricky to model accurately.
+- Groups can have hierarchical structures or nested memberships, adding complexity to the design.
+
+### 3. Inference of Relationships
+The scenario implicitly provides context for relationships and cardinalities by describing typical social media interactions. For example, the concept of "friends" suggests a many-to-many relationship between users. The existence of posts implies a one-to-many relationship from users to posts. Groups and memberships suggest another layer of many-to-many relationships, while notifications hint at a one-to-many relationship from events to users. This setup tests students' ability to accurately infer and model these relationships.
+
+### 4. Scalability and Evolution
+The scenario allows for scalability and future evolution by introducing entities like groups and notifications, which can easily be expanded with additional features (e.g., group events, notification preferences). Future requirements could include privacy settings, content moderation, or analytics, influencing design choices such as whether to denormalize certain data for performance or maintain strict normalization for consistency.
+
+---
+
+## Problem Description
+
+### Objective
+Design a database system to support a social media platform that enables users to connect, share content, and interact within groups, while receiving timely notifications about relevant activities.
+
+### Scenario Description
+The social media platform allows users to create profiles, connect with other users as friends, and join interest-based groups. Users can create and share posts, which may be associated with their personal profile or with a group they belong to. Posts can include text, images, or videos, and users can interact with posts through comments and reactions.
+
+Groups serve as communities for users with shared interests, and each group can have multiple members. Users can join multiple groups, and groups can have different privacy settings, affecting who can join or view content. Users receive notifications about activities such as new posts in their groups, comments on their posts, or friend requests. Notifications are time-sensitive and should be stored for historical reference.
+
+### Constraints
+- Users can have multiple friends, and friendships are mutual, requiring careful handling of bidirectional relationships.
+- A user can be a member of multiple groups, and a group can have multiple users, necessitating a many-to-many relationship.
+- Posts can be created by users and associated either with their profile or a group, introducing overlapping relationships.
+- Notifications must be generated for specific events and stored with timestamps to track when they were created and viewed.
+- Groups may have hierarchical structures, where sub-groups exist within larger groups, potentially affecting membership and content visibility.
+- Privacy settings for users and groups must be considered, influencing who can view or interact with certain posts and notifications.

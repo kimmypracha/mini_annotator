@@ -1,0 +1,33 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves a variety of entities that interact in complex ways, reflecting real-world relationships and data management needs. Fitness tracking systems are prevalent and require careful consideration of user data, activity tracking, and progress monitoring, making it a strong test of design reasoning.
+
+### 2. Design Challenges
+The scenario presents several design challenges, such as managing dynamic user goals, tracking progress over time, and handling many-to-many relationships between users, workouts, and exercises. Additionally, the need to model historical data for progress tracking introduces complexity in maintaining temporal data integrity and ensuring that the system can accurately reflect changes over time.
+
+### 3. Inference of Relationships
+The scenario implicitly provides enough context to infer relationships and cardinalities through the natural interactions between users and their fitness activities. For instance, users can have multiple goals, participate in various workouts, and perform different exercises, which suggests a complex network of relationships. This requires students to accurately deduce these connections and their cardinalities, testing their reasoning skills.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future requirements such as integrating with wearable devices, expanding to include dietary tracking, or supporting social features like sharing progress with friends. These potential expansions influence design choices by requiring a flexible and scalable data model that can accommodate additional entities and relationships without significant restructuring.
+
+---
+
+## Problem Description
+
+### Objective
+The system aims to support users in tracking their fitness activities, setting and achieving personal goals, and monitoring their progress over time.
+
+### Scenario Description
+The fitness tracking system is designed for individuals who want to manage their fitness routines and monitor their progress. Users can create accounts to access the system, where they can set personal fitness goals, such as weight loss, muscle gain, or endurance improvement. Each user can participate in multiple workouts, which are collections of exercises performed during a session. Workouts can vary in type, such as cardio, strength, or flexibility, and users can log details about each session, including duration and intensity.
+
+Exercises are the building blocks of workouts, and each exercise can be part of multiple workouts. Users can track their progress for each exercise, noting improvements in metrics like repetitions, weight lifted, or distance covered. The system should allow users to view historical data to assess their progress over time.
+
+### Constraints
+- Users must be able to set multiple concurrent fitness goals, which may have different target dates and metrics.
+- Workouts can consist of a variable number of exercises, and the same exercise can appear in different workouts.
+- Progress tracking should support historical data, allowing users to view past performance and trends.
+- The system should accommodate different types of workouts and exercises, each with specific attributes that may vary (e.g., cardio vs. strength exercises).
+- Users should be able to update their goals and progress data, with the system maintaining a history of changes for analysis.
+- The system should ensure data integrity, particularly in recording and updating user progress and goal achievement status.

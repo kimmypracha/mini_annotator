@@ -1,30 +1,16 @@
-### Objective:
-Prepare a batch of fluffy pancakes using the ingredients and tools currently available in your kitchen.
+## Problem Statement
+### Objective  
+Design a flowchart to determine if you can make fluffy pancakes using the ingredients and equipment currently available in your kitchen.
 
-### Background:
-You are in your kitchen, ready to make pancakes for breakfast. You want them to be fluffy and delicious, but you must work with the ingredients and tools you have on hand.
+### Background or Scenario  
+You are in your kitchen and want to make fluffy pancakes for breakfast. You need to assess if you have all the necessary ingredients and tools and decide how to proceed with the preparation.
 
-### Problem Specification:
+### Problem Specification
+#### Input or Requirements  
+- Ingredients: Flour, milk, eggs, baking powder, sugar, salt, butter (quantities as available).
+- Kitchen Equipment: Mixing bowl, whisk, frying pan, spatula, measuring cups/spoons, stove.
 
-**Input Data / Inventory:**
-- Ingredients: Check your pantry and fridge for the following common pancake ingredients:
-  - Flour (all-purpose or any type you have)
-  - Baking powder or baking soda
-  - Eggs
-  - Milk (or any milk substitute)
-  - Sugar
-  - Salt
-  - Butter or oil
-  - Vanilla extract (optional)
-- Tools: Ensure you have these basic kitchen tools:
-  - Mixing bowl
-  - Whisk or fork
-  - Measuring cups and spoons
-  - Frying pan or griddle
-  - Spatula
-
-**Constraints:**
-- You must use only the ingredients and tools currently available in your kitchen.
-- The pancakes should be cooked on a stovetop using a frying pan or griddle.
-- Aim to make the pancakes fluffy by incorporating air into the batter (e.g., through proper mixing techniques).
-- The preparation and cooking time should not exceed 30 minutes.
+#### Constraints or Rules  
+- Use only the ingredients and equipment currently available in the kitchen.
+- Aim to achieve fluffy pancakes, which may require adjusting ingredient ratios or techniques.
+- No additional shopping or equipment is allowed.

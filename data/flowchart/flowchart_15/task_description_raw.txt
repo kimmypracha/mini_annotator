@@ -1,0 +1,46 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits the query because it involves outlining a workflow process for handling and escalating customer calls within a call center. The focus is on the structure and flow of the system rather than achieving a specific output.
+
+### 2. Context Framing  
+The problem is set in the context of a call center where customer service representatives (CSRs) handle customer inquiries. When certain conditions are met, calls need to be escalated to higher levels of support or management. The challenge is to design a system that manages this escalation process efficiently.
+
+### 3. Input and Requirements  
+The system involves several entities:  
+- **Customer Call**: Initiates the process.  
+- **Customer Service Representative (CSR)**: The first point of contact.  
+- **Team Leader**: The next level of escalation if the CSR cannot resolve the issue.  
+- **Manager**: The final escalation point for unresolved issues.  
+- **Issue Type**: Categorizes the nature of the call (e.g., billing, technical support).  
+- **Resolution Status**: Tracks whether the issue has been resolved at each level.
+
+### 4. Constraints  
+- A CSR can handle only one call at a time.  
+- Calls must be escalated if unresolved within 10 minutes at the CSR level.  
+- Team Leaders can manage up to three escalated calls simultaneously.  
+- Managers should only receive calls if Team Leaders cannot resolve them within 15 minutes.  
+- Calls must be documented at each level of escalation.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to manage the flow of calls through different levels of support, ensuring timely escalation and resolution. A flowchart is appropriate because it visually represents the decision-making process and pathways for escalation, making it easy to understand and implement.
+
+## Problem Statement
+### Objective  
+Design a flowchart to manage the escalation process for customer calls in a call center, ensuring efficient resolution and proper documentation at each level.
+
+### Background or Scenario  
+In a busy call center, customer service representatives (CSRs) handle incoming calls. When they cannot resolve an issue, the call must be escalated to a Team Leader, and if necessary, further escalated to a Manager. The goal is to ensure customer issues are resolved efficiently while maintaining a clear record of each interaction.
+
+### Problem Specification
+#### Input or Requirements  
+- **Customer Call**: Details about the caller and the issue they are experiencing.  
+- **CSR Availability**: Whether a CSR is available to take the call.  
+- **Issue Type**: The category of the issue (e.g., billing, technical).  
+- **Resolution Status**: Updated at each level to indicate if the issue is resolved.  
+- **Documentation**: Record of the interaction and any actions taken.
+
+#### Constraints or Rules  
+- CSRs have a 10-minute window to resolve calls before escalation.  
+- Team Leaders handle escalated calls, with a maximum of three calls at a time.  
+- Managers are involved only if Team Leaders cannot resolve issues within 15 minutes.  
+- All interactions must be documented thoroughly at each level of escalation.

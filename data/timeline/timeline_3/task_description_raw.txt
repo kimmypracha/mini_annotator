@@ -1,0 +1,53 @@
+## Strategic Reasoning
+
+### The Scenario Context
+The persona is a high school senior preparing to apply to multiple colleges. They face the challenge of managing a complex application process while balancing schoolwork and extracurricular activities. The timeline must accommodate various deadlines and dependencies, such as recommendation letters and standardized test scores.
+
+### Complexity and Diagram Choice
+The timeline is moderately complex, involving multiple overlapping tasks and deadlines but not requiring intricate task dependencies or durations. A Timeline is appropriate to track key milestones and ensure all components are completed in a timely manner.
+
+### Rationale for Event Selection
+The selected events cover the critical components of the college application process, requiring the planner to prioritize tasks and manage dependencies effectively. The scenario tests the ability to coordinate multiple activities and meet deadlines.
+
+### Scenario Plausibility
+The scenario is realistic as it reflects the typical college application process, with common tasks and constraints faced by high school seniors. The events and constraints are natural for this context, providing a genuine challenge for the planner.
+
+## The Scenario
+
+### Background  
+A high school senior is preparing to apply to a range of colleges, each with its own set of requirements and deadlines. The student must manage their time efficiently to meet all application components, including essays, recommendation letters, and interviews, while maintaining their academic performance.
+
+### Objective  
+The goal is to successfully complete and submit all college applications by their respective deadlines, ensuring that all components are polished and reflect the student's best work.
+
+### Event Descriptions  
+1. **Research Colleges**  
+   The student spends time researching potential colleges, focusing on programs, campus culture, and admission requirements. Estimated duration: 2 weeks.
+
+2. **Standardized Test Preparation**  
+   The student prepares for standardized tests, dedicating time to study and practice. Estimated duration: 1 month.
+
+3. **Write Personal Statement**  
+   The student drafts, revises, and finalizes their personal statement, seeking feedback from teachers and peers. Estimated duration: 3 weeks.
+
+4. **Request Recommendation Letters**  
+   The student requests recommendation letters from teachers, providing them with necessary information and deadlines. Estimated duration: 1 week.
+
+5. **Complete College-Specific Essays**  
+   The student writes and edits essays required by specific colleges, tailoring each to the institution's prompts. Estimated duration: 4 weeks.
+
+6. **Submit Applications**  
+   The student completes and submits applications through the appropriate platforms, ensuring all components are included. Estimated duration: 1 week.
+
+7. **Prepare for Interviews**  
+   The student prepares for potential interviews, researching common questions and practicing responses. Estimated duration: 2 weeks.
+
+8. **Send Test Scores**  
+   The student arranges for standardized test scores to be sent to each college. Estimated duration: 1 week.
+
+### Constraints  
+- Recommendation letters require at least two weeks' notice for teachers to prepare.
+- Personal statement feedback must be incorporated before starting college-specific essays.
+- Standardized test scores must be available before application submission.
+- Interviews can only be scheduled after applications are submitted.
+- College-specific essays must be completed before the application submission.

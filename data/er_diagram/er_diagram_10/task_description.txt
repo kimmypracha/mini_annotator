@@ -1,12 +1,18 @@
+## Problem Description
+
 ### Objective
-Design a healthcare system to manage patient-doctor interactions, including appointments, treatments, and prescriptions.
+The system is designed to manage and streamline the operations of a healthcare facility by efficiently organizing and tracking patient care, doctor interactions, appointments, treatments, and prescriptions.
 
 ### Scenario Description
-In a healthcare system, patients schedule appointments with doctors. Each appointment is associated with a specific date and time and may involve multiple treatments. Doctors prescribe treatments and medications during these appointments. Each treatment has a specific protocol and may require follow-up appointments. Prescriptions are issued based on treatments and must be tracked for dosage, frequency, and duration. Patients have unique identifiers and personal information that must be securely stored. Doctors also have unique identifiers, specialties, and qualifications. The system must track the history of patient interactions, including past appointments, treatments received, and prescriptions filled. Doctors can have multiple specialties and may treat various conditions. Patients may see multiple doctors for different health issues.
+In a healthcare facility, patients receive care from doctors through scheduled appointments. Each patient can have multiple appointments with one or more doctors, and each appointment is associated with specific treatments and, potentially, prescriptions. Treatments are tailored to the patient's medical needs and are administered during appointments. Prescriptions are issued by doctors and may be linked to specific treatments or given independently based on the patient's condition.
 
-### Modeling Considerations
-- **Role Overlap**: A doctor might also be a patient in the system, requiring careful management of dual roles.
-- **Temporal Tracking**: The system must track the history of appointments, treatments, and prescriptions over time.
-- **Derived Data**: Prescription details are derived from treatments and must be linked to specific appointments.
-- **Normalization Trade-offs**: Balancing the need to avoid data redundancy with the requirement to maintain comprehensive patient records.
-- **Constraints**: Ensuring prescriptions are only valid if linked to an appointment and treatment, and managing unique identifiers for all entities.
+Doctors have unique specialties and can treat multiple patients, while patients may consult various doctors based on their health requirements. The system must track the history of appointments, treatments, and prescriptions for each patient to ensure continuity of care. Additionally, doctors need access to patient medical histories to make informed decisions about treatments and prescriptions.
+
+### Constraints
+- Each patient must have a unique identifier within the system to ensure accurate tracking of medical records.
+- Doctors are categorized by specialty, which influences the types of treatments they can administer.
+- Appointments must be scheduled with specific start and end times, and no two appointments for the same doctor can overlap.
+- Treatments may require multiple sessions, which should be tracked individually yet linked to the original treatment plan.
+- Prescriptions must include dosage instructions and a validity period, after which they cannot be refilled without a new consultation.
+- The system should allow for the recording of appointment outcomes, including any changes in treatment plans or new prescriptions issued.
+- Historical data for appointments, treatments, and prescriptions must be retained for at least five years to comply with regulatory requirements.

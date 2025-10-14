@@ -1,0 +1,42 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits because the query involves designing a workflow process that describes how customer support tickets move through various support tiers. The focus is on the structure and relationships between different components within the system rather than producing a specific output.
+
+### 2. Context Framing  
+The problem is framed in the context of a customer service department within a company that handles support requests. Tickets are submitted by customers and must be escalated through different support tiers based on predefined criteria to ensure efficient and satisfactory resolution.
+
+### 3. Input and Requirements  
+- **Entities involved:**
+  - Customer Support Ticket: A record detailing a customer's issue or request.
+  - Support Agent: Personnel assigned to handle tickets.
+  - Support Tiers: Different levels of support expertise (e.g., Tier 1, Tier 2, Tier 3).
+  - Escalation Criteria: Rules that determine when a ticket should move to a higher tier.
+
+### 4. Constraints  
+- Each support tier has specific types of issues it can resolve.
+- Time limits exist for resolving tickets at each tier.
+- Escalation occurs if the issue cannot be resolved within the tier’s capabilities or time limit.
+- Certain tickets may require immediate escalation based on severity or customer status.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to map out the decision-making process for escalating tickets. A flowchart is appropriate because it visually represents the procedural pathways and conditions under which a ticket moves from one tier to another, helping to clarify the escalation process.
+
+## Problem Statement
+### Objective  
+Design a flowchart that outlines the process of escalating customer support tickets through various support tiers based on specific criteria.
+
+### Background or Scenario  
+Within a company's customer service department, support tickets submitted by customers are handled by support agents. Depending on the complexity and nature of the issue, tickets may need to be escalated through different support tiers to ensure they are resolved efficiently and effectively.
+
+### Problem Specification  
+#### Input or Requirements  
+- **Customer Support Ticket:** Contains details of the customer issue.
+- **Support Tiers:** Defined as Tier 1 (basic support), Tier 2 (advanced support), and Tier 3 (expert support).
+- **Escalation Criteria:** Includes factors like issue complexity, time taken to resolve, severity level, and customer priority status.
+
+#### Constraints or Rules  
+- Tier 1 handles basic inquiries; unresolved issues or those beyond Tier 1’s scope are escalated.
+- Tier 2 manages more complex issues; if unresolved within a set time, escalate to Tier 3.
+- Tier 3 addresses the most complex or severe issues.
+- Urgent or high-priority tickets may bypass tiers based on predefined rules.
+- All escalations must be documented with reasons for escalation and action taken.

@@ -1,1 +1,1 @@
-{"diagram_type": "Flowchart", "data_path": "../data/v1/flowchart/", "id": 4, "user_query": "Can you generate a flowchart for Dijkstra's algorithm to find the shortest paths from a source node?", "requirements": [], "supplementary": "None", "used_complexity": true}
+{"diagram_type": "Flowchart", "data_path": "../data/v1/flowchart", "id": 4, "user_query": "Can you generate a flowchart for Dijkstra's algorithm to find the shortest paths from a source node?", "requirements": [], "supplementary": null, "used_complexity": true}

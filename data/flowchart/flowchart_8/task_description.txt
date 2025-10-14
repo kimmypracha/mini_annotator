@@ -1,17 +1,19 @@
-### Objective:
-Design a logical process to manage the escalation of customer support tickets through various support tiers.
+## Problem Statement
+### Objective  
+Design a flowchart that outlines the process of escalating customer support tickets through various support tiers based on specific criteria.
 
-### Problem Specification:
+### Background or Scenario  
+Within a company's customer service department, support tickets submitted by customers are handled by support agents. Depending on the complexity and nature of the issue, tickets may need to be escalated through different support tiers to ensure they are resolved efficiently and effectively.
 
-**Process Input:**
-- The process must accept any customer support ticket, which includes details such as the issue description, customer priority level, and initial support tier.
+### Problem Specification  
+#### Input or Requirements  
+- **Customer Support Ticket:** Contains details of the customer issue.
+- **Support Tiers:** Defined as Tier 1 (basic support), Tier 2 (advanced support), and Tier 3 (expert support).
+- **Escalation Criteria:** Includes factors like issue complexity, time taken to resolve, severity level, and customer priority status.
 
-**Process Output:**
-- The process must determine the appropriate support tier for each ticket, ensuring it is escalated to the correct level based on predefined criteria.
-
-**Constraints / Rules:**
-- The process must begin with an initial assessment at the first support tier.
-- Tickets must be escalated to a higher tier if they cannot be resolved within a specified time frame or if they meet certain severity criteria.
-- Each tier must have defined criteria for escalation, including issue complexity, customer impact, and resource availability.
-- The process must allow for de-escalation if a ticket is resolved at a higher tier but needs further action at a lower tier.
-- The process must include a feedback loop to inform the customer of the ticket status at each stage of escalation.
+#### Constraints or Rules  
+- Tier 1 handles basic inquiries; unresolved issues or those beyond Tier 1’s scope are escalated.
+- Tier 2 manages more complex issues; if unresolved within a set time, escalate to Tier 3.
+- Tier 3 addresses the most complex or severe issues.
+- Urgent or high-priority tickets may bypass tiers based on predefined rules.
+- All escalations must be documented with reasons for escalation and action taken.

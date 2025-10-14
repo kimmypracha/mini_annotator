@@ -1,0 +1,34 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves multiple interrelated entities that are common in real-world applications. Ticketing systems are prevalent in various industries, such as entertainment, sports, and travel, providing a familiar yet complex domain for students to explore. The scenario's real-world characteristics, such as dynamic pricing, venue capacity management, and user interactions, make it a strong test of design reasoning.
+
+### 2. Design Challenges
+The scenario presents several challenges, including the management of dynamic roles (e.g., users can be both buyers and attendees), handling overlapping relationships (e.g., events can occur at multiple venues, and venues can host multiple events), and ensuring data normalization (e.g., avoiding redundancy in event and venue information). Additionally, the system must account for historical tracking of ticket sales and payments, adding complexity to the design.
+
+### 3. Inference of Relationships
+The scenario implicitly provides enough context to infer relationships and cardinalities through the natural interactions between entities. For instance, the relationship between users and tickets can be inferred from the ticket purchasing process, while the connection between events and venues is evident from the event hosting requirements. These interactions test reasoning accuracy by requiring students to deduce the correct cardinalities and relationships based on operational logic rather than explicit instructions.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future enhancements, such as introducing loyalty programs, supporting multiple payment methods, or integrating with external event promotion platforms. Future requirements, such as accommodating international events or implementing advanced analytics, could influence design choices by necessitating additional entities or relationships, encouraging students to consider scalability in their initial designs.
+
+---
+
+## Problem Description
+
+### Objective
+Design a database system to support a ticketing platform that manages events, venues, users, ticket sales, and payments, ensuring efficient tracking and management of all related data.
+
+### Scenario Description
+The ticketing platform serves as a central hub for managing events across various venues. Users can browse upcoming events, purchase tickets, and make payments through the platform. Each event is associated with a specific venue, which has a defined capacity and location. Users can register on the platform to buy tickets, and they may also be attendees of the events. The system must handle multiple types of events, such as concerts, sports matches, and theater performances, each with unique attributes like start time, duration, and special requirements (e.g., age restrictions).
+
+Tickets are sold for specific events and must be tracked from purchase to event attendance. The platform supports multiple payment methods, and each transaction must be securely recorded, including details such as payment amount, method, and timestamp. The system should also allow for dynamic pricing based on demand and event proximity. Additionally, the platform must provide a way to manage refunds and cancellations, adhering to specific business rules.
+
+### Constraints
+- Each event must be associated with one or more venues, and each venue can host multiple events, but not simultaneously.
+- Users can purchase multiple tickets for different events, but each ticket must be uniquely associated with a single user and event.
+- The system must track historical data for ticket sales and payments, including any refunds or cancellations.
+- Venue capacity must be enforced, ensuring that ticket sales do not exceed the available seats.
+- Payment transactions must be securely recorded, with support for various payment methods, and linked to the corresponding ticket sales.
+- The system should allow for dynamic pricing adjustments based on predefined rules, such as time to event or ticket demand.
+- Users may have roles that evolve over time, such as becoming VIP members, which may affect ticket pricing and availability.

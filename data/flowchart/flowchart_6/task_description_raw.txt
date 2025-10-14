@@ -1,0 +1,44 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits because the query involves designing a workflow process, detailing the steps and entities involved from planning to project completion. The task does not result in a specific output but rather focuses on the structured process itself.
+
+### 2. Context Framing  
+The problem involves managing a project from its initial planning phase to its completion. This is a common scenario in project management across various industries, requiring coordination of tasks, resources, and timelines.
+
+### 3. Input and Requirements  
+Entities involved in the workflow include:  
+- Project Manager  
+- Project Team  
+- Stakeholders  
+- Resources (e.g., budget, materials, tools)  
+- Timeline (start date, end date, milestones)  
+- Project Goals and Objectives  
+
+### 4. Constraints  
+- The project must adhere to a predefined budget and timeline.  
+- Stakeholder requirements and feedback must be integrated into the workflow.  
+- Resource allocation must be efficient and within available limits.  
+- Risk management strategies must be included to address potential project challenges.
+
+### 5. Reasoning Challenge  
+The task requires structured reasoning to map out a comprehensive workflow involving multiple stages and dependencies. A flowchart is appropriate as it visually represents the sequence of activities, decision points, and interactions between different entities, making it easier to understand and manage the project lifecycle.
+
+## Problem Statement
+### Objective  
+Design a flowchart that outlines the workflow of managing a project from the planning phase to its completion.
+
+### Background or Scenario  
+In a project management context, efficiently organizing and executing tasks from conception to delivery is crucial. This involves planning, executing, monitoring, and completing project tasks while managing resources and stakeholder expectations.
+
+### Problem Specification
+#### Input or Requirements  
+- Entities: Project Manager, Project Team, Stakeholders  
+- Resources: Budget, materials, tools  
+- Timeline: Start date, end date, milestones  
+- Objectives: Specific project goals and deliverables
+
+#### Constraints or Rules  
+- The project must be completed within the set budget and timeline.  
+- Stakeholder feedback must be incorporated at key stages.  
+- Resource allocation should be optimized for efficiency.  
+- Risk management protocols must be included to mitigate potential issues.

@@ -1,1 +1,18 @@
-### Objective\nDesign a platform to manage a learning management system (LMS) that supports educational activities and tracks user engagement and performance.\n\n### Scenario Description\nThe LMS must accommodate various types of users, including students, instructors, and administrators. Users can enroll in multiple courses, each of which comprises several lessons. Instructors are responsible for creating and managing courses and lessons. Students enroll in courses and complete lessons and assessments.\n\nCourses may have prerequisites that students must fulfill before enrolling. Lessons are the building blocks of courses and contain educational content. Assessments are linked to either specific lessons or entire courses and are used to evaluate student performance.\n\nThe system should also track enrollment data, including the date of enrollment and completion status. Users may have multiple roles, such as a student who is also an instructor for another course.\n\n### Modeling Considerations\n- Users can have dynamic roles, acting as students in some courses and instructors in others.\n- Courses may have prerequisites, which could be modeled as relationships between courses.\n- Lessons might be standalone entities or part of a course, requiring a decision on how to model their relationship.\n- Assessments could be linked to lessons or courses, affecting how they are related to other entities.\n- Enrollment records should capture historical data, such as enrollment dates and completion status, necessitating careful consideration of temporal data management.\n- Consider opportunities for abstraction, such as creating a general 'UserRole' entity to manage user roles across different contexts.
+## Problem Description
+
+### Objective
+The system is designed to facilitate the management and delivery of educational content through an online platform, supporting users in roles such as students and instructors, and enabling the administration of courses, lessons, enrollments, and assessments.
+
+### Scenario Description
+In an educational institution, a Learning Management System (LMS) is implemented to support online learning. The system allows users to register and assume roles as students, instructors, or administrators. Instructors create courses, each consisting of multiple lessons. Students enroll in courses and complete lessons at their own pace. Assessments are integral to the learning process, allowing students to demonstrate their understanding of course material. These assessments can be associated with entire courses or specific lessons, depending on the instructional design.
+
+The LMS must handle various workflows, such as course creation by instructors, student enrollment management, lesson delivery, and assessment grading. Users must be able to switch roles if they have the appropriate permissions, such as a student who becomes an instructor. The system should support tracking of student progress and provide feedback through assessment results.
+
+### Constraints
+- Users can have multiple roles, but each role has specific permissions and capabilities within the system.
+- Courses are composed of lessons, and each lesson belongs to one and only one course.
+- Students can enroll in multiple courses, and each course can have many students enrolled.
+- Assessments can be linked to either courses or individual lessons, and a single assessment may apply to multiple lessons or courses.
+- Enrollment periods are defined for each course, and students can only access course materials during this period.
+- Assessments have deadlines, and submissions must be tracked with timestamps to enforce these deadlines.
+- The system must support the possibility of users changing roles over time, such as a student becoming an instructor, without losing historical data on their past activities.

@@ -1,0 +1,34 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves multiple interconnected entities that are common in a library management system. The relationships between books, members, loans, and staff present a realistic and complex environment that requires careful consideration of cardinalities and constraints. The scenario reflects real-world characteristics such as tracking borrowing history, managing book inventories, and handling staff responsibilities, making it a strong test of design reasoning.
+
+### 2. Design Challenges
+The challenges in this scenario include handling the dynamic roles of entities, such as a member who can be both a borrower and a requester for book reservations. The system must also manage overlapping relationships, such as a book being part of multiple loans over time or a staff member who can have different roles (e.g., librarian, administrator). Additionally, the need to track historical data, like past loans and changes in book status, adds complexity to the design.
+
+### 3. Inference of Relationships
+The scenario implicitly provides enough context to infer relationships and cardinalities through the natural interactions between entities. For example, a book can be associated with multiple loans, but each loan is tied to a specific member and staff member. The need to manage book reservations and returns suggests a many-to-many relationship between books and members, mediated by loans. These interactions are common in library systems, making it suitable for testing reasoning accuracy.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future requirements, such as integrating digital media, expanding to multiple library branches, or implementing advanced member services like personalized recommendations. These potential expansions influence design choices by encouraging flexible and modular database structures that can accommodate new entities and relationships without significant redesign.
+
+---
+
+## Problem Description
+
+### Objective
+The system is designed to manage the operations of a library, including book inventory, member management, loan processing, and staff administration.
+
+### Scenario Description
+The library system supports a diverse collection of books, each identified by a unique identifier and categorized by genre, author, and publication details. Members of the library can borrow books, with each member having a unique membership ID and personal details. The library staff, who manage the day-to-day operations, have roles that include cataloging books, processing loans, and assisting members. Each staff member is identified by a staff ID and role-specific information.
+
+The system must handle the process of loaning books to members, which involves recording the loan date, due date, and return date. Members can reserve books if they are currently on loan, and the system should manage the queue of reservations. Staff members are responsible for approving loans and managing reservations, ensuring that books are returned on time, and updating the system accordingly.
+
+### Constraints
+1. A book can be loaned to only one member at a time, but it can have multiple reservations from different members.
+2. Each loan must be processed and approved by a staff member, who is responsible for ensuring that the book is available and the member is eligible to borrow.
+3. Members can borrow multiple books simultaneously, but there is a limit to the number of active loans a member can have at any given time.
+4. The system must track the history of all loans, including past loans that have been completed, to manage member borrowing limits and generate reports.
+5. Staff roles can vary, with some staff members having the ability to manage inventory, while others focus on member services or loan processing.
+6. Books can be re-categorized or updated in the system by authorized staff, reflecting changes in inventory or library organization.
+7. The system should support notifications for members regarding due dates, overdue books, and reservation availability, requiring integration with member contact information.

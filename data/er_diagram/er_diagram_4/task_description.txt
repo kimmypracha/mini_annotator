@@ -1,19 +1,20 @@
+## Problem Description
+
 ### Objective
-Design a comprehensive data model for a school management system to effectively handle student enrollments, course offerings, teacher assignments, and grade tracking.
+The system aims to manage and streamline the operations of a school by organizing information about students, courses, grades, teachers, and enrollments efficiently.
 
 ### Scenario Description
-In a school system, students enroll in various courses taught by teachers. Each course has a unique identifier and may be offered multiple times by different teachers. Students receive grades for each course they complete, which contribute to their overall academic record. Teachers are responsible for multiple courses and may also be involved in administrative roles. The system must track enrollments, ensuring that students meet prerequisites before enrolling in advanced courses. Additionally, the system should accommodate the possibility of a teacher acting as a student in a different course.
+In a mid-sized educational institution, the administration needs a system to manage the academic records of students and facilitate the organization of courses and teaching assignments. Students enroll in various courses each semester, and each course is taught by one or more teachers. The system must track the grades that students receive in each course, which can vary from semester to semester.
 
-The system needs to manage the following entities:
-- **Students**: Individuals enrolled in the school, each with a unique student ID, name, contact information, and academic history.
-- **Courses**: Educational offerings with a course code, title, description, and credit value.
-- **Teachers**: Educators assigned to teach courses, each with a unique teacher ID, name, and department affiliation.
-- **Grades**: Records of student performance in courses, including the grade received and the term in which the course was taken.
-- **Enrollments**: Records of student participation in courses, including enrollment status and date.
+Teachers may teach multiple courses, and courses can have different teachers assigned depending on the semester or academic year. The institution also needs to maintain records of which students are enrolled in which courses, and this enrollment can change each semester.
 
-### Modeling Considerations
-- **Role Overlap**: Consider scenarios where a teacher might also be a student, necessitating a flexible role model.
-- **Temporal Tracking**: Capture historical data for grades and course enrollments to facilitate transcript generation and academic progress tracking.
-- **Derived Data**: Consider how to model derived attributes such as GPA or class rank, which depend on the aggregation of grade data.
-- **Normalization**: Balance the need for normalization with the complexity of queries, especially in managing course prerequisites and student progress.
-- **Constraints**: Ensure that constraints such as unique identifiers for students and courses are maintained, and prerequisites are enforced during enrollment.
+The system should accommodate the possibility of teachers also being students in other courses, reflecting the dynamic nature of roles within the academic environment. Additionally, the system should be capable of generating reports on student performance, course popularity, and teacher assignments.
+
+### Constraints
+1. Each course can have multiple sections, and each section can have different teachers and students.
+2. Students can enroll in a maximum of five courses per semester to ensure manageable workloads.
+3. Grades are awarded at the end of each semester, and the system must retain historical grade data for transcript generation.
+4. Teachers can be assigned to teach a maximum of three courses per semester to maintain teaching quality.
+5. The system must support the ability to add or remove courses and teachers without disrupting existing records.
+6. Enrollment in a course requires prerequisite courses to be completed, where applicable, which must be verified before enrollment.
+7. The system should allow for the future integration of online course components and virtual classrooms.

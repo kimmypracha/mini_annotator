@@ -1,0 +1,34 @@
+## Reasoning
+
+### 1. Scenario Selection
+A real estate platform is an excellent scenario for evaluating ER modeling skills because it involves multiple interacting entities with complex relationships. It reflects a real-world system that requires careful consideration of relationships between properties, agents, clients, and transactions. This scenario tests the ability to model dynamic roles and interactions, which are common in business environments.
+
+### 2. Design Challenges
+This scenario presents several challenges, such as managing dynamic roles (e.g., a client can be both a buyer and a seller), handling historical data for transactions, and ensuring data integrity across multiple entities. Additionally, the need to track property listings, agent assignments, and transaction details requires careful consideration of normalization and relationship cardinality.
+
+### 3. Inference of Relationships
+The scenario implicitly provides context to infer relationships, such as properties being listed by agents, clients interacting with agents for buying or selling, and transactions involving properties, clients, and agents. The complexity of these interactions requires reasoning about cardinalities and dependencies, making it suitable for testing accuracy in relationship modeling.
+
+### 4. Scalability and Evolution
+The scenario allows for scalability, such as adding features for property management, rental agreements, or agent performance tracking. Future requirements could include integrating third-party services, expanding to new markets, or implementing advanced analytics, influencing design choices like entity abstraction and relationship flexibility.
+
+---
+
+## Problem Description
+
+### Objective
+The system aims to support a real estate platform where properties are listed, bought, and sold through interactions between agents and clients, with all transactions recorded and managed efficiently.
+
+### Scenario Description
+In this real estate platform, properties can be listed for sale or rent by real estate agents. Each property has specific attributes such as location, size, and price. Agents are responsible for managing property listings and facilitating transactions between clients. Clients can be individuals or businesses interested in buying, selling, or renting properties. They interact with agents to view listings, make offers, and close deals.
+
+Transactions are central to the platform, recording details of property sales or rentals, including the involved parties, transaction dates, and financial terms. Agents may represent multiple clients and handle various properties simultaneously. Clients can engage with multiple agents and may have multiple active transactions at any given time.
+
+### Constraints
+1. Each property must be managed by a single agent at any given time, but agents can manage multiple properties.
+2. A client can be both a buyer and a seller, depending on the transaction context, and may have multiple roles in different transactions.
+3. Transactions must record historical data, including the date, involved parties, and financial details, to ensure accurate reporting and auditing.
+4. Agents must have a valid license to operate, and their performance metrics should be tracked for quality assurance.
+5. Properties can be listed in multiple categories (e.g., residential, commercial) but must adhere to zoning regulations.
+6. Clients should be able to view their transaction history and current listings, requiring secure access and data privacy measures.
+7. The system should support future expansion to include rental management and international property listings.

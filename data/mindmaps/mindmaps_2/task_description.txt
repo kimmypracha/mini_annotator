@@ -1,15 +1,10 @@
-#### Reading Passage
+## Problem  
 
-Embarking on the journey of starting a small business involves navigating a complex landscape of decisions and opportunities. Initially, one must consider the diverse array of business ideas available, each with its unique appeal and challenges. For instance, a tech startup might promise high growth potential but demands specialized skills in programming and software development. Alternatively, a local café could cater to a community's need for social spaces, requiring expertise in hospitality and customer service. The market type significantly influences the direction of the business; online platforms offer global reach, whereas brick-and-mortar stores provide tangible customer interactions.
+### Domain Context  
+Entrepreneurship and Small Business Planning involves the process of generating business ideas, assessing market opportunities, evaluating necessary skills, estimating startup costs, and identifying potential risks. This domain is suitable for beginners and those at an intermediate level who are interested in launching a small business. It includes exploring various market types, understanding the skills required for different business ideas, and evaluating financial and operational risks. It does not extend to advanced corporate strategies or large-scale business management.
 
-The required skills for each business idea vary widely, from technical prowess in coding for app development to creative flair for a design studio. These skills not only determine the feasibility of the business but also impact the initial and ongoing investment in human capital. Startup costs are another critical consideration, with some ventures necessitating substantial upfront investment in equipment or inventory, while others, like consulting services, might require minimal financial outlay but significant intellectual capital.
-
-Potential risks loom large in the entrepreneurial landscape, with market volatility, competition, and regulatory changes posing constant threats. A food truck business, for example, faces risks related to health regulations and location permits, whereas an e-commerce site must navigate cybersecurity threats and digital marketing challenges. Understanding these risks is essential for developing robust contingency plans and risk management strategies.
-
-In this intricate web of considerations, the entrepreneur must also weigh personal factors such as passion, lifestyle goals, and risk tolerance, which can significantly influence the choice of business and its long-term sustainability. The interplay of these elements creates a dynamic environment where strategic planning and adaptability are key to success.
-
-#### Structuring Constraints
-- Define the central concept of starting a small business.
-- Require multiple second-level branches, such as market type, required skills, startup cost, and potential risks.
-- Identify at least one cross-cutting theme, such as technology or sustainability.
-- Suggest perspectives or dimensions, like cultural or economic, without specifying their arrangement.
+### Guiding Questions  
+1. What are the main components of a viable small business idea, and how can they be categorized?  
+2. What types of markets are available for small businesses, and how do they differ in terms of customer needs and competition?  
+3. What skills are essential for starting and running a small business, and how can these skills be developed or acquired?  
+4. How can potential risks be identified and assessed in the context of a small business startup?

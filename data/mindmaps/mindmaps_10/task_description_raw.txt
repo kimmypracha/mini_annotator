@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Personal Financial Planning." It should be framed for a general audience, including beginners and those with intermediate knowledge, as it covers fundamental aspects of managing personal finances.
+
+### Scope Definition  
+This field includes topics such as budgeting, investing, saving, retirement planning, debt management, and financial goal setting. It does not cover advanced corporate finance, macroeconomic policy, or complex financial instruments beyond personal investment options.
+
+### Tone and Focus  
+The context should be neutral and concise, focusing on defining the boundaries of personal financial planning clearly. It should avoid instructional language and instead describe the domain's core components and limitations.
+
+## Problem  
+
+### Domain Context  
+Personal Financial Planning is a domain that encompasses the strategies and tools individuals use to manage their financial resources effectively. It includes budgeting, saving, investing, and planning for retirement, as well as managing debt and setting financial goals. This field is intended for individuals seeking to understand and organize their personal finances, but it does not extend to corporate finance or macroeconomic analysis.
+
+### Guiding Questions  
+1. What are the main components of personal financial planning, and how do they contribute to overall financial health?  
+2. How do budgeting and saving differ, and what roles do they play in personal financial stability?  
+3. What are the key considerations when choosing investment options for personal financial growth?  
+4. How does retirement planning fit into the broader context of personal financial planning, and what factors should be considered?  

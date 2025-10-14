@@ -1,0 +1,22 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Sustainable Architecture and Green Building Design." This should be framed at a level suitable for undergraduate students or professionals interested in architecture, environmental science, or urban planning.  
+
+### Scope Definition  
+This field includes topics such as energy efficiency, material selection, water management, and environmental impact considerations. It excludes unrelated architectural styles, purely aesthetic design principles, or construction methods without environmental considerations.  
+
+### Tone and Focus  
+The context should be neutral and concise, focusing on defining the conceptual boundaries of sustainable architecture and green building design. It should clearly delineate what is included in the domain, such as key principles and considerations, without delving into specific user actions or external relationships.  
+
+## Problem  
+
+### Domain Context  
+Sustainable architecture and green building design encompass the principles and practices aimed at minimizing the environmental impact of buildings. This field includes energy efficiency, the selection of sustainable materials, water management strategies, and considerations of the overall environmental impact of construction and operation. It is intended for undergraduate students or professionals in architecture or environmental science. Topics such as purely aesthetic design principles or traditional construction methods without environmental considerations fall outside this domain.  
+
+### Guiding Questions  
+- What are the main principles of sustainable architecture and green building design?  
+- How is energy efficiency achieved in sustainable architecture?  
+- What criteria are used in the selection of materials for green building design?  
+- In what ways can water management be integrated into sustainable building practices?  
+- How do environmental impact assessments influence architectural design decisions?  

@@ -1,16 +1,19 @@
+## Problem Description
+
 ### Objective
-Design an inventory management system to efficiently track and manage products, warehouses, suppliers, and purchase orders.
+The system is designed to support the efficient management of inventory across multiple warehouses, track supplier relationships, and handle purchase orders for a company dealing in physical goods.
 
 ### Scenario Description
-In this system, products are the central entity, each identified by a unique product code and described by attributes such as name, description, and price. Products are stored in various warehouses, each with a unique location identifier and capacity constraints. Warehouses need to track the quantity of each product they hold.
+In this inventory management system, the company manages a wide range of products sourced from various suppliers. Each product can be stored in multiple warehouses, which are located in different regions to optimize distribution and minimize delivery times. Suppliers provide products to the company, and each supplier may offer multiple products. The company places purchase orders to replenish stock, which involves specifying the products and quantities needed from a particular supplier.
 
-Suppliers provide products to the company, and each supplier has a unique supplier ID, name, and contact information. Suppliers may offer multiple products, and a product can be sourced from multiple suppliers.
+Products have unique identifiers, descriptions, and pricing details. Warehouses track the quantity of each product they hold, and this information must be updated in real-time as stock levels change due to incoming shipments or outgoing orders. Suppliers have contact information and a history of their interactions with the company, including past orders and delivery performance.
 
-Purchase orders are used to restock products. Each purchase order has a unique order ID, date, and status. A purchase order can include multiple products, specifying the quantity ordered and the supplier from whom the products are purchased.
+Purchase orders are critical transactions that need to be tracked from creation to fulfillment. Each order includes details such as the date of order, expected delivery date, and the status of the order (e.g., pending, shipped, received). The system must also handle exceptions, such as delays in delivery or discrepancies in order quantities, and provide reports on inventory levels, supplier performance, and order histories.
 
-### Modeling Considerations
-- Products need to be associated with both suppliers and warehouses, potentially leading to complex many-to-many relationships.
-- Warehouses must track inventory levels, introducing the need for a junction entity or associative entity to manage product quantities per warehouse.
-- Suppliers may offer different products at different prices, suggesting a need to model price variations.
-- Purchase orders link suppliers and products, and must capture the ordered quantities and delivery status, introducing temporal aspects to the data model.
-- Consideration of how to handle products that are discontinued or suppliers that are no longer active, impacting inventory and order management.
+### Constraints
+1. Each product must be uniquely identifiable and associated with one or more suppliers.
+2. Warehouses can store multiple products, and each product can be stored in multiple warehouses, with specific stock levels tracked per warehouse.
+3. Suppliers can supply multiple products, and each product can have multiple suppliers, but a purchase order is linked to a single supplier.
+4. Purchase orders must be tracked over time, with status updates reflecting their progress from order placement to fulfillment.
+5. The system should be able to generate reports on inventory levels, supplier performance, and order histories, requiring efficient data organization and retrieval.
+6. The system must handle exceptions such as delivery delays or order discrepancies, necessitating a flexible yet robust data model.

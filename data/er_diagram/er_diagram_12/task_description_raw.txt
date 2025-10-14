@@ -1,0 +1,35 @@
+## Reasoning
+
+### 1. Scenario Selection
+This scenario is appropriate for evaluating ER modeling skills because it involves a complex, real-world system that requires careful consideration of various entities and their interactions. Video streaming platforms are prevalent and familiar, yet they involve intricate relationships between users, content, and subscriptions. This scenario tests the ability to model dynamic user interactions and content management, which are crucial in database design.
+
+### 2. Design Challenges
+The scenario presents several challenges, such as handling dynamic roles (e.g., users can be both consumers and creators of content), managing overlapping entities (e.g., videos can belong to multiple genres), and tracking historical data (e.g., watch history). Additionally, the need to model subscriptions introduces complexity in terms of periodic billing and access control. These challenges require careful consideration of normalization and efficient data retrieval.
+
+### 3. Inference of Relationships
+The scenario implicitly provides context for relationships through the description of user interactions with the platform. For example, users have subscriptions, watch videos, and interact with genres, which suggests various relationships and cardinalities. The need to track watch history implies a relationship between users and videos over time. The scenario tests reasoning accuracy by requiring students to infer these relationships and their complexities from the narrative.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future features such as personalized recommendations, content ratings, or social interactions. Future requirements could influence design choices by necessitating additional entities or relationships, such as user preferences or community features. The system must be designed to accommodate growth in user base, content library, and feature set.
+
+---
+
+## Problem Description
+
+### Objective
+The system is designed to support a video streaming platform that manages user subscriptions, video content, and user interactions, providing a seamless and personalized viewing experience.
+
+### Scenario Description
+The video streaming platform caters to a diverse user base, offering a wide range of video content across various genres. Users can register on the platform, create profiles, and subscribe to different service tiers that determine their access to content. Each subscription tier offers distinct benefits, such as ad-free viewing or access to exclusive content.
+
+Users can browse and search for videos by genre, title, or popularity. Each video is categorized under one or more genres, and users can view detailed information about the video, including its description, duration, and release date. Users have the ability to create watchlists and maintain a watch history that records every video they have watched, along with timestamps and viewing duration.
+
+The platform supports content creators who can upload videos, manage their content, and track viewership statistics. Creators may also categorize their videos under multiple genres to reach a broader audience. The system must efficiently manage video metadata, storage, and retrieval to ensure a smooth user experience.
+
+### Constraints
+1. Users must have an active subscription to access most video content, with some exceptions for promotional content or free trials.
+2. Subscription plans are billed periodically, and users can upgrade or downgrade their plans at any time, affecting their access rights.
+3. Each video may belong to multiple genres, and genres can evolve over time with the addition of new categories or merging of existing ones.
+4. The watch history must be maintained for each user, capturing detailed information about each viewing session, including timestamps and video segments watched.
+5. Content creators have permissions to manage only their uploaded videos, including editing metadata and viewing aggregated statistics.
+6. The platform must support scalability to handle increasing numbers of users, videos, and concurrent streaming sessions without performance degradation.

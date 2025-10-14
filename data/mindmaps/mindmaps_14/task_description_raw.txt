@@ -1,0 +1,22 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is "Container Gardening," which falls under the broader category of horticulture. This should be framed at a beginner to intermediate level, as it involves practical knowledge for personal gardening projects.
+
+### Scope Definition  
+This field includes topics like plant selection, container types, soil requirements, watering schedules, and seasonal care tips. It does not cover unrelated gardening methods, large-scale agriculture, or advanced horticultural techniques beyond the scope of container gardening.
+
+### Tone and Focus  
+The context should be neutral and concise, clearly defining the boundaries of container gardening as a domain. It should focus on the fundamental concepts and considerations specific to container gardening without suggesting activities or personal goals.
+
+## Problem  
+
+### Domain Context  
+Container gardening is a domain within horticulture that focuses on growing plants in containers rather than in the ground. This field covers topics such as selecting appropriate plants for container growth, choosing suitable containers, understanding soil requirements, establishing watering schedules, and providing seasonal care. It excludes large-scale agricultural practices and advanced horticultural techniques not applicable to container settings. The intended audience is beginners to intermediate gardeners interested in cultivating plants in limited spaces.
+
+### Guiding Questions  
+- What are the main considerations when selecting plants for container gardening?  
+- How do different types of containers affect plant growth and suitability?  
+- What are the essential soil requirements for successful container gardening?  
+- How do watering schedules vary depending on plant type and environmental conditions?  
+- What seasonal care tips are crucial for maintaining healthy container gardens throughout the year?  

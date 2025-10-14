@@ -1,0 +1,39 @@
+## Reasoning Design
+### 1. Task Type  
+Algorithmic Task – This classification fits because the query involves computing Fibonacci numbers using a recursive method, which is a computational process requiring defined inputs and outputs.
+
+### 2. Context Framing  
+The problem involves calculating Fibonacci numbers, a well-known sequence in mathematics where each number is the sum of the two preceding ones. This task is framed in a computational context, focusing on implementing a recursive algorithm.
+
+### 3. Input and Requirements  
+- **n** (integer): The position in the Fibonacci sequence for which the number is to be computed.  
+- The input is assumed to be a non-negative integer, as Fibonacci numbers are defined for such values.
+
+### 4. Constraints  
+- **n** must be a non-negative integer.
+- The recursive computation should handle base cases explicitly: `Fibonacci(0) = 0` and `Fibonacci(1) = 1`.
+- The process must be capable of handling large values of `n` within reasonable computational limits.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning because the recursive nature of the Fibonacci sequence involves repeated function calls, each requiring the computation of previous sequence values. A flowchart is appropriate to visually represent the decision points and recursive function calls, illustrating the branching nature of the computation.
+
+## Problem Statement
+### Objective  
+Design a flowchart to compute the Fibonacci number at a given position `n` using a recursive approach.
+
+### Background or Scenario  
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1. This task involves creating a recursive algorithm to compute the Fibonacci number at a specified position in the sequence.
+
+### Problem Specification
+#### Input or Requirements  
+- **n** (integer): The position in the Fibonacci sequence for which the number is to be computed.
+
+#### Output  
+- **Fibonacci(n)** (integer): The Fibonacci number at position `n`.
+
+#### Constraints or Rules  
+- **n** must be a non-negative integer.
+- Base cases are defined as:  
+  - `Fibonacci(0) = 0`  
+  - `Fibonacci(1) = 1`
+- The recursion should efficiently handle computations for larger values of `n` within practical limits.

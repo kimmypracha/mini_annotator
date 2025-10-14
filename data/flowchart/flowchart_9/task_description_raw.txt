@@ -1,0 +1,41 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits because the query involves designing a workflow process for triaging patients in an emergency room, focusing on the system's entities and their interactions.
+
+### 2. Context Framing  
+The problem is set in the context of an emergency room in a hospital where patients arrive with varying degrees of medical urgency. The challenge is to design a triage process to prioritize patient care effectively and efficiently.
+
+### 3. Input and Requirements  
+- **Entities:**
+  - Patients: Individuals arriving at the emergency room with different medical conditions.
+  - Triage Nurse: Medical professional responsible for initial patient assessment.
+  - Triage Categories: Levels of urgency assigned to patients (e.g., Critical, Urgent, Non-Urgent).
+  - Medical Staff: Doctors and nurses available for patient care.
+  - Resources: Medical equipment and facilities available in the emergency room.
+
+### 4. Constraints  
+- The triage process must categorize patients based on the severity of their condition.
+- There are limited medical staff and resources, requiring efficient prioritization.
+- Triage must be completed quickly to ensure timely treatment for critical patients.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to design a process that efficiently categorizes and prioritizes patients based on urgency. A flowchart is appropriate as it visually represents the decision-making process and steps involved in triaging patients, ensuring clarity and effectiveness in emergency room operations.
+
+## Problem Statement
+### Objective  
+Design a flowchart to represent the triage process in an emergency room, focusing on categorizing and prioritizing patients based on the urgency of their medical conditions.
+
+### Background or Scenario  
+In a hospital's emergency room, patients arrive with various medical conditions that require assessment to determine the urgency of their treatment. The triage process is crucial for ensuring that patients receive appropriate and timely care based on the severity of their conditions.
+
+### Problem Specification  
+#### Input or Requirements  
+- Patients with varying medical conditions.
+- A triage nurse to assess the condition of each patient.
+- Defined triage categories: Critical, Urgent, Non-Urgent.
+- Available medical staff and resources in the emergency room.
+
+#### Constraints or Rules  
+- Patients must be categorized quickly to ensure timely treatment.
+- Limited staff and resources necessitate efficient prioritization.
+- Triage decisions must be based on medical urgency and available resources.

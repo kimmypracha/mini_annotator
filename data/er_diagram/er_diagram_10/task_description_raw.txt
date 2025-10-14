@@ -1,0 +1,34 @@
+## Reasoning
+
+### 1. Scenario Selection
+This healthcare system scenario is appropriate for evaluating ER modeling skills because it involves multiple real-world entities with complex interactions and dependencies. Healthcare systems are inherently data-rich environments that require careful consideration of relationships and constraints, making them a strong test of design reasoning. The scenario involves various stakeholders (patients, doctors) and processes (appointments, treatments, prescriptions) that are common in real-world healthcare settings.
+
+### 2. Design Challenges
+The scenario presents several design challenges, such as handling dynamic roles (e.g., a doctor can also be a patient), overlapping relationships (e.g., treatments and prescriptions are related but distinct), and the need for historical tracking (e.g., past appointments and treatments). Additionally, ensuring data normalization while maintaining efficient access to frequently queried information adds complexity to the design.
+
+### 3. Inference of Relationships
+The scenario implicitly provides enough context to infer relationships and cardinalities by describing typical healthcare processes and interactions. For example, the need to track which doctor is responsible for a patient's treatment or prescription suggests a relationship between doctors and these entities. The frequency and nature of appointments imply a many-to-many relationship between patients and doctors. This setup tests reasoning accuracy by requiring students to deduce these connections from the operational context rather than explicit instructions.
+
+### 4. Scalability and Evolution
+The scenario leaves room for extension or scalability by allowing for future requirements such as integrating insurance information, supporting telemedicine appointments, or adding new healthcare roles like nurses or specialists. These potential expansions influence design choices by encouraging the creation of a flexible and extensible schema that can accommodate additional entities and relationships without significant restructuring.
+
+---
+
+## Problem Description
+
+### Objective
+The system is designed to manage and streamline the operations of a healthcare facility by efficiently organizing and tracking patient care, doctor interactions, appointments, treatments, and prescriptions.
+
+### Scenario Description
+In a healthcare facility, patients receive care from doctors through scheduled appointments. Each patient can have multiple appointments with one or more doctors, and each appointment is associated with specific treatments and, potentially, prescriptions. Treatments are tailored to the patient's medical needs and are administered during appointments. Prescriptions are issued by doctors and may be linked to specific treatments or given independently based on the patient's condition.
+
+Doctors have unique specialties and can treat multiple patients, while patients may consult various doctors based on their health requirements. The system must track the history of appointments, treatments, and prescriptions for each patient to ensure continuity of care. Additionally, doctors need access to patient medical histories to make informed decisions about treatments and prescriptions.
+
+### Constraints
+- Each patient must have a unique identifier within the system to ensure accurate tracking of medical records.
+- Doctors are categorized by specialty, which influences the types of treatments they can administer.
+- Appointments must be scheduled with specific start and end times, and no two appointments for the same doctor can overlap.
+- Treatments may require multiple sessions, which should be tracked individually yet linked to the original treatment plan.
+- Prescriptions must include dosage instructions and a validity period, after which they cannot be refilled without a new consultation.
+- The system should allow for the recording of appointment outcomes, including any changes in treatment plans or new prescriptions issued.
+- Historical data for appointments, treatments, and prescriptions must be retained for at least five years to comply with regulatory requirements.

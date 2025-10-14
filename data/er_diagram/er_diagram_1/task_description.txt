@@ -1,15 +1,20 @@
+## Problem Description
+
 ### Objective
-Design a data model for an e-commerce platform that manages users, products, orders, and payments.
+The system aims to support an e-commerce platform that facilitates the buying and selling of products, manages user interactions, processes orders, and handles payments efficiently.
 
 ### Scenario Description
-In this e-commerce platform, users can register as buyers or sellers. A user can have multiple roles, acting as both a buyer and a seller at different times. Products are listed by sellers and can belong to multiple categories. Each product has attributes such as price, description, and stock quantity. Buyers can place orders for one or more products, and each order must track the quantity of each product ordered, the total price, and the order status (e.g., pending, shipped, delivered).
+The e-commerce platform serves as an online marketplace where users can register as buyers or sellers. Sellers can list products for sale, providing details such as price, description, and stock availability. Buyers can browse products, add them to a shopping cart, and place orders. Each order may consist of multiple products and can be modified before final confirmation. Once an order is placed, the system tracks its status from processing to delivery.
 
-Payments are associated with orders and can be made using various methods such as credit card, PayPal, or bank transfer. Each payment has a status (e.g., pending, completed, failed) and must be linked to the corresponding order. The system should also track payment history for auditing purposes.
+Payments are an integral part of the system, with each order requiring at least one payment transaction. The platform supports various payment methods, including credit cards, digital wallets, and bank transfers. Payment transactions need to be securely recorded, with details such as transaction date, amount, and payment method.
 
-### Modeling Considerations
-- Users can have dynamic roles, acting as both buyers and sellers.
-- Products may have variants (e.g., size, color) that need to be managed.
-- Orders must capture the relationship between users and products, including quantities and prices.
-- Payments need to be linked to orders and track multiple statuses and methods.
-- Consideration of historical data for orders and payments for auditing and reporting.
-- Potential for product categories to be hierarchical or overlapping, requiring careful modeling of relationships.
+The platform also needs to manage user accounts, allowing users to update their profiles, view order history, and manage payment preferences. Sellers require additional functionalities to manage their product listings, track sales, and analyze performance through sales reports.
+
+### Constraints
+1. Users can have multiple roles, such as buyer and seller, and need to switch roles seamlessly within the platform.
+2. Each product listed by a seller must have a unique identifier and be associated with only one seller, ensuring clear ownership and accountability.
+3. Orders must be able to accommodate multiple products, and each product can appear in multiple orders over time.
+4. Payments must be linked to specific orders, with the possibility of multiple payments for a single order to accommodate partial payments or split transactions.
+5. The system must maintain a history of order statuses and payment transactions for auditing and customer service purposes.
+6. User profiles must include secure storage of payment preferences, with options to update or remove payment methods as needed.
+7. The platform should support internationalization, allowing for multiple currencies and languages, which affects product pricing and order processing.

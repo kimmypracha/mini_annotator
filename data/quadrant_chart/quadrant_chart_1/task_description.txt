@@ -1,32 +1,33 @@
+## The Decision Scenario
+
 ### Objective
-A student is navigating multiple responsibilities during a high-pressure academic term, aiming to balance coursework, career preparation, and personal tasks without losing focus.
+To effectively manage time and energy during exam season, balancing coursework, career preparation, and personal tasks to achieve both immediate academic success and long-term career goals.
 
-### Dimensions of Comparison
-- One factor involves how soon each item needs attention based on deadlines, schedules, or external commitments.
-- Another relates to how deeply each item contributes to longer-term goals such as career advancement, academic success, or personal development.
+### Background
+The decision-maker is a university student in their final year, preparing for exams while also seeking job opportunities post-graduation. They are under pressure to maintain high academic performance, which directly affects their GPA, while simultaneously engaging in activities that enhance their employability. Personal tasks like health and well-being are also critical to sustain their overall productivity and mental health.
 
-### Items for Evaluation
+### Items for Consideration
 
-> **Final Exam Study Sessions**  
-> The exams are scheduled in two weeks, and the study sessions require daily preparation. Missing these could impact grades significantly, but they also overlap with other commitments.
+> **Final Exam Study Sessions**
+> Intensive review sessions organized by the department, offering a deep dive into potential exam topics. These sessions are known to significantly boost exam performance but require substantial time commitment during peak study periods.
 
-> **Internship Application Deadlines**  
-> Several companies have application deadlines approaching within the next week. Securing an internship could provide valuable experience and networking opportunities for future career paths.
+> **Resume and LinkedIn Profile Update**
+> Updating professional profiles to reflect recent projects and skills. This task is crucial for upcoming job applications but can be time-consuming, diverting attention from immediate study needs.
 
-> **Weekly Fitness Classes**  
-> These classes help maintain physical health and reduce stress. They are scheduled twice a week but can be rescheduled if necessary.
+> **Networking Event with Industry Professionals**
+> A career fair hosted by the university, providing opportunities to connect with potential employers. While beneficial for future job prospects, attending requires skipping a day of study.
 
-> **Group Project Meetings**  
-> The project is due in a month, but regular meetings are essential for coordination. Missing meetings could lead to misunderstandings and affect the final outcome.
+> **Group Project Completion**
+> A major component of a core course, requiring collaboration with peers to finalize a presentation. This project directly impacts the course grade and demands coordination and time outside of individual study.
 
-> **Networking Event for Aspiring Professionals**  
-> An event is happening this weekend that offers opportunities to meet industry professionals. It could open doors for future job prospects but requires time away from studying.
+> **Mock Interviews with Career Services**
+> Practice interviews scheduled with the career center to improve job interview skills. These sessions offer valuable feedback but coincide with critical exam preparation days.
 
-> **Volunteering at a Local Charity**  
-> This activity is fulfilling and contributes to personal growth and community service. It is a weekly commitment but can be adjusted around other priorities.
+> **Weekly Yoga Class**
+> A personal time commitment aimed at reducing stress and maintaining physical health. While beneficial for mental clarity, attending these classes means less time available for studying.
 
-> **Research Paper Submission**  
-> A paper is due in three weeks, requiring significant research and writing. It's crucial for academic standing but can be worked on progressively.
+> **Research Paper Submission**
+> A paper for an elective course that requires final edits and submission before the exam period ends. Completing this task is essential for course completion but may detract from studying for major exams.
 
-> **Social Gatherings with Friends**  
-> These gatherings offer relaxation and social interaction. They are flexible but important for maintaining personal relationships and mental health.
+> **Volunteer Work at Local Non-Profit**
+> An ongoing commitment that enhances the resume and provides a sense of fulfillment. However, it requires a regular time investment that could otherwise be used for academic or career preparation.

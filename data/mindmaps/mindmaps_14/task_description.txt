@@ -1,12 +1,11 @@
-#### Reading Passage
-Embarking on the journey of container gardening opens up a world of possibilities, allowing both urban dwellers and those with limited space to cultivate a vibrant oasis. The selection of plants is pivotal, as it dictates not only the aesthetic appeal but also the functional dynamics of the garden. Consideration must be given to the plants' sunlight needs, growth habits, and compatibility with other species. For instance, herbs like basil and mint thrive in sunny spots, while ferns prefer shaded corners. The choice of container is equally crucial, with options ranging from traditional clay pots to modern self-watering systems. Each type offers distinct advantages; clay pots provide breathability, while self-watering containers reduce maintenance efforts.
+## Problem  
 
-Soil requirements further complicate the equation, as different plants demand varying nutrient compositions and drainage capabilities. A well-balanced potting mix often serves as a universal medium, yet some plants, such as succulents, require specialized soil to prevent root rot. Watering schedules must be meticulously planned, taking into account the plant species, container material, and environmental conditions. Overwatering is a common pitfall, particularly in non-porous containers that retain moisture.
+### Domain Context  
+Container gardening is a domain within horticulture that focuses on growing plants in containers rather than in the ground. This field covers topics such as selecting appropriate plants for container growth, choosing suitable containers, understanding soil requirements, establishing watering schedules, and providing seasonal care. It excludes large-scale agricultural practices and advanced horticultural techniques not applicable to container settings. The intended audience is beginners to intermediate gardeners interested in cultivating plants in limited spaces.
 
-Seasonal care tips are indispensable for ensuring the longevity and productivity of a container garden. As seasons change, so do the needs of the plants; summer might necessitate increased watering, while winter could require protective measures against frost. Additionally, periodic fertilization is essential to replenish nutrients, especially in containers where soil renewal is limited. The interplay of these elements—plant selection, container choice, soil, watering, and seasonal care—demands a holistic approach, where each decision influences the others, creating a dynamic and ever-evolving gardening experience.
-
-#### Structuring Constraints
-- Define the central concept of container gardening.
-- Require multiple second-level branches that explore different aspects of container gardening.
-- Identify at least one cross-cutting theme that influences multiple aspects of the garden.
-- Suggest perspectives such as environmental impact, aesthetic considerations, or practical maintenance without dictating their arrangement.
+### Guiding Questions  
+- What are the main considerations when selecting plants for container gardening?  
+- How do different types of containers affect plant growth and suitability?  
+- What are the essential soil requirements for successful container gardening?  
+- How do watering schedules vary depending on plant type and environmental conditions?  
+- What seasonal care tips are crucial for maintaining healthy container gardens throughout the year?

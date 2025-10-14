@@ -1,13 +1,21 @@
+## Problem Description
+
 ### Objective
-Design a platform to manage a comprehensive travel booking system.
+The system aims to support a comprehensive travel platform that allows users to plan and manage their trips, including booking flights and hotels. It should facilitate seamless integration of various travel services and provide users with an efficient way to organize their travel itineraries.
 
 ### Scenario Description
-The travel platform supports users in planning and booking trips. Users can search for and book trips that consist of flights and hotel accommodations. Each user has a profile that includes personal information and travel preferences. Trips can be customized with multiple flights and hotel stays, and users can book these components separately or as part of a package. The platform must track each booking's status, including confirmed, pending, or canceled. Flights have details such as departure and arrival times, airlines, and seat classes, while hotels include room types, amenities, and check-in/check-out dates. Users may leave reviews for flights and hotels, which are visible to other users.
+The travel platform caters to a diverse user base, including individual travelers and corporate clients. Users can create an account to manage their travel activities. Each user can plan multiple trips, which consist of various bookings. A trip can include flights, hotels, or both, depending on the user's itinerary.
 
-### Modeling Considerations
-- Users can book multiple trips, and each trip can include multiple flights and hotels.
-- A flight or hotel can be part of multiple trips, potentially booked by different users.
-- Bookings have statuses that change over time, requiring historical tracking.
-- Users can act as reviewers, adding complexity to their role.
-- Derived attributes, such as total trip cost, emerge from the aggregation of flight and hotel costs.
-- Consideration for optionality in trips, where a user might book only a flight or only a hotel.
+Users can book flights from a range of airlines, each offering different classes and pricing options. Hotel bookings are also available, with options for room types and amenities. The system must handle the availability of flights and hotel rooms, taking into account cancellations and modifications.
+
+The platform should also accommodate special cases, such as group bookings for flights or hotels, and the ability for users to share trip itineraries with others. Additionally, users may have preferences for airlines or hotels, which should be considered when making recommendations.
+
+### Constraints
+- Users must be able to manage multiple trips simultaneously, with each trip potentially involving several bookings.
+- Bookings should support both flights and hotels, with distinct attributes for each type.
+- The system must track the availability of flights and hotel rooms, adjusting for changes in real-time.
+- Users should be able to modify or cancel bookings, with historical data retained for reporting purposes.
+- Group bookings must be supported, allowing a single user to book for multiple travelers.
+- The platform should offer recommendations based on user preferences and past travel behavior.
+- Security and privacy are paramount, requiring user authentication and data protection measures.
+- The system should be designed to accommodate future enhancements, such as additional travel services or integration with external APIs.

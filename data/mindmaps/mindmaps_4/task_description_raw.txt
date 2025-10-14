@@ -1,0 +1,21 @@
+## Reasoning  
+
+### Domain Identification  
+The main field implied by the query is Artificial Intelligence (AI). It should be framed at a general level that is accessible to beginners or those with an introductory understanding of AI concepts.
+
+### Scope Definition  
+This field includes topics such as machine learning, robotics, natural language processing, computer vision, and ethics in AI. It excludes specific programming techniques, detailed algorithmic implementations, and other unrelated technological fields.
+
+### Tone and Focus  
+The context should be neutral and concise, focusing on defining the conceptual boundaries of AI clearly. It should avoid instructional language and instead describe the core components and ideas that make up the field.
+
+## Problem  
+
+### Domain Context  
+Artificial Intelligence (AI) encompasses the study and development of systems that can perform tasks typically requiring human intelligence. This field includes major areas such as machine learning, robotics, natural language processing, computer vision, and AI ethics. It does not cover specific programming languages or the detailed technical implementation of AI systems. The intended audience includes beginners and those seeking an introductory understanding of AI.
+
+### Guiding Questions  
+- What are the main categories within the field of Artificial Intelligence, and how do they differ?  
+- How is machine learning defined within the context of AI, and what are its key components?  
+- What role does robotics play in AI, and what are the primary challenges associated with it?  
+- How do ethical considerations shape the development and deployment of AI technologies?  

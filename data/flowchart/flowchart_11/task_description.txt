@@ -1,12 +1,21 @@
-**Objective:**  
-Design a logical process to manage the employee expense reimbursement workflow.  
+## Problem Statement
 
-**Problem Specification:**  
-- **Process Input:** The process must accept employee expense claims, including receipts, descriptions of expenses, and the total amount claimed.  
-- **Process Output:** The process must yield a final decision on each expense claim, indicating whether it is approved, rejected, or requires additional information.  
-- **Constraints / Rules:**  
-  1. All expense claims must be submitted within 30 days of the expense date.  
-  2. Claims must include valid receipts for all expenses over a specified amount.  
-  3. Claims must be reviewed by a designated manager or finance officer.  
-  4. If a claim is rejected, the employee must be notified with reasons for the rejection.  
-  5. The process must allow for appeals or resubmissions of rejected claims.
+### Objective  
+Design a flowchart to represent the employee expense reimbursement process, ensuring compliance with company policies and efficient processing.
+
+### Background or Scenario  
+In a corporate environment, employees need a reliable system to submit expenses for reimbursement. The process must ensure that all submissions are reviewed, approved, and processed in a timely manner, adhering to established company policies.
+
+### Problem Specification
+
+#### Input or Requirements  
+- Employees submit expense reports with detailed documentation and receipts.
+- Reports are reviewed by designated approvers who verify compliance with policies.
+- Approved reports are forwarded to the finance department for processing.
+- The finance department issues reimbursements to employees.
+
+#### Constraints or Rules  
+- Expenses must align with company policies regarding allowable costs.
+- Approvals are mandatory before processing by the finance department.
+- Reimbursements are completed within a set time after approval.
+- All claims must be supported by valid receipts.

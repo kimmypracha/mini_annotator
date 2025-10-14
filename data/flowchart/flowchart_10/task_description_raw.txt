@@ -1,0 +1,41 @@
+## Reasoning Design
+### 1. Task Type  
+System-Design Task – This classification fits because the query involves outlining a process with various legal steps and entities involved, rather than calculating an outcome or solving a specific task. The focus is on designing the workflow of a legal process.
+
+### 2. Context Framing  
+The problem is set in the context of a landlord needing to evict a tenant due to non-payment of rent. This scenario is common in property management and requires adherence to legal procedures to ensure the eviction is lawful.
+
+### 3. Input and Requirements  
+Entities involved include the landlord, tenant, legal notices, and court systems. The process must consider the steps required by law to initiate and carry out an eviction due to non-payment.
+
+### 4. Constraints  
+- Legal notices must be served within specific time frames.
+- The landlord must follow jurisdiction-specific laws and regulations.
+- The tenant has certain rights and may contest the eviction.
+- Court decisions are required before a physical eviction can proceed.
+
+### 5. Reasoning Challenge  
+This task requires structured reasoning to navigate through the legal steps, conditions, and possible outcomes. A flowchart is appropriate as it visually represents the sequence of actions, decisions, and legal requirements involved in the eviction process.
+
+## Problem Statement
+### Objective  
+Design a flowchart to outline the legal process for evicting a tenant due to non-payment of rent.
+
+### Background or Scenario  
+A landlord is facing a situation where a tenant has not paid rent for several months. The landlord needs to initiate the eviction process legally to regain possession of the property. This process involves specific legal steps and compliance with local laws.
+
+### Problem Specification  
+#### Input or Requirements  
+- **Landlord**: Property owner seeking eviction.
+- **Tenant**: Occupant of the property who has failed to pay rent.
+- **Notice of Non-Payment**: A formal document notifying the tenant of overdue rent.
+- **Eviction Notice**: Legal notice served to inform the tenant of the intent to evict.
+- **Court Proceedings**: Legal process involving hearings and judgments.
+- **Local Eviction Laws**: Regulations governing the eviction process in the relevant jurisdiction.
+
+#### Constraints or Rules  
+- The notice of non-payment must be served according to local laws, typically providing a period for the tenant to pay overdue rent.
+- An eviction notice can only be served after the period specified in the notice of non-payment has elapsed without resolution.
+- The eviction process must comply with all local legal requirements, including timelines and documentation.
+- The tenant has the right to contest the eviction in court.
+- A court order is required to proceed with the physical eviction of the tenant.
