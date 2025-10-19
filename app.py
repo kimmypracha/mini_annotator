@@ -82,6 +82,20 @@ def main_app():
         st.progress(progress)
         st.write("---")
 
+        # --- ADD THIS BLOCK ---
+        # Convert the current DataFrame to a CSV string in memory
+        csv_data = df.to_csv(index=False).encode("utf-8")
+
+        # Create the download button
+        st.download_button(
+            label="⬇️ Download CSV",
+            data=csv_data,
+            file_name=annotation_file_path.name,
+            mime="text/csv",
+            use_container_width=True,
+        )
+        st.write("---")
+
         st.subheader("Navigation")
         prev_col, next_col = st.columns(2)
         if prev_col.button("⬅️ Previous", use_container_width=True):
@@ -131,7 +145,7 @@ def main_app():
         try:
             text_content = file_path.read_text()
             with st.container(border=True):
-                st.markdown(text_content, unsafe_allow_html=True)
+                st.code(text_content)
         except FileNotFoundError:
             st.error("Text file not found.")
             st.stop()
@@ -143,17 +157,25 @@ def main_app():
     category_index = (
         CATEGORIES.index(default_category) if default_category in CATEGORIES else 0
     )
+
+    st.text_area(
+        "Revised Query:",
+        value=current_item.get("revised_query", ""),
+        key=f"query_input_{current_index}",
+        height=500,
+    )
+
     st.selectbox(
-        "Category:", options=CATEGORIES, index=category_index, key="category_input"
+        "Category:",
+        options=CATEGORIES,
+        index=category_index,
+        key=f"category_input_{current_index}",
     )
 
     st.text_area(
         "Comment / Suggestion:",
         value=current_item.get("comment", ""),
-        key="comment_input",
-    )
-    st.text_area(
-        "Revised Query:", value=current_item.get("revised_query", ""), key="query_input"
+        key=f"comment_input_{current_index}",
     )
 
     st.write("---")
@@ -172,9 +194,15 @@ def main_app():
         # Otherwise, set the new annotation
         else:
             df.loc[current_index, "annotation"] = clicked_value
-            df.loc[current_index, "comment"] = st.session_state.comment_input
-            df.loc[current_index, "revised_query"] = st.session_state.query_input
-            df.loc[current_index, "category"] = st.session_state.category_input
+            df.loc[current_index, "comment"] = st.session_state[
+                f"comment_input_{current_index}"
+            ]
+            df.loc[current_index, "revised_query"] = st.session_state[
+                f"query_input_{current_index}"
+            ]
+            df.loc[current_index, "category"] = st.session_state[
+                f"category_input_{current_index}"
+            ]
             st.toast(f"Saved as '{clicked_value}'!")
             # Auto-advance to the next item
             if current_index < total_items - 1:
