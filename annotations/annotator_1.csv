@@ -1,19 +1,314 @@
 file_path,annotation,comment,revised_query,category
-data/er_diagram/er_diagram_11/task_description.txt,,,,
-data/timeline/timeline_7/task_description.txt,,,,
-data/mindmaps/mindmaps_4/task_description.txt,,,,
-data/er_diagram/er_diagram_6/task_description.txt,,,,
-data/mindmaps/mindmaps_2/task_description.txt,,,,
-data/er_diagram/er_diagram_10/task_description.txt,,,,
-data/er_diagram/er_diagram_14/task_description.txt,,,,
-data/er_diagram/er_diagram_8/task_description.txt,,,,
-data/er_diagram/er_diagram_3/task_description.txt,,,,
-data/mindmaps/mindmaps_9/task_description.txt,,,,
-data/timeline/timeline_8/task_description.txt,,,,
-data/mindmaps/mindmaps_8/task_description.txt,,,,
-data/timeline/timeline_5/task_description.txt,,,,
-data/er_diagram/er_diagram_13/task_description.txt,,,,
-data/timeline/timeline_1/task_description.txt,,,,
+data/er_diagram/er_diagram_11/task_description.txt,Natural,"The Scenario Description states an event has one ""specific venue"" (implying a 1:N relationship), but Constraint C1 states an event can have ""one or more venues"" (an N:M relationship). This is a direct contradiction.
+
+I change the Scenario Description ""Each event is associated with a specific venue"" to ""Each event is associated with one or more venues""","### Objective
+Design a database system using ER Diagram to support a ticketing platform that manages events, venues, users, ticket sales, and payments, ensuring efficient tracking and management of all related data.
+
+### Scenario Description
+The ticketing platform serves as a central hub for managing events across various venues. Users can browse upcoming events, purchase tickets, and make payments through the platform. Each event is associated with one or more venues, which has a defined capacity and location. Users can register on the platform to buy tickets, and they may also be attendees of the events. The system must handle multiple types of events, such as concerts, sports matches, and theater performances, each with unique attributes like start time, duration, and special requirements (e.g., age restrictions).
+
+Tickets are sold for specific events and must be tracked from purchase to event attendance. The platform supports multiple payment methods, and each transaction must be securely recorded, including details such as payment amount, method, and timestamp. The system should also allow for dynamic pricing based on demand and event proximity. Additionally, the platform must provide a way to manage refunds and cancellations, adhering to specific business rules.
+
+### Constraints
+- Each event must be associated with one or more venues, and each venue can host multiple events, but not simultaneously.
+- Users can purchase multiple tickets for different events, but each ticket must be uniquely associated with a single user and event.
+- The system must track historical data for ticket sales and payments, including any refunds or cancellations.
+- Venue capacity must be enforced, ensuring that ticket sales do not exceed the available seats.
+- Payment transactions must be securely recorded, with support for various payment methods, and linked to the corresponding ticket sales.
+- The system should allow for dynamic pricing adjustments based on predefined rules, such as time to event or ticket demand.
+- Users may have roles that evolve over time, such as becoming VIP members, which may affect ticket pricing and availability.",
+data/timeline/timeline_7/task_description.txt,Natural,unify format,"### Objective
+Create a timeline to visualize the entire process for our software release cycle described below.
+
+### Background  
+The software company is launching a new application feature. The project manager must coordinate between development, testing, and operations teams to ensure a smooth release. The company has a history of delayed releases, so this project is under scrutiny to meet the deadline.
+
+### Event Descriptions  
+
+1. **Feature Planning Meeting**  
+   The product team conducts a detailed planning session to outline feature requirements and specifications. This involves product managers, developers, and designers. Estimated duration: 3 days.
+
+2. **Development Phase**  
+   The development team writes code for the new feature. This phase requires collaboration among developers and code reviews. Estimated duration: 15 days.
+
+3. **Initial Testing**  
+   The quality assurance team performs initial testing to identify major bugs. This phase involves setting up test environments and running automated tests. Estimated duration: 5 days.
+
+4. **User Acceptance Testing (UAT)**  
+   Selected users test the feature in a controlled environment to ensure it meets their needs. This involves feedback collection and minor adjustments by developers. Estimated duration: 7 days.
+
+5. **Code Freeze**  
+   The development team stops all new code changes to stabilize the feature for final testing and deployment preparations. Estimated duration: 2 days.
+
+6. **Final Testing and Approval**  
+   The quality assurance team conducts final testing, including security and performance checks. Approval from the product manager is required before deployment. Estimated duration: 4 days.
+
+7. **Production Deployment**  
+   The operations team deploys the feature to the production environment. This involves coordination with the development team for any last-minute adjustments. Estimated duration: 1 day.
+
+### Constraints  
+
+- Development cannot start until the feature planning meeting is completed.
+- Initial testing requires the development phase to be at least 50% complete.
+- User acceptance testing cannot begin until initial testing is finalized and major bugs are resolved.
+- Code freeze must occur before final testing and approval.
+- Production deployment requires final testing approval and coordination with both development and operations teams.",
+data/mindmaps/mindmaps_4/task_description.txt,Natural,,"### Objective
+Create a mindmap that gives a big-picture view of the field of Artificial Intelligence.
+
+### Domain Context  
+Artificial Intelligence (AI) encompasses the study and development of systems that can perform tasks typically requiring human intelligence. This field includes major areas such as machine learning, robotics, natural language processing, computer vision, and AI ethics. It does not cover specific programming languages or the detailed technical implementation of AI systems. The intended audience includes beginners and those seeking an introductory understanding of AI.
+
+### Guiding Questions  
+- What are the main categories within the field of Artificial Intelligence, and how do they differ?  
+- How is machine learning defined within the context of AI, and what are its key components?  
+- What role does robotics play in AI, and what are the primary challenges associated with it?  
+- How do ethical considerations shape the development and deployment of AI technologies?",
+data/er_diagram/er_diagram_6/task_description.txt,Natural,,"### Objective
+Create an ER diagram for a real estate platform. The system aims to support a real estate platform where properties are listed, bought, and sold through interactions between agents and clients, with all transactions recorded and managed efficiently.
+
+### Scenario Description
+In this real estate platform, properties can be listed for sale or rent by real estate agents. Each property has specific attributes such as location, size, and price. Agents are responsible for managing property listings and facilitating transactions between clients. Clients can be individuals or businesses interested in buying, selling, or renting properties. They interact with agents to view listings, make offers, and close deals.
+
+Transactions are central to the platform, recording details of property sales or rentals, including the involved parties, transaction dates, and financial terms. Agents may represent multiple clients and handle various properties simultaneously. Clients can engage with multiple agents and may have multiple active transactions at any given time.
+
+### Constraints
+1. Each property must be managed by a single agent at any given time, but agents can manage multiple properties.
+2. A client can be both a buyer and a seller, depending on the transaction context, and may have multiple roles in different transactions.
+3. Transactions must record historical data, including the date, involved parties, and financial details, to ensure accurate reporting and auditing.
+4. Agents must have a valid license to operate, and their performance metrics should be tracked for quality assurance.
+5. Properties can be listed in multiple categories (e.g., residential, commercial) but must adhere to zoning regulations.
+6. Clients should be able to view their transaction history and current listings, requiring secure access and data privacy measures.
+7. The system should support future expansion to include rental management and international property listings.",
+data/mindmaps/mindmaps_2/task_description.txt,Natural,,"###  Objective
+Create a mindmap to help me brainstorm and structure my ideas for starting a small business based on the guiding questions below.
+
+### Domain Context  
+Entrepreneurship and Small Business Planning involves the process of generating business ideas, assessing market opportunities, evaluating necessary skills, estimating startup costs, and identifying potential risks. This domain is suitable for beginners and those at an intermediate level who are interested in launching a small business. It includes exploring various market types, understanding the skills required for different business ideas, and evaluating financial and operational risks. It does not extend to advanced corporate strategies or large-scale business management.
+
+### Guiding Questions  
+1. What are the main components of a viable small business idea, and how can they be categorized?  
+2. What types of markets are available for small businesses, and how do they differ in terms of customer needs and competition?  
+3. What skills are essential for starting and running a small business, and how can these skills be developed or acquired?  
+4. How can potential risks be identified and assessed in the context of a small business startup?",
+data/er_diagram/er_diagram_10/task_description.txt,Natural,,"### Objective
+Draw an ER diagram for a healthcare system which is designed to manage and streamline the operations of a healthcare facility by efficiently organizing and tracking patient care, doctor interactions, appointments, treatments, and prescriptions.
+
+### Scenario Description
+In a healthcare facility, patients receive care from doctors through scheduled appointments. Each patient can have multiple appointments with one or more doctors, and each appointment is associated with specific treatments and, potentially, prescriptions. Treatments are tailored to the patient's medical needs and are administered during appointments. Prescriptions are issued by doctors and may be linked to specific treatments or given independently based on the patient's condition.
+
+Doctors have unique specialties and can treat multiple patients, while patients may consult various doctors based on their health requirements. The system must track the history of appointments, treatments, and prescriptions for each patient to ensure continuity of care. Additionally, doctors need access to patient medical histories to make informed decisions about treatments and prescriptions.
+
+### Constraints
+- Each patient must have a unique identifier within the system to ensure accurate tracking of medical records.
+- Doctors are categorized by specialty, which influences the types of treatments they can administer.
+- Appointments must be scheduled with specific start and end times, and no two appointments for the same doctor can overlap.
+- Treatments may require multiple sessions, which should be tracked individually yet linked to the original treatment plan.
+- Prescriptions must include dosage instructions and a validity period, after which they cannot be refilled without a new consultation.
+- The system should allow for the recording of appointment outcomes, including any changes in treatment plans or new prescriptions issued.
+- Historical data for appointments, treatments, and prescriptions must be retained for at least five years to comply with regulatory requirements.",
+data/er_diagram/er_diagram_14/task_description.txt,Natural,,"### Objective
+Design an ER diagram to support a social media platform that enables users to connect, share content, and interact within groups, while receiving timely notifications about relevant activities.
+
+### Scenario Description
+The social media platform allows users to create profiles, connect with other users as friends, and join interest-based groups. Users can create and share posts, which may be associated with their personal profile or with a group they belong to. Posts can include text, images, or videos, and users can interact with posts through comments and reactions.
+
+Groups serve as communities for users with shared interests, and each group can have multiple members. Users can join multiple groups, and groups can have different privacy settings, affecting who can join or view content. Users receive notifications about activities such as new posts in their groups, comments on their posts, or friend requests. Notifications are time-sensitive and should be stored for historical reference.
+
+### Constraints
+- Users can have multiple friends, and friendships are mutual, requiring careful handling of bidirectional relationships.
+- A user can be a member of multiple groups, and a group can have multiple users, necessitating a many-to-many relationship.
+- Posts can be created by users and associated either with their profile or a group, introducing overlapping relationships.
+- Notifications must be generated for specific events and stored with timestamps to track when they were created and viewed.
+- Groups may have hierarchical structures, where sub-groups exist within larger groups, potentially affecting membership and content visibility.
+- Privacy settings for users and groups must be considered, influencing who can view or interact with certain posts and notifications.",
+data/er_diagram/er_diagram_8/task_description.txt,Natural,,"### Objective
+Design an ER diagram for a learning management system which is designed to facilitate the management and delivery of educational content through an online platform, supporting users in roles such as students and instructors, and enabling the administration of courses, lessons, enrollments, and assessments.
+
+### Scenario Description
+In an educational institution, a Learning Management System (LMS) is implemented to support online learning. The system allows users to register and assume roles as students, instructors, or administrators. Instructors create courses, each consisting of multiple lessons. Students enroll in courses and complete lessons at their own pace. Assessments are integral to the learning process, allowing students to demonstrate their understanding of course material. These assessments can be associated with entire courses or specific lessons, depending on the instructional design.
+
+The LMS must handle various workflows, such as course creation by instructors, student enrollment management, lesson delivery, and assessment grading. Users must be able to switch roles if they have the appropriate permissions, such as a student who becomes an instructor. The system should support tracking of student progress and provide feedback through assessment results.
+
+### Constraints
+- Users can have multiple roles, but each role has specific permissions and capabilities within the system.
+- Courses are composed of lessons, and each lesson belongs to one and only one course.
+- Students can enroll in multiple courses, and each course can have many students enrolled.
+- Assessments can be linked to either courses or individual lessons, and a single assessment may apply to multiple lessons or courses.
+- Enrollment periods are defined for each course, and students can only access course materials during this period.
+- Assessments have deadlines, and submissions must be tracked with timestamps to enforce these deadlines.
+- The system must support the possibility of users changing roles over time, such as a student becoming an instructor, without losing historical data on their past activities.",
+data/er_diagram/er_diagram_3/task_description.txt,Natural,,"### Objective
+Design an ER diagram for a blogging system with users, blog posts, comments, tags, and categories. The system is designed to support a comprehensive blogging platform where users can create, manage, and interact with blog content. It should facilitate user-generated content, categorization, and community engagement through comments and tagging.
+
+### Scenario Description
+In this blogging system, users can register and log in to create blog posts. Each post can belong to one or more categories, which help organize content into thematic groups. Users can also apply multiple tags to posts, allowing for flexible content discovery and filtering. Comments are a key feature, enabling users to engage with posts by leaving feedback or starting discussions. Each comment is associated with a specific post and is authored by a user.
+
+Posts and comments can be edited by their authors, and the system should maintain a history of these edits for accountability and transparency. Users have profiles that include information such as their username, email, and a bio. The system should support user interactions, such as liking posts or comments, and allow users to follow other users to receive updates on their activity.
+
+### Constraints
+- Each user must have a unique username and email address.
+- A post can belong to multiple categories, and a category can contain multiple posts.
+- Tags are user-generated and can be applied to multiple posts, while a post can have multiple tags.
+- Comments are tied to a specific post and can only be edited by their original author.
+- The system must track the history of edits for both posts and comments, including timestamps and changes made.
+- Users can follow other users to receive notifications about new posts or comments made by those they follow.
+- The system should support a moderation feature where certain users have the ability to flag inappropriate content, though this feature may be implemented in future iterations.",
+data/mindmaps/mindmaps_9/task_description.txt,Natural,,"### Objective
+Create a mindmap that explores the various impacts of climate change based on the guiding questions described below.
+
+### Domain Context  
+Climate change impacts encompass the various ways in which changes in the Earth's climate affect natural systems, human societies, and economies. This field includes the study of environmental effects such as rising sea levels, increased frequency of extreme weather events, and loss of biodiversity. It also examines social and economic consequences, including effects on agriculture, health, and infrastructure. This domain does not cover mitigation strategies or policy responses to climate change.
+
+### Guiding Questions  
+- What are the main categories of impacts resulting from climate change on the environment and society?  
+- How does climate change affect biodiversity and ecosystems?  
+- In what ways does climate change influence human health and economic stability?  
+- What are the mechanisms through which climate change leads to increased frequency and severity of natural disasters?",
+data/timeline/timeline_8/task_description.txt,Natural,,"### Objective 
+Can you create a timeline for completing my research paper? 
+
+### Background  
+The graduate student is working on a research paper as part of their degree requirements. This paper is crucial for their academic progress and must be completed within the semester. The student has access to academic resources but must manage their time alongside other coursework.
+
+The goal is to complete and submit a high-quality research paper by the end of the semester. This involves conducting thorough research, writing, and revising based on feedback to meet academic standards.
+
+### Event Descriptions  
+1. **Literature Review**  
+   The student conducts a comprehensive review of existing literature related to their research topic. This involves gathering sources, reading, and synthesizing information. Estimated duration: 2 weeks.
+
+2. **Research Design and Data Collection**  
+   The student plans the research methodology and collects necessary data. This phase includes designing experiments or surveys and gathering results. Estimated duration: 3 weeks.
+
+3. **First Draft Writing**  
+   The student writes the initial draft of the paper, incorporating findings from the literature review and data collection. This draft includes all sections of the paper. Estimated duration: 2 weeks.
+
+4. **Peer Review**  
+   The student submits the first draft to peers for feedback. This involves sharing the draft and receiving comments and suggestions for improvement. Estimated duration: 1 week.
+
+5. **Revisions Based on Feedback**  
+   The student revises the paper based on peer feedback, improving clarity, argumentation, and structure. This may involve additional research or rewriting sections. Estimated duration: 1 week.
+
+6. **Final Editing and Proofreading**  
+   The student performs a final edit and proofread of the paper, focusing on grammar, style, and formatting to ensure it meets submission guidelines. Estimated duration: 1 week.
+
+7. **Submission**  
+   The student submits the completed paper to the academic department or journal. This involves ensuring all submission requirements are met. Estimated duration: 1 day.
+
+### Constraints  
+- The literature review must be completed before the research design and data collection begin.
+- Peer review cannot commence until the first draft is finished.
+- Revisions must incorporate peer feedback before final editing.
+- The final editing and proofreading require access to the university's writing center resources.
+- Submission must occur before the semester deadline, aligning with academic calendar constraints.",
+data/mindmaps/mindmaps_8/task_description.txt,Natural,,"### Objective
+Create a mindmap showing the complete software development lifecycle based on the guiding questions below.
+
+### Domain Context  
+The Software Development Lifecycle (SDLC) encompasses a series of phases that guide the development and maintenance of software systems. It includes planning, requirements analysis, design, implementation, testing, deployment, and maintenance. Each phase has specific objectives and deliverables, but the SDLC does not cover detailed programming techniques or user interface design specifics. The intended audience includes individuals with a foundational understanding of software development processes, such as undergraduate students or entry-level professionals.  
+
+### Guiding Questions  
+- What are the main phases of the Software Development Lifecycle, and what is the primary focus of each phase?  
+- How do the objectives of the planning phase differ from those of the design phase in the SDLC?  
+- What are the key deliverables associated with the testing phase, and why are they critical to the SDLC?  
+- In what ways does the maintenance phase ensure the longevity and effectiveness of a software system?",
+data/timeline/timeline_5/task_description.txt,Natural,,"### Objective  
+Design a timeline chart for our upcoming marketing campaign.
+
+### Background  
+The company is preparing to launch a new tech gadget. The marketing team must develop a comprehensive campaign to generate buzz and drive sales. The team consists of content creators, designers, and analysts, each with specific roles. The campaign must be ready in time for the product launch, which is a fixed date.
+
+The goal is to create and execute a marketing campaign that effectively reaches the target audience, maximizes engagement, and supports the product launch. Success is measured by timely delivery and campaign performance metrics.
+
+### Event Descriptions  
+1. **Brainstorming Session**  
+   The marketing team gathers to generate ideas for the campaign. This involves all team members and lasts for two days. The session aims to outline key themes and strategies.
+
+2. **Content Creation**  
+   Writers and designers develop marketing materials, including blog posts, social media content, and visuals. This phase requires five days and involves collaboration between content creators and designers.
+
+3. **Ad Scheduling**  
+   The advertising team plans and schedules digital ads across various platforms. This task takes three days and requires coordination with the content team to ensure alignment with campaign themes.
+
+4. **Team Collaboration Meeting**  
+   A meeting is held to review progress, align on strategies, and address any challenges. This involves the entire team and takes one day.
+
+5. **Performance Tracking Setup**  
+   Analysts set up tools and metrics for tracking campaign performance. This task takes two days and involves configuring analytics platforms and defining KPIs.
+
+6. **Campaign Launch**  
+   The campaign goes live across all channels. This involves the entire team and lasts one day, marking the official start of the marketing efforts.
+
+7. **Performance Review**  
+   The team analyzes initial campaign data to assess effectiveness and make adjustments. This involves analysts and strategists and takes two days.
+
+### Constraints  
+- Content creation cannot start until the brainstorming session is complete.
+- Ad scheduling requires finalized content from the creation phase.
+- The team collaboration meeting must occur after the brainstorming session but before the campaign launch.
+- Performance tracking setup must be completed before the campaign launch.
+- The performance review can only occur after the campaign has been live for at least one day.",
+data/er_diagram/er_diagram_13/task_description.txt,Natural,,"### Objective
+Create an ER diagram for a fitness tracking system. The system aims to support users in tracking their fitness activities, setting and achieving personal goals, and monitoring their progress over time.
+
+### Scenario Description
+The fitness tracking system is designed for individuals who want to manage their fitness routines and monitor their progress. Users can create accounts to access the system, where they can set personal fitness goals, such as weight loss, muscle gain, or endurance improvement. Each user can participate in multiple workouts, which are collections of exercises performed during a session. Workouts can vary in type, such as cardio, strength, or flexibility, and users can log details about each session, including duration and intensity.
+
+Exercises are the building blocks of workouts, and each exercise can be part of multiple workouts. Users can track their progress for each exercise, noting improvements in metrics like repetitions, weight lifted, or distance covered. The system should allow users to view historical data to assess their progress over time.
+
+### Constraints
+- Users must be able to set multiple concurrent fitness goals, which may have different target dates and metrics.
+- Workouts can consist of a variable number of exercises, and the same exercise can appear in different workouts.
+- Progress tracking should support historical data, allowing users to view past performance and trends.
+- The system should accommodate different types of workouts and exercises, each with specific attributes that may vary (e.g., cardio vs. strength exercises).
+- Users should be able to update their goals and progress data, with the system maintaining a history of changes for analysis.
+- The system should ensure data integrity, particularly in recording and updating user progress and goal achievement status.",
+data/timeline/timeline_1/task_description.txt,Natural,"""The final review and approval must occur after all other phases are complete, except for post-launch activities.""
+
+This should be except for  publishing and post-launch activities?","### Objective 
+Create a timeline chart for the entire process of publishing a book as described below.
+
+### Background  
+An aspiring author is preparing to publish their first book. They have a draft manuscript and a vision for their book's success but must navigate the complex process of editing, designing, and marketing. The author has a limited budget and a target release date set for the end of the year.
+The goal is to successfully publish and market the book by the end of the year, ensuring all phases are completed with high quality and within the planned timeframe.
+
+### Event Descriptions  
+1. **Outline Development**  
+   The author refines the book's outline, ensuring a cohesive structure. This involves brainstorming sessions and feedback from a mentor. Estimated duration: 2 weeks.
+
+2. **Manuscript Writing**  
+   The author completes the manuscript draft, focusing on content quality and coherence. This phase requires dedicated writing time and occasional input from a writing coach. Estimated duration: 8 weeks.
+
+3. **Editing and Proofreading**  
+   A professional editor reviews the manuscript, providing feedback and corrections. The author revises the text based on this input. Estimated duration: 4 weeks.
+
+4. **Cover Design**  
+   A graphic designer creates the book cover, incorporating the author's vision and market research insights. This involves multiple design iterations. Estimated duration: 3 weeks.
+
+5. **Formatting and Typesetting**  
+   The manuscript is formatted for print and digital versions, ensuring readability and adherence to publishing standards. Estimated duration: 2 weeks.
+
+6. **Marketing Strategy Development**  
+   The author and a marketing consultant devise a plan to promote the book, identifying target audiences and channels. Estimated duration: 3 weeks.
+
+7. **Pre-Launch Marketing Campaign**  
+   The marketing team executes a campaign to build anticipation, including social media teasers and email newsletters. Estimated duration: 4 weeks.
+
+8. **Final Review and Approval**  
+   The author conducts a final review of the book, ensuring all elements are ready for publication. This includes a last-minute quality check. Estimated duration: 1 week.
+
+9. **Publishing**  
+   The book is published across chosen platforms, making it available to the public. This involves coordinating with distributors. Estimated duration: 1 week.
+
+10. **Post-Launch Marketing and Feedback Collection**  
+    The marketing team continues promotional efforts post-launch and gathers reader feedback for future improvements. Estimated duration: 4 weeks.
+
+### Constraints  
+- The editing and proofreading phase cannot start until the manuscript writing is complete.
+- The cover design must be finalized before the formatting and typesetting can begin.
+- The marketing strategy development must be completed before the pre-launch marketing campaign starts.
+- The final review and approval must occur after all other phases are complete, except for publishing and post-launch activities.
+- The publishing phase requires the formatting and typesetting to be finished.",
 data/timeline/timeline_3/task_description.txt,,,,
 data/mindmaps/mindmaps_14/task_description.txt,,,,
 data/er_diagram/er_diagram_15/task_description.txt,,,,
