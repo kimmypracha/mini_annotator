@@ -1,21 +1,446 @@
 file_path,annotation,comment,revised_query,category
-data/svg/svg_4/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_4/task_description.txt,,,,
-data/svg/svg_8/task_description.txt,,,,
-data/svg/svg_10/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_8/task_description.txt,,,,
-data/svg/svg_6/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_10/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_3/task_description.txt,,,,
-data/svg/svg_7/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_5/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_6/task_description.txt,,,,
-data/svg/svg_1/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_2/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_7/task_description.txt,,,,
-data/svg/svg_5/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_9/task_description.txt,,,,
-data/svg/svg_9/task_description.txt,,,,
-data/quadrant_chart/quadrant_chart_1/task_description.txt,,,,
-data/svg/svg_2/task_description.txt,,,,
-data/svg/svg_3/task_description.txt,,,,
+data/svg/svg_4/task_description.txt,Not Natural,"I'll come back on this, it requires some substantial change. ","## Objective
+Create an engaging and easy-to-understand SVG illustration that uses a fun analogy to explain how digital communication works. The analogy should resemble sending a letter through a post office, depicting the journey of data as a cute delivery from one computer to another. The diagram should be beginner-friendly and visually appealing.
+
+## Constraints
+- Incorporate visual analogies such as mailboxes, post offices, and satellites to represent different stages of digital communication.
+- Clearly depict the data path from the sender's computer to the receiver's device.
+- Ensure the illustration is engaging and simple enough for beginners to understand.
+
+## Supplementary Data
+- **Sender's Computer**: Represented as the starting point where the message is created and sent, akin to a person writing and sending a letter.
+- **Router**: Acts like a local post office, directing outgoing data to the appropriate path.
+- **Network Cables**: Visualized as roads or pathways that physically transfer data, similar to postal routes.
+- **Satellites**: Depicted as means of transferring data over long distances, analogous to airmail.
+- **Receiver's Router**: Functions as the final local post office, directing the message to its final destination.
+- **Receiver's Device**: The endpoint where the message is received and displayed, akin to a mailbox where the letter is delivered.",Need to Change Original Data
+data/quadrant_chart/quadrant_chart_4/task_description.txt,Not Natural,"The creative keyword is too direct, and it needs to be more subtle. ","### Objective
+Create a quadrant chart to identify and prioritize tasks that align with both personal interests and professional strengths while minimizing involvement in less engaging activities.
+
+### Background
+The UX designer is mid-career, working in a dynamic tech company. They have a strong foundation in user research and interface design but are looking to refine their career trajectory. They enjoy creative problem-solving and user interaction but are less enthusiastic about repetitive tasks and extensive documentation. The designer must balance personal growth with delivering value to their team and organization.
+
+### Items for Consideration
+
+> **Conducting User Interviews**
+> Engaging directly with users to gather insights and feedback. This task often leads to new design ideas and solutions but requires significant time investment and can be emotionally draining if not managed well.
+
+> **Prototyping New Features**
+> Creating interactive prototypes to test design concepts. This task is highly creative and allows for experimentation, aligning well with the designer's strengths in visual design and innovation.
+
+> **Analyzing User Data**
+> Reviewing analytics and user behavior data to inform design decisions. While crucial for understanding user needs, it can be tedious and requires a strong analytical mindset.
+
+> **Design System Maintenance**
+> Updating and maintaining the design system to ensure consistency across products. This task is essential for team efficiency but can feel monotonous and lacks immediate creative gratification.
+
+> **Collaborating with Developers**
+> Working closely with the development team to ensure design feasibility and implementation. This involves problem-solving and negotiation, which can be rewarding but also challenging when interests conflict.
+
+> **Writing Design Documentation**
+> Creating detailed design specifications and guidelines. Necessary for team alignment but often seen as a chore, taking time away from more engaging design work.
+
+> **Leading Design Workshops**
+> Facilitating workshops to brainstorm and refine design ideas with cross-functional teams. This is an opportunity for leadership and creativity, though it requires preparation and strong communication skills.
+
+> **Participating in Design Critiques**
+> Engaging in feedback sessions to improve design quality. This task offers growth through constructive criticism but can be intimidating and requires openness to change.",Need to Change Original Data
+data/svg/svg_8/task_description.txt,Not Natural,"The diagram need to be reconsider, I'm not sure if it should be more or less specifics,","## Objective
+Create a SVG diagram that illustrates the process of photosynthesis in plants. The diagram should clearly depict how light energy, water, and carbon dioxide are transformed into oxygen and glucose. The purpose of the diagram is to visually explain the inputs and outputs of photosynthesis and highlight the role of the chloroplast as the site where this process occurs.
+
+## Constraints
+- Clearly show the inputs (light energy, water, carbon dioxide) and outputs (oxygen, glucose) of the photosynthesis process.
+- Include the chloroplast as the specific site where photosynthesis takes place.
+- Use color coding to differentiate between various molecules involved in the process.
+
+## Supplementary Data
+- **Light Energy**: Acts as the energy source for photosynthesis.
+- **Water (H₂O)**: Serves as the electron donor, undergoing the reaction H₂O → 2H⁺ + ½O₂ + 2e⁻.
+- **Carbon Dioxide (CO₂)**: Provides the carbon source for glucose production.
+- **Chloroplast**: The organelle within plant cells where photosynthesis occurs.
+- **Oxygen (O₂)**: Released as a byproduct of the photosynthesis process.
+- **Glucose (C₆H₁₂O₆)**: Formed as an energy storage molecule.",Too Complicated
+data/svg/svg_10/task_description.txt,Natural,,"## Objective
+Create a SVG diagram that illustrates the rock cycle, highlighting the transformation processes among igneous, sedimentary, and metamorphic rocks. The diagram should clearly depict the relationships and transitions between these rock types, emphasizing the cyclical nature of the rock cycle. The purpose is to provide a visual understanding of how rocks change form through various geological processes.
+
+## Constraints
+- The diagram must clearly show the three main rock types: igneous, sedimentary, and metamorphic.
+- Include the processes that transform rocks from one type to another, such as cooling, compaction, cementation, heat, and pressure.
+- Use visual metaphors to represent each transformation process, making the diagram intuitive and engaging.
+
+## Supplementary Data
+- **Igneous Rocks**: Formed by the cooling of magma or lava. Example rocks include Granite and Basalt.
+- **Sedimentary Rocks**: Formed through compaction and cementation. Example rocks include Sandstone and Limestone.
+- **Metamorphic Rocks**: Formed under heat and pressure. Example rocks include Marble and Slate.
+- **Weathering**: The process of breaking down rocks through physical and chemical means.
+- **Erosion**: The transport of rock particles by wind, water, or ice.
+- **Melting**: The transformation of rocks into magma, often occurring through subduction or heat from the mantle.",
+data/quadrant_chart/quadrant_chart_8/task_description.txt,Natural,This data still needed to remove some description that it is just a common sense. ,"### Objective
+Create a quadrant chart to help with the decision making process. The goal is to allocate the startup's limited resources in a way that maximizes both immediate operational effectiveness and positions the company for sustainable growth. 
+
+### Background
+The startup is a small tech company that has recently launched its first SaaS product. The team is composed of a few co-founders and a handful of employees. They are working under tight budget constraints and are eager to expand their customer base while maintaining a high level of product quality and customer satisfaction. The co-founders need to decide how to allocate their limited resources across key business functions to achieve their growth objectives.
+
+### Items for Consideration
+
+> **Enhancing Core Product Features**
+> The product team suggests adding new features that customers have requested, which could improve user satisfaction and retention. However, this requires significant development time and may delay other planned updates.
+
+> **Digital Marketing Campaign**
+> The marketing team proposes a targeted digital ad campaign aimed at increasing brand awareness and acquiring new customers. This requires a substantial upfront investment but promises a potential uptick in user sign-ups.
+
+> **Hiring a Customer Support Specialist**
+> Currently, customer support is managed by the co-founders, leading to delays in response times. Hiring a dedicated specialist could improve customer satisfaction and free up the co-founders to focus on strategic initiatives.
+
+> **Building a Scalable Infrastructure**
+> The engineering team recommends investing in scalable cloud infrastructure to handle future growth. This would ensure reliability as the user base expands, but it requires a significant initial outlay and time commitment.
+
+> **Developing a Strategic Partnership**
+> An opportunity has arisen to partner with a larger company that could integrate the startup's product into their service offering. This could provide a steady stream of new users, but it requires negotiation and potential customization of the product.
+
+> **Launching a Customer Feedback Initiative**
+> The team proposes a structured initiative to gather and analyze customer feedback, aiming to refine the product and improve user experience. This involves both time and resources but could lead to valuable insights for future development.
+
+> **Expanding the Sales Team**
+> The sales department is currently understaffed, limiting outreach efforts. Expanding the team could accelerate customer acquisition, but it involves recruitment costs and additional salaries.",Need to Change Original Data
+data/svg/svg_6/task_description.txt,Not Natural,"This one is a bit to easy isn't it? Maybe I might comeback to re-check.  Also, constraints might be conducting too much. ","## Objective
+Create a SVG diagram that illustrates the flow of energy through the trophic levels in an ecosystem. The diagram should visually represent how energy is transferred from producers at the base of the food chain to top predators, with a clear indication of energy loss at each level, such as through heat dissipation. The purpose of this diagram is to provide a clear understanding of energy dynamics within an ecosystem.
+
+## Constraints
+- The diagram must use a pyramid or layered structure to represent the different trophic levels.
+- Arrows should be included to depict the direction of energy flow from producers to top predators.
+- Clearly indicate energy loss at each level, such as through heat dissipation.
+
+## Supplementary Data
+- **Producers:** Plants, algae. These form the base of the food chain.
+- **Primary Consumers:** Herbivores, such as rabbits, which consume the producers.
+- **Secondary Consumers:** Small carnivores, such as foxes, that prey on herbivores.
+- **Tertiary Consumers:** Larger carnivores, such as eagles, that prey on smaller carnivores.
+- **Decomposers:** Fungi and bacteria, which break down dead matter and recycle nutrients back into the ecosystem.",Need Discussion
+data/quadrant_chart/quadrant_chart_10/task_description.txt,Natural,This one looks good already. ,"### Objective
+Create a quadrant chart to help with the decision making. The goal is to execute a successful product launch campaign that maximizes brand visibility and engagement while staying within budget and resource constraints.
+
+### Background
+The marketing manager is leading the campaign for a new tech gadget. The company is aiming to capture a significant market share quickly, but with a limited marketing budget and a small team. The manager must decide how to allocate resources across various promotional activities to achieve the highest impact.
+
+### Items for Consideration
+
+> **Social Media Blitz**
+> A concentrated effort across all major social media platforms to generate buzz and engagement. This involves daily posts, live Q&A sessions, and influencer partnerships. It requires a dedicated team to manage content and interactions, with potential for high immediate visibility.
+
+> **Press Release Distribution**
+> Crafting a compelling press release and distributing it to industry publications and news outlets. This task is less resource-intensive but relies heavily on the quality of the release and existing media relationships. It has the potential to reach a broad audience if picked up by major outlets.
+
+> **Blog Series on Product Use Cases**
+> Developing a series of blog posts that delve into innovative use cases for the product. This content can be repurposed for newsletters and social media. It requires consistent effort from the content team but can establish long-term authority and SEO benefits.
+
+> **Launch Event Planning**
+> Organizing a virtual or in-person launch event featuring product demonstrations, guest speakers, and interactive sessions. This is resource-heavy, requiring coordination of logistics, technology, and guest management, but offers high engagement and media coverage potential.
+
+> **Influencer Collaboration**
+> Partnering with key influencers in the industry to create authentic content and reviews. This requires careful selection and negotiation to ensure alignment with brand values. It can offer significant reach and credibility if executed well.
+
+> **Email Marketing Campaign**
+> Designing a targeted email campaign to existing subscribers and potential leads. This involves crafting personalized messages and offers, with moderate resource requirements. It provides direct engagement and measurable conversion potential.
+
+> **Video Content Production**
+> Producing high-quality video content showcasing the product's features and benefits. This includes scripting, filming, and editing, which are resource-intensive but can be highly engaging and shareable across platforms.
+
+> **User-Generated Content Initiative**
+> Encouraging customers to share their experiences and content related to the product. This initiative leverages community engagement with minimal direct resource input, relying on incentives and organic reach.",
+data/quadrant_chart/quadrant_chart_3/task_description.txt,Natural,Is some of the task overkill? ,"### Objective
+Create a quadrant chart to help with the decision making. The primary goal is to successfully launch a secure and user-friendly mobile banking app that appeals to young professionals, balancing the need for speed in market entry with the necessity of robust security measures.
+
+### Background
+The startup is a small team with limited funding, aiming to disrupt traditional banking by offering innovative features tailored to tech-savvy young professionals. The team is under pressure to deliver a minimum viable product (MVP) quickly to attract early adopters and secure additional investment. However, any security breach could severely damage the app's reputation and user trust.
+
+### Items for Consideration
+
+> **Basic Feature Set Launch**
+> The initial version of the app includes essential banking features like balance checks, transaction history, and fund transfers. These features are straightforward to implement and can be launched quickly, but require basic security protocols to protect user data.
+
+> **Advanced Security Protocols**
+> Implementing biometric authentication and end-to-end encryption will significantly enhance security but will delay the launch by several months. This approach is resource-intensive, requiring specialized expertise and rigorous testing.
+
+> **Partnership with a Cybersecurity Firm**
+> Collaborating with a reputable cybersecurity firm to audit and enhance the app's security could boost user confidence. However, this partnership would require a substantial financial investment and could slow down the development process.
+
+> **Integration with Third-Party Financial Tools**
+> Offering integrations with popular budgeting and investment apps could attract young professionals seeking comprehensive financial management solutions. This requires careful vetting of third-party APIs to ensure data security, potentially delaying the launch.
+
+> **User Feedback and Iterative Improvements**
+> Launching a beta version to gather user feedback allows for iterative improvements based on real-world usage. While this approach accelerates initial deployment, it may expose the app to security vulnerabilities if not adequately monitored.
+
+> **Automated Fraud Detection System**
+> Developing an AI-driven system to detect and prevent fraudulent transactions can enhance security and user trust. This system requires significant upfront development time and resources, potentially delaying other feature rollouts.
+
+> **Marketing Campaign for Early Adoption**
+> A targeted marketing campaign aimed at young professionals can drive early adoption and generate buzz. This requires a quick launch to capitalize on marketing momentum but may prioritize speed over comprehensive security measures.
+
+> **Regulatory Compliance Review**
+> Ensuring the app meets all relevant financial regulations is crucial for long-term success. Conducting a thorough compliance review may delay the launch but prevents potential legal issues and fines down the line.",
+data/svg/svg_7/task_description.txt,Natural,"some information is redundant (already removed), looks good for now. ","## Objective
+Create a SVG diagram that illustrates the layers of the Internet Protocol Stack (TCP/IP model) to facilitate understanding of how data moves through each layer. The diagram should clearly depict the four layers: Application, Transport, Internet, and Network Access. It should also demonstrate the process of data encapsulation as it passes through each layer, providing a visual representation that simplifies the concept for educational purposes.
+
+## Constraints
+- The diagram must clearly show the four layers: Application, Transport, Internet, and Network Access.
+- Include examples of protocols for each layer
+- Use visual metaphors to effectively represent the concept of data encapsulation as data moves through the layers.
+
+## Supplementary Data
+- **Application Layer**: Provides user interface and application services. Example protocols include HTTP, FTP, and SMTP.
+- **Transport Layer**: Responsible for end-to-end communication and reliability. Example protocols include TCP and UDP.
+- **Internet Layer**: Handles routing and addressing. Example protocols include IP and ICMP.
+- **Network Access Layer**: Manages the physical transmission of data. Example protocols include Ethernet and Wi-Fi.",
+data/quadrant_chart/quadrant_chart_5/task_description.txt,Natural,"Looks good. might need double check, but the info is necessary to be included and non-trivial.","### Objective
+Create a quadrant chart to help with the decision making process. The primary goal is to enhance user engagement and retention by understanding and catering to distinct user segments based on their behavior patterns.
+
+### Background
+The product manager operates in a competitive language learning app market, where user engagement and retention are key to success. The app serves a wide range of users, from casual learners to professionals, each with different motivations and usage patterns. The manager must decide how to prioritize features and marketing efforts to maximize user satisfaction and app growth.
+
+### Items for Consideration
+
+> **Casual Learners**
+> Users who log in sporadically, often driven by curiosity or a desire to learn a few phrases for travel. They engage with the app's gamified features but lack a structured learning plan. These users often churn if not continually engaged with new, exciting content.
+
+> **Goal-Oriented Professionals**
+> Users who have specific language proficiency goals, such as passing a certification exam or preparing for a job relocation. They follow a rigorous study schedule and prioritize structured lessons and progress tracking. Their engagement is high, but they may leave once their goal is achieved.
+
+> **Social Learners**
+> Users who are motivated by community interaction and social features. They participate in group challenges and language exchange forums, valuing peer feedback and collaboration. Their engagement is consistent, but they may lose interest if social features are lacking.
+
+> **Passive Learners**
+> Users who rarely interact with the app but consume content passively, such as listening to language podcasts or watching educational videos. They appreciate convenience and flexibility, often using the app during commutes or downtime. Their engagement is low but steady.
+
+> **Intensive Learners**
+> Users who immerse themselves in the app, using multiple features daily to achieve rapid language acquisition. They value comprehensive resources and personalized learning paths. Their engagement is very high, but they demand constant updates and new challenges.
+
+> **Exploratory Learners**
+> Users who explore various languages and features without a specific goal, driven by curiosity and the joy of learning. They engage with diverse content but lack commitment to any single language. Their engagement is unpredictable, often spiking with new content releases.
+
+> **Lapsed Users**
+> Formerly active users who have stopped using the app. They may have achieved their initial goals or lost interest due to lack of motivation or perceived value. Understanding their reasons for leaving is crucial for re-engagement strategies.",
+data/quadrant_chart/quadrant_chart_6/task_description.txt,Not Natural,"The objective and instruction is not clear, it need to be clarify that we want to do market analysis. ","### Objective
+Create a quadrant chart to help with decision making. The goal is to design a project management tool that effectively meets the needs of creative teams, while offering unique features that differentiate it from existing solutions.
+
+### Background
+The startup is composed of a small team of developers and designers who are passionate about enhancing the productivity of creative professionals. They are aware of the competitive landscape and the need to deliver a product that not only stands out but also integrates seamlessly into the workflows of their target users. The team has limited resources and a tight timeline to launch a minimum viable product.
+
+### Items for Consideration
+
+> **Trello**
+> Known for its simplicity and visual appeal, Trello uses a card-based system that resonates well with visual thinkers. It offers integration with various apps, facilitating a flexible workflow. However, its feature set is relatively basic, focusing on task management rather than comprehensive project oversight.
+
+> **Notion**
+> Offers a highly customizable workspace that combines notes, databases, and task management. Its flexibility is a double-edged sword; while it can be tailored to specific needs, the learning curve can be steep for new users. It is favored by teams that require a high degree of customization and integration of various project elements.
+
+> **Asana**
+> Provides robust task management features with a focus on team collaboration and project tracking. Its structured approach appeals to teams that value organization and accountability. However, it may feel rigid for creative teams that prefer more fluid and adaptable tools.
+
+> **Monday.com**
+> Features a visually engaging interface with extensive customization options. It supports a wide range of project types and offers automation capabilities. While powerful, its complexity can be overwhelming for users seeking a straightforward solution.
+
+> **Basecamp**
+> Emphasizes simplicity and communication, offering a suite of tools for task management, file sharing, and team collaboration. Its minimalist approach is appealing for teams that prioritize ease of use over feature richness.
+
+> **ClickUp**
+> Aims to be an all-in-one solution with features ranging from task management to goal tracking. Its comprehensive nature can be attractive for teams looking to consolidate tools, but it might be overkill for smaller teams or simpler projects.
+
+> **Jira**
+> Primarily used by software development teams, Jira offers powerful project tracking and issue management capabilities. While highly effective for technical teams, its complexity and focus on software projects may not align well with the needs of creative teams.",
+data/svg/svg_1/task_description.txt,Not Natural,First and second constraints might need to be deleted.,"## Objective
+Create a SVG diagram that visually represents the water cycle as a continuous and engaging journey. The diagram should illustrate the stages of the water cycle, including evaporation, condensation, precipitation, collection, and runoff, using fun and relatable visual metaphors. The purpose is to make the water cycle easy to understand and appealing for young learners by showing the cyclical nature of the process.
+
+## Constraints
+- Use visual metaphors like clouds, rivers, and the sun to represent each stage of the water cycle.
+- Ensure the diagram includes a clear directional flow to emphasize the looping nature of the cycle.
+- Design the diagram to be easily understandable and engaging for young learners.
+
+## Supplementary Data
+- **Evaporation**: Water from oceans, lakes, and rivers turns into vapor due to the sun.
+- **Condensation**: Vapor rises, cools, and forms clouds.
+- **Precipitation**: Water falls back to the Earth as rain, snow, etc.
+- **Collection**: Water gathers in bodies like rivers, lakes, and oceans.
+- **Runoff**: Some water flows over land, returning to oceans or rivers.",Need Discussion
+data/quadrant_chart/quadrant_chart_2/task_description.txt,Not Natural,This looks pretty similar to the earlier one. The background are also too similar. Might need some rewrite. ,"### Objective
+Create a quadrant chart for decision making process. The goal is to identify strategic initiatives that will enhance the AI chatbot's market position and drive growth while managing limited resources effectively.
+
+### Background
+The startup is a small team with a limited budget, focusing on developing an AI chatbot for small e-commerce businesses. The co-founder must make decisions that will attract new customers, improve the product, and ensure the company's financial viability. The startup is competing in a crowded market, making differentiation and customer acquisition critical.
+
+### Items for Consideration
+
+> **Develop a Customization Feature**
+> Implementing a feature that allows businesses to customize the chatbot's responses to better fit their brand voice. This requires significant development time but could differentiate the product and appeal to a broader range of customers.
+
+> **Partnership with a Payment Gateway**
+> Forming a partnership with a popular payment gateway to integrate payment processing directly into the chatbot. This could enhance the product's utility but would require negotiation and technical integration resources.
+
+> **Attend an Industry Conference**
+> Participating in a major e-commerce industry conference to showcase the chatbot. This could increase visibility and attract potential clients but involves travel expenses and time away from development.
+
+> **Launch a Freemium Model**
+> Introducing a freemium pricing model to attract more users. This could rapidly increase user adoption but might strain customer support resources and delay profitability.
+
+> **Enhance Security Features**
+> Upgrading the chatbot's security features to meet industry standards. This is essential for trust and compliance but demands technical expertise and time that could be spent on other features.
+
+> **Expand Customer Support Team**
+> Hiring additional support staff to improve customer service response times. This could enhance customer satisfaction and retention but increases operational costs.
+
+> **Conduct User Experience Research**
+> Investing in user experience research to refine the chatbot's interface and functionality. This could lead to a more intuitive product but diverts resources from immediate development tasks.",
+data/quadrant_chart/quadrant_chart_7/task_description.txt,Natural,"Looks good, might need double checking. ","### Objective
+Create a quadrant chart for decision making process. The primary goal is to effectively prioritize tasks to complete the research project on time while maintaining high academic standards.
+
+### Background
+The decision-maker is a graduate student nearing the final stages of their research project. They face the dual challenge of meeting deadlines and ensuring their work is of publishable quality. This student must navigate the complexities of academic research, which includes managing time effectively, synthesizing existing knowledge, and contributing original insights.
+
+### Items for Consideration
+
+> **Conducting In-Depth Interviews**
+> This involves scheduling and conducting interviews with key stakeholders or experts in the field. While time-consuming, these interviews could provide unique insights and data that significantly enhance the research's originality and depth.
+
+> **Performing a Comprehensive Literature Review**
+> This task requires extensive reading and synthesis of existing research to identify gaps and contextualize the current study. It is foundational for ensuring the research is well-grounded but can be a lengthy process with diminishing returns if not carefully scoped.
+
+> **Drafting the Introduction and Methodology Sections**
+> Writing these sections early can clarify the research direction and methodology, serving as a guide for subsequent tasks. However, premature writing might lead to significant revisions if the research focus shifts.
+
+> **Analyzing Preliminary Data Sets**
+> Early data analysis can provide insights that shape the research direction and help refine hypotheses. This task offers immediate feedback but might be misleading if the data is incomplete or not representative.
+
+> **Attending Academic Conferences**
+> Participating in conferences can offer networking opportunities and feedback that refine the research focus. However, it requires time away from direct project work and can be costly.
+
+> **Seeking Peer Feedback on Drafts**
+> Sharing drafts with peers or advisors can provide critical feedback that improves the research quality. This task can be time-consuming and may lead to additional revisions, potentially delaying progress.
+
+> **Writing the Literature Review Section**
+> This involves synthesizing the findings from the literature review into a coherent section. It is essential for framing the research but can be challenging to complete without a thorough understanding of the existing literature.
+
+> **Developing a Data Collection Plan**
+> Creating a detailed plan ensures systematic data collection, which is crucial for the research's validity. This task requires careful planning and foresight, impacting the project's timeline and resource allocation.",
+data/svg/svg_5/task_description.txt,Not Natural,"This is redundant in data, we might need to remove some data, might have to decide, either the constraints or supplementary data (maybe constraints)","## Objective
+Create a simple yet accurate SVG diagram of the solar system that illustrates all eight planets and their orbits around the sun. The diagram should visually represent each planet in order from the sun, showing their relative sizes and spacing as well as the direction of their orbits.
+
+## Constraints
+- Include all eight planets in the correct order from the sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.
+- Ensure the planets are depicted with proportional sizing and spacing, allowing for approximate accuracy.
+- Clearly indicate the direction of each planet's orbit around the sun.
+
+## Supplementary Data
+- Mercury: Closest to the sun, smallest planet, lacks a significant atmosphere.
+- Venus: Second from the sun, similar in size to Earth, hottest planet.
+- Earth: Third from the sun, only known planet to support life.
+- Mars: Fourth from the sun, known as the Red Planet, potential evidence of past water.
+- Jupiter: Fifth from the sun, largest planet, classified as a gas giant.
+- Saturn: Sixth from the sun, famous for its prominent ring system.
+- Uranus: Seventh from the sun, an ice giant notable for rotating on its side.
+- Neptune: Eighth and farthest from the sun, known for its cold and windy conditions.",
+data/quadrant_chart/quadrant_chart_9/task_description.txt,Natural,"This looks good for now, but need double check.","### Objective
+Create a quadrant chart to help with the decision making process. The goal is to prioritize tasks for the upcoming software release to maximize user satisfaction while ensuring the product remains robust and scalable in the future.
+
+### Background
+The Product Manager is under pressure to deliver a successful release that addresses current user complaints and demands. They must also consider the technical foundation of the software, which has accumulated some debt over time. The team is small, and resources are stretched thin, making it crucial to choose tasks that offer the most strategic value.
+
+### Items for Consideration
+
+> **Critical Bug Fix in Payment Gateway**
+> Users have reported intermittent failures during transactions, causing frustration and potential revenue loss. The fix requires immediate attention but is technically straightforward, consuming moderate developer time.
+
+> **New Feature: Social Media Integration**
+> A highly requested feature that allows users to share their achievements on social media platforms. It promises increased user engagement and brand visibility but requires significant design and development efforts.
+
+> **Refactor Legacy Authentication System**
+> The current authentication system is outdated, posing security risks and integration challenges with modern tools. Refactoring it would enhance security and future-proof the system but demands a substantial time investment.
+
+> **UI/UX Overhaul for Onboarding Process**
+> Feedback indicates that the onboarding process is confusing, leading to user drop-off. A redesign could improve user retention and satisfaction, though it involves cross-departmental collaboration and resource allocation.
+
+> **Optimize Database Queries**
+> Performance issues have been traced to inefficient database queries, affecting load times. Optimizing these queries would improve speed and responsiveness, benefiting all users without changing the visible interface.
+
+> **Implement Automated Testing Framework**
+> Currently, testing is manual and time-consuming. Introducing automated testing would increase development efficiency and reduce bugs over time, but it requires an initial setup period and training.
+
+> **Address Minor UI Bugs in Dashboard**
+> A series of small, non-critical UI bugs have been reported in the user dashboard. Fixing them would polish the user experience but offers limited strategic advantage compared to larger tasks.
+
+> **Develop API for Third-Party Integrations**
+> Creating an API would enable third-party developers to build integrations, potentially expanding the product's ecosystem. This task is a strategic investment, requiring careful planning and execution.",
+data/svg/svg_9/task_description.txt,Not Natural,"Supplementary data looks weird, I'm not sure if we should use that as a supplementary data.","## Objective
+Create a SVG diagram that visually explains how a binary search tree (BST) operates. The diagram should illustrate the organization of values within the tree and demonstrate the process of searching for a specific value. The purpose is to provide a clear understanding of the BST structure and its search functionality.
+
+## Constraints
+- The tree must be balanced, ensuring the height difference between the left and right subtrees of any node is no more than one.
+- Include example values to demonstrate the ordering of nodes, such as a root node, left and right children.
+- Use arrows to clearly indicate the search path from the root to the target node.
+
+## Supplementary Data
+- **Root Node**: The topmost node of the tree, e.g., 50.
+- **Left Child**: Nodes with values less than their parent node, e.g., 25.
+- **Right Child**: Nodes with values greater than their parent node, e.g., 75.
+- **Search Path**: The sequence of nodes visited to find a specific value, e.g., 50 → 25 → 30.
+- **Balance**: The height difference between left and right subtrees should be no more than 1.
+- **Insertion**: New values should be placed in the correct position according to BST rules, e.g., inserting 30 follows the path 50 → 25 → 30.",
+data/quadrant_chart/quadrant_chart_1/task_description.txt,Not Natural,"It stating the obvious, I'm not sure if we should include those. ","### Objective
+Create a quadrant chart to help with decision making process. The goal is to effectively manage time and energy during exam season, balancing coursework, career preparation, and personal tasks to achieve both immediate academic success and long-term career goals.
+
+### Background
+The decision-maker is a university student in their final year, preparing for exams while also seeking job opportunities post-graduation. They are under pressure to maintain high academic performance, which directly affects their GPA, while simultaneously engaging in activities that enhance their employability. Personal tasks like health and well-being are also critical to sustain their overall productivity and mental health.
+
+### Items for Consideration
+
+> **Final Exam Study Sessions**
+> Intensive review sessions organized by the department, offering a deep dive into potential exam topics. These sessions are known to significantly boost exam performance but require substantial time commitment during peak study periods.
+
+> **Resume and LinkedIn Profile Update**
+> Updating professional profiles to reflect recent projects and skills. This task is crucial for upcoming job applications but can be time-consuming, diverting attention from immediate study needs.
+
+> **Networking Event with Industry Professionals**
+> A career fair hosted by the university, providing opportunities to connect with potential employers. While beneficial for future job prospects, attending requires skipping a day of study.
+
+> **Group Project Completion**
+> A major component of a core course, requiring collaboration with peers to finalize a presentation. This project directly impacts the course grade and demands coordination and time outside of individual study.
+
+> **Mock Interviews with Career Services**
+> Practice interviews scheduled with the career center to improve job interview skills. These sessions offer valuable feedback but coincide with critical exam preparation days.
+
+> **Weekly Yoga Class**
+> A personal time commitment aimed at reducing stress and maintaining physical health. While beneficial for mental clarity, attending these classes means less time available for studying.
+
+> **Research Paper Submission**
+> A paper for an elective course that requires final edits and submission before the exam period ends. Completing this task is essential for course completion but may detract from studying for major exams.
+
+> **Volunteer Work at Local Non-Profit**
+> An ongoing commitment that enhances the resume and provides a sense of fulfillment. However, it requires a regular time investment that could otherwise be used for academic or career preparation.",Unsure
+data/svg/svg_2/task_description.txt,Natural,looks good to me.,"## Objective
+Create a SVG diagram that illustrates the process of the human digestive system. The diagram should clearly depict the sequence and function of each organ involved, from the mouth to the rectum, to provide a comprehensive understanding of how digestion works.
+
+## Constraints
+- Include each organ involved in the digestive process.
+- Maintain a clear and accurate sequence from the mouth to the rectum.
+
+## Supplementary Data
+- **Mouth**: Initiates digestion by breaking down food mechanically (chewing) and chemically (saliva).
+- **Esophagus**: Acts as a conduit, transporting food from the mouth to the stomach.
+- **Stomach**: Continues digestion by mixing food with gastric juices, breaking it down further.
+- **Small Intestine**: The primary site for nutrient absorption into the bloodstream.
+- **Large Intestine**: Absorbs water from indigestible food matter and compacts waste into solid form.
+- **Rectum/Anus**: Stores and eventually expels solid waste from the body.",
+data/svg/svg_3/task_description.txt,Natural,"Similar to the solar system approach, might need to reconsider and remove the example in the constraints.  Other than that, it looks good. ","## Objective
+Create a diagram that visually represents the parts of a cell, illustrating each organelle and its basic function. The purpose of this diagram is to provide a clear and educational overview of cell structure and the role of each component within the cell.
+
+## Constraints
+- Include common organelles such as the nucleus, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus, lysosomes, and cell membrane.
+- Use distinct color coding to differentiate between types of organelles, ensuring that each organelle is easily identifiable.
+
+## Supplementary Data
+- **Nucleus**: Controls cell functions.
+- **Mitochondria**: Generates energy for the cell.
+- **Ribosomes**: Responsible for building proteins.
+- **Endoplasmic Reticulum**: Transports materials within the cell.
+- **Golgi Apparatus**: Packages and ships proteins.
+- **Lysosomes**: Breaks down waste materials.
+- **Cell Membrane**: Regulates the entry and exit of substances in and out of the cell.",
