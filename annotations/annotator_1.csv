@@ -309,28 +309,495 @@ The goal is to successfully publish and market the book by the end of the year, 
 - The marketing strategy development must be completed before the pre-launch marketing campaign starts.
 - The final review and approval must occur after all other phases are complete, except for publishing and post-launch activities.
 - The publishing phase requires the formatting and typesetting to be finished.",
-data/timeline/timeline_3/task_description.txt,,,,
-data/mindmaps/mindmaps_14/task_description.txt,,,,
-data/er_diagram/er_diagram_15/task_description.txt,,,,
-data/mindmaps/mindmaps_6/task_description.txt,,,,
-data/timeline/timeline_9/task_description.txt,,,,
-data/timeline/timeline_6/task_description.txt,,,,
-data/timeline/timeline_2/task_description.txt,,,,
-data/mindmaps/mindmaps_11/task_description.txt,,,,
-data/er_diagram/er_diagram_12/task_description.txt,,,,
-data/er_diagram/er_diagram_7/task_description.txt,,,,
-data/mindmaps/mindmaps_1/task_description.txt,,,,
-data/er_diagram/er_diagram_2/task_description.txt,,,,
-data/mindmaps/mindmaps_12/task_description.txt,,,,
-data/mindmaps/mindmaps_13/task_description.txt,,,,
-data/mindmaps/mindmaps_3/task_description.txt,,,,
-data/er_diagram/er_diagram_1/task_description.txt,,,,
-data/mindmaps/mindmaps_15/task_description.txt,,,,
-data/mindmaps/mindmaps_7/task_description.txt,,,,
-data/timeline/timeline_4/task_description.txt,,,,
-data/er_diagram/er_diagram_9/task_description.txt,,,,
-data/mindmaps/mindmaps_10/task_description.txt,,,,
-data/er_diagram/er_diagram_5/task_description.txt,,,,
-data/timeline/timeline_10/task_description.txt,,,,
-data/mindmaps/mindmaps_5/task_description.txt,,,,
-data/er_diagram/er_diagram_4/task_description.txt,,,,
+data/timeline/timeline_3/task_description.txt,Natural,,"### Objective 
+Make a timeline to track every part of the college application process mentioned below.
+
+### Background  
+A high school senior is preparing to apply to a range of colleges, each with its own set of requirements and deadlines. The student must manage their time efficiently to meet all application components, including essays, recommendation letters, and interviews, while maintaining their academic performance.
+
+The goal is to successfully complete and submit all college applications by their respective deadlines, ensuring that all components are polished and reflect the student's best work.
+
+### Event Descriptions  
+1. **Research Colleges**  
+   The student spends time researching potential colleges, focusing on programs, campus culture, and admission requirements. Estimated duration: 2 weeks.
+
+2. **Standardized Test Preparation**  
+   The student prepares for standardized tests, dedicating time to study and practice. Estimated duration: 1 month.
+
+3. **Write Personal Statement**  
+   The student drafts, revises, and finalizes their personal statement, seeking feedback from teachers and peers. Estimated duration: 3 weeks.
+
+4. **Request Recommendation Letters**  
+   The student requests recommendation letters from teachers, providing them with necessary information and deadlines. Estimated duration: 1 week.
+
+5. **Complete College-Specific Essays**  
+   The student writes and edits essays required by specific colleges, tailoring each to the institution's prompts. Estimated duration: 4 weeks.
+
+6. **Submit Applications**  
+   The student completes and submits applications through the appropriate platforms, ensuring all components are included. Estimated duration: 1 week.
+
+7. **Prepare for Interviews**  
+   The student prepares for potential interviews, researching common questions and practicing responses. Estimated duration: 2 weeks.
+
+8. **Send Test Scores**  
+   The student arranges for standardized test scores to be sent to each college. Estimated duration: 1 week.
+
+### Constraints  
+- Recommendation letters require at least two weeks' notice for teachers to prepare.
+- Personal statement feedback must be incorporated before starting college-specific essays.
+- Standardized test scores must be available before application submission.
+- Interviews can only be scheduled after applications are submitted.
+- College-specific essays must be completed before the application submission.",
+data/mindmaps/mindmaps_14/task_description.txt,Natural,,"### Objective
+Create a mindmap for starting a container garden based on the context and guiding questions below.
+
+### Domain Context  
+Container gardening is a domain within horticulture that focuses on growing plants in containers rather than in the ground. This field covers topics such as selecting appropriate plants for container growth, choosing suitable containers, understanding soil requirements, establishing watering schedules, and providing seasonal care. It excludes large-scale agricultural practices and advanced horticultural techniques not applicable to container settings. The intended audience is beginners to intermediate gardeners interested in cultivating plants in limited spaces.
+
+### Guiding Questions  
+- What are the main considerations when selecting plants for container gardening?  
+- How do different types of containers affect plant growth and suitability?  
+- What are the essential soil requirements for successful container gardening?  
+- How do watering schedules vary depending on plant type and environmental conditions?  
+- What seasonal care tips are crucial for maintaining healthy container gardens throughout the year?",
+data/er_diagram/er_diagram_15/task_description.txt,Natural,,"### Objective
+Create an ER diagram for an inventory management system with products, warehouses, suppliers, and purchase orders. The system is designed to support the efficient management of inventory across multiple warehouses, track supplier relationships, and handle purchase orders for a company dealing in physical goods.
+
+### Scenario Description
+In this inventory management system, the company manages a wide range of products sourced from various suppliers. Each product can be stored in multiple warehouses, which are located in different regions to optimize distribution and minimize delivery times. Suppliers provide products to the company, and each supplier may offer multiple products. The company places purchase orders to replenish stock, which involves specifying the products and quantities needed from a particular supplier.
+
+Products have unique identifiers, descriptions, and pricing details. Warehouses track the quantity of each product they hold, and this information must be updated in real-time as stock levels change due to incoming shipments or outgoing orders. Suppliers have contact information and a history of their interactions with the company, including past orders and delivery performance.
+
+Purchase orders are critical transactions that need to be tracked from creation to fulfillment. Each order includes details such as the date of order, expected delivery date, and the status of the order (e.g., pending, shipped, received). The system must also handle exceptions, such as delays in delivery or discrepancies in order quantities, and provide reports on inventory levels, supplier performance, and order histories.
+
+### Constraints
+1. Each product must be uniquely identifiable and associated with one or more suppliers.
+2. Warehouses can store multiple products, and each product can be stored in multiple warehouses, with specific stock levels tracked per warehouse.
+3. Suppliers can supply multiple products, and each product can have multiple suppliers, but a purchase order is linked to a single supplier.
+4. Purchase orders must be tracked over time, with status updates reflecting their progress from order placement to fulfillment.
+5. The system should be able to generate reports on inventory levels, supplier performance, and order histories, requiring efficient data organization and retrieval.
+6. The system must handle exceptions such as delivery delays or order discrepancies, necessitating a flexible yet robust data model.",
+data/mindmaps/mindmaps_6/task_description.txt,Natural,,"### Objective
+Design a mindmap that explores different strategies for social media marketing based on the context and guiding questions below.
+
+### Domain Context  
+Social Media Marketing is a domain that encompasses the strategic use of social media platforms to promote products, services, or brands. It involves content planning, platform-specific tactics, audience engagement, and performance tracking. This field is intended for marketing professionals or advanced students who are interested in the strategic aspects of using social media for marketing purposes. Topics outside this domain include traditional advertising methods and non-digital marketing strategies.  
+
+### Guiding Questions  
+1. What are the main components of a successful social media marketing strategy?  
+2. How does content planning differ across various social media platforms?  
+3. What tactics are most effective for engaging with audiences on different social media platforms?  
+4. What metrics are essential for tracking the performance of social media marketing efforts?",
+data/timeline/timeline_9/task_description.txt,Natural,"I noticed that the original question used “Gantt chart”, but the others used “timeline”. My understanding is that there is a slight difference between the two, and it may need to be unified.","### Objective  
+Create a Gantt chart for the clinical trial process described below.
+
+### Background  
+The clinical trial is for a new cardiovascular drug. The trial must navigate regulatory approvals, recruit a diverse patient population, and ensure data integrity. Limited funding and a competitive market add pressure to expedite results without compromising quality.
+
+### Event Descriptions  
+1. **Protocol Development**  
+   The research team drafts a detailed trial protocol. This involves collaboration between scientists and medical professionals to outline objectives, methodologies, and safety measures. Estimated duration: 4 weeks.
+
+2. **Regulatory Approval**  
+   The protocol is submitted to regulatory authorities for review. Approval is contingent on meeting ethical and safety standards. Estimated duration: 6 weeks.
+
+3. **Patient Recruitment**  
+   The recruitment team targets hospitals and clinics to enroll a diverse patient cohort. Efforts focus on outreach and screening for eligibility. Estimated duration: 8 weeks.
+
+4. **Site Preparation**  
+   Clinical sites are prepared, including staff training and equipment setup. This ensures readiness for patient visits and data collection. Estimated duration: 3 weeks.
+
+5. **Data Collection**  
+   Enrolled patients undergo treatment and monitoring. Data is collected on drug efficacy and safety, requiring coordination with clinical staff. Estimated duration: 12 weeks.
+
+6. **Data Analysis**  
+   The data analysis team processes and interprets trial data to assess outcomes. This phase involves statistical analysis and reporting. Estimated duration: 4 weeks.
+
+7. **Final Report Preparation**  
+   A comprehensive report is compiled, detailing trial results and conclusions. This report is crucial for regulatory submission and publication. Estimated duration: 3 weeks.
+
+### Constraints  
+- Regulatory approval must be obtained before patient recruitment can commence.
+- Site preparation must be completed before data collection begins.
+- The same clinical staff is required for both patient recruitment and data collection phases.
+- Data analysis cannot start until all data has been collected.
+- The final report preparation relies on the completion of data analysis.",Need Discussion
+data/timeline/timeline_6/task_description.txt,Natural,,"### Objective 
+Create a Gantt chart for a full construction project timeline as described below.
+
+### Background  
+A construction project manager is tasked with overseeing the build of a new residential building. The project is located in an urban area with limited space for staging materials and equipment. The client expects a high-quality finish and has set a firm move-in date. The manager must coordinate various subcontractors and manage resources efficiently to meet the deadline.
+
+The goal is to complete the construction of the residential building on time and within budget, ensuring all quality standards are met. Success depends on effective scheduling, resource allocation, and risk management.
+
+### Event Descriptions  
+1. **Site Preparation**  
+   The site is cleared, leveled, and prepared for construction. This involves demolishing existing structures and removing debris. Duration: 2 weeks.
+
+2. **Foundation Work**  
+   Excavation and pouring of the building's foundation. This requires precision and favorable weather conditions. Duration: 3 weeks.
+
+3. **Structural Framing**  
+   Erection of the building's framework, including walls and roof trusses. Multiple crews work simultaneously. Duration: 4 weeks.
+
+4. **Plumbing and Electrical Installation**  
+   Installation of plumbing and electrical systems within the framed structure. Coordination between trades is essential. Duration: 3 weeks.
+
+5. **Exterior Finishing**  
+   Application of exterior cladding, windows, and roofing materials. Weather conditions can impact progress. Duration: 2 weeks.
+
+6. **Interior Finishing**  
+   Installation of drywall, flooring, and interior fixtures. Requires coordination with design specifications. Duration: 4 weeks.
+
+7. **Inspection and Quality Assurance**  
+   Comprehensive inspection to ensure compliance with building codes and quality standards. Must be completed before occupancy. Duration: 1 week.
+
+8. **Landscaping and Site Cleanup**  
+   Final landscaping and removal of construction debris. Enhances curb appeal and prepares the site for occupancy. Duration: 1 week.
+
+### Constraints  
+- Foundation work cannot commence until site preparation is fully completed.
+- Structural framing requires the availability of both carpenters and steelworkers, who are shared with another project.
+- Plumbing and electrical installation must be completed before any interior finishing begins.
+- Exterior finishing is weather-dependent and may require additional buffer time for delays.
+- Inspection and quality assurance must be completed before landscaping and site cleanup can begin.",
+data/timeline/timeline_2/task_description.txt,Natural,,"### Objective
+Create a Gantt chart for the product development lifecycle.
+
+### Background  
+The project manager is responsible for coordinating the development of a new software application. The company has a reputation for innovation but is facing increased competition. The project must be completed efficiently to maintain the company's market position. The development involves multiple teams: design, development, testing, and marketing, each with specific roles and resource limitations.
+
+The goal is to successfully launch the new software product within a competitive timeline while ensuring high quality and effective market entry. The project must align with the company's strategic objectives and resource capabilities.
+
+### Event Descriptions  
+
+1. **Ideation and Concept Development**  
+   The product management team brainstorms and refines the product concept. This phase involves market research and stakeholder input. Estimated duration: 2 weeks.
+
+2. **Design Phase**  
+   The design team creates wireframes and mockups based on the approved concept. This phase requires creativity and iterative feedback. Estimated duration: 3 weeks.
+
+3. **Development Phase**  
+   The software development team codes the core functionalities. This phase requires technical expertise and collaboration with the design team. Estimated duration: 6 weeks.
+
+4. **Testing and Quality Assurance**  
+   The QA team conducts thorough testing to identify and fix bugs. This phase involves coordination with the development team for issue resolution. Estimated duration: 4 weeks.
+
+5. **Marketing Strategy Development**  
+   The marketing team develops a comprehensive strategy for product launch. This phase involves market analysis and campaign planning. Estimated duration: 3 weeks.
+
+6. **Beta Release and Feedback Collection**  
+   A beta version is released to a select group of users for feedback. This phase involves monitoring user experience and gathering insights. Estimated duration: 2 weeks.
+
+7. **Final Adjustments and Polishing**  
+   The development team makes final adjustments based on beta feedback. This phase focuses on refining the user experience. Estimated duration: 2 weeks.
+
+8. **Launch Preparation**  
+   The marketing and product teams prepare for the official launch. This phase includes finalizing promotional materials and logistics. Estimated duration: 1 week.
+
+9. **Official Product Launch**  
+   The new software product is launched to the public. This phase involves coordinated efforts from all teams to ensure a successful release. Estimated duration: 1 day.
+
+### Constraints  
+
+- The design phase cannot start until the ideation and concept development phase is complete.
+- The development phase requires completed wireframes and mockups from the design team.
+- Testing and quality assurance cannot begin until the development phase is substantially complete.
+- The marketing strategy development must be completed before the beta release.
+- Final adjustments and polishing depend on feedback from the beta release.",
+data/mindmaps/mindmaps_11/task_description.txt,Natural,,"### Objective
+Create a mindmap that explores sustainable architecture and green building design based on the descriptions below.
+
+### Domain Context  
+Sustainable architecture and green building design encompass the principles and practices aimed at minimizing the environmental impact of buildings. This field includes energy efficiency, the selection of sustainable materials, water management strategies, and considerations of the overall environmental impact of construction and operation. It is intended for undergraduate students or professionals in architecture or environmental science. Topics such as purely aesthetic design principles or traditional construction methods without environmental considerations fall outside this domain.  
+
+### Guiding Questions  
+- What are the main principles of sustainable architecture and green building design?  
+- How is energy efficiency achieved in sustainable architecture?  
+- What criteria are used in the selection of materials for green building design?  
+- In what ways can water management be integrated into sustainable building practices?  
+- How do environmental impact assessments influence architectural design decisions?",
+data/er_diagram/er_diagram_12/task_description.txt,Natural,,"### Objective
+Design an ER diagram for a video streaming platform to support a video streaming platform that manages user subscriptions, video content, and user interactions, providing a seamless and personalized viewing experience.
+
+### Scenario Description
+The video streaming platform caters to a diverse user base, offering a wide range of video content across various genres. Users can register on the platform, create profiles, and subscribe to different service tiers that determine their access to content. Each subscription tier offers distinct benefits, such as ad-free viewing or access to exclusive content.
+
+Users can browse and search for videos by genre, title, or popularity. Each video is categorized under one or more genres, and users can view detailed information about the video, including its description, duration, and release date. Users have the ability to create watchlists and maintain a watch history that records every video they have watched, along with timestamps and viewing duration.
+
+The platform supports content creators who can upload videos, manage their content, and track viewership statistics. Creators may also categorize their videos under multiple genres to reach a broader audience. The system must efficiently manage video metadata, storage, and retrieval to ensure a smooth user experience.
+
+### Constraints
+1. Users must have an active subscription to access most video content, with some exceptions for promotional content or free trials.
+2. Subscription plans are billed periodically, and users can upgrade or downgrade their plans at any time, affecting their access rights.
+3. Each video may belong to multiple genres, and genres can evolve over time with the addition of new categories or merging of existing ones.
+4. The watch history must be maintained for each user, capturing detailed information about each viewing session, including timestamps and video segments watched.
+5. Content creators have permissions to manage only their uploaded videos, including editing metadata and viewing aggregated statistics.
+6. The platform must support scalability to handle increasing numbers of users, videos, and concurrent streaming sessions without performance degradation.",
+data/er_diagram/er_diagram_7/task_description.txt,Natural,"I've revised the first constraint. The original phrasing ('must register separately') was ambiguous and implied a poor design pattern (e.g., a user needing multiple accounts for different roles). I've updated it to clarify that a single user account can hold multiple roles, but key roles like 'driver' or 'owner' require an application and approval process. This (may) creats a better design challenge (modeling an M:N relationship with attributes)","### Objective
+Design an ER diagram for a food delivery app. The system aims to support a comprehensive food delivery platform that connects users, restaurants, and delivery drivers to facilitate the ordering and delivery of food items.
+
+### Scenario Description
+In this food delivery platform, users can register as either customers or restaurant owners. Customers browse restaurant menus, place orders, and receive deliveries. Restaurant owners manage their menus and track orders. Each restaurant offers a unique menu, which can change over time, and includes various food items with specific details such as price and description.
+
+Orders are placed by customers and include multiple menu items from a single restaurant. Once an order is placed, it is assigned to a delivery driver responsible for picking up the order from the restaurant and delivering it to the customer. Delivery drivers have schedules and can manage multiple deliveries simultaneously. The system must track the status of each order, from placement to delivery, providing updates to both customers and restaurant owners.
+
+### Constraints
+1. Users can have multiple roles, such as being both a customer and a restaurant owner, but certain roles require an application and approval status before they become active.
+2. Each restaurant can have multiple menus over time, but only one active menu is available for ordering at any given time.
+3. Orders must be associated with a single restaurant but can include multiple menu items.
+4. Delivery drivers can handle multiple orders concurrently, but each order is assigned to only one driver at a time.
+5. The system must maintain a history of all orders, including details such as order date, delivery status, and payment information.
+6. Restaurants can update their menus, but changes should not affect past orders or historical data.
+7. Users should have the ability to rate and review both restaurants and delivery drivers, with each review linked to a specific order.",Need Discussion
+data/mindmaps/mindmaps_1/task_description.txt,Natural,,"### Objective
+Create a mindmap to help me visualize the Computer Science on a few key, interrelated pillars
+
+### Domain Context  
+Computer Science at the undergraduate level encompasses several core areas, including Data Structures, Operating Systems, and Algorithms. These areas cover the organization and manipulation of data, the design and analysis of computational processes, and the management of computer resources. Topics outside this scope, such as advanced software development or network security, are not included unless they directly pertain to these core subjects.
+
+### Guiding Questions  
+- What are the fundamental components of Data Structures, Operating Systems, and Algorithms in Computer Science?  
+- How do different data structures, such as arrays, linked lists, and trees, manage and organize data?  
+- What are the primary functions and responsibilities of an operating system in managing hardware and software resources?  
+- How are algorithms designed and analyzed for efficiency and correctness in solving computational problems?",
+data/er_diagram/er_diagram_2/task_description.txt,Natural,,"### Objective
+Create an ER diagram for a HR system. The system is designed to manage and organize employee data, departmental structures, job roles, and salary records within a company's human resources department. It aims to facilitate efficient data management, support dynamic role assignments, and ensure accurate historical record-keeping.
+
+### Scenario Description
+In this HR system, each employee is associated with one or more job roles within the company. Employees can be assigned to specific departments, reflecting the company's organizational structure. Departments may have sub-departments, forming a hierarchical structure. Employees can change roles over time, and the system must track these changes to maintain accurate historical records.
+
+Salary records are maintained for each employee, capturing salary adjustments over time due to promotions, role changes, or company-wide salary reviews. The system must ensure that salary records reflect the correct job role and department at the time of each adjustment. Additionally, the system should accommodate employees holding multiple roles simultaneously, each with potentially different salary structures.
+
+### Constraints
+- Employees must be linked to at least one department, but they can be associated with multiple departments if they hold cross-departmental roles.
+- Each department can have multiple sub-departments, and a department can belong to only one parent department, forming a strict hierarchy.
+- An employee can hold multiple job roles, and each role may have different salary structures.
+- Historical salary records must be preserved, capturing the effective date of each salary change and the associated job role and department.
+- Employees can be promoted or transferred between departments, and these changes must be reflected accurately in their role and salary records.
+- The system should handle exceptions such as temporary roles or interim departmental assignments, ensuring these are recorded and managed appropriately.",
+data/mindmaps/mindmaps_12/task_description.txt,Natural,,"### Objective
+create a mindmap based on the information and guiding questions below.
+
+### Domain Context  
+Culinary Knife Skills encompass the fundamental knowledge and techniques related to using kitchen knives effectively and safely. This domain is intended for beginner to intermediate audiences, such as home cooks or culinary students. It includes understanding different types of knives, mastering basic cutting techniques, practicing safety measures, and knowing how to maintain and care for knives. Advanced culinary techniques, professional chef-level skills, and unrelated kitchen equipment fall outside this domain.  
+
+### Guiding Questions  
+- What are the main types of kitchen knives, and what are their specific uses?  
+- What are the fundamental cutting techniques that one should know when using kitchen knives?  
+- What safety practices are essential when handling and using kitchen knives?  
+- How should kitchen knives be maintained to ensure longevity and performance?",
+data/mindmaps/mindmaps_13/task_description.txt,Natural,,"### Objective
+Can you create a mindmap that covers the basics of portrait photography based on the guiding questions and descriptions below?
+
+### Domain Context  
+Portrait photography is a specialized field within photography that focuses on capturing the likeness, personality, and mood of individuals or groups. It encompasses fundamental concepts such as lighting techniques, composition rules, camera settings, and posing strategies. This domain is intended for beginners and intermediate photographers who seek to understand the essential elements that contribute to effective portraiture. It does not extend to other genres of photography or advanced editing processes.
+
+### Guiding Questions  
+- What are the main components of portrait photography that influence the quality of a portrait?  
+- How do different lighting techniques affect the mood and appearance of a portrait?  
+- What are the fundamental composition rules that enhance the visual impact of a portrait?  
+- In what ways do camera settings, such as aperture and shutter speed, influence the outcome of a portrait photograph?  
+- How can posing techniques be used to convey the subject's personality and mood effectively?",
+data/mindmaps/mindmaps_3/task_description.txt,Natural,,"### Objective
+Can you make a mindmap to help me learn French more effectively based on the descriptions below?
+
+### Domain Context  
+French Language Learning encompasses the study of vocabulary, grammar, pronunciation, and listening comprehension necessary for understanding and communicating in French. It is intended for beginners or intermediate learners who aim to build a foundational understanding of the language. This domain includes the basic linguistic elements and tools that facilitate language acquisition but excludes advanced linguistic analysis or cultural immersion techniques.
+
+### Guiding Questions  
+1. What are the main components of French vocabulary that beginners should focus on?  
+2. How do fundamental French grammar rules differ from those in English?  
+3. What are the key elements of effective pronunciation in French?  
+4. How can listening skills be developed to improve comprehension in French?",
+data/er_diagram/er_diagram_1/task_description.txt,Natural,,"### Objective
+Can you create an ER diagram for an e-commerce platform that includes users, products, orders, and payments? The system aims to support an e-commerce platform that facilitates the buying and selling of products, manages user interactions, processes orders, and handles payments efficiently.
+
+### Scenario Description
+The e-commerce platform serves as an online marketplace where users can register as buyers or sellers. Sellers can list products for sale, providing details such as price, description, and stock availability. Buyers can browse products, add them to a shopping cart, and place orders. Each order may consist of multiple products and can be modified before final confirmation. Once an order is placed, the system tracks its status from processing to delivery.
+
+Payments are an integral part of the system, with each order requiring at least one payment transaction. The platform supports various payment methods, including credit cards, digital wallets, and bank transfers. Payment transactions need to be securely recorded, with details such as transaction date, amount, and payment method.
+
+The platform also needs to manage user accounts, allowing users to update their profiles, view order history, and manage payment preferences. Sellers require additional functionalities to manage their product listings, track sales, and analyze performance through sales reports.
+
+### Constraints
+1. Users can have multiple roles, such as buyer and seller, and need to switch roles seamlessly within the platform.
+2. Each product listed by a seller must have a unique identifier and be associated with only one seller, ensuring clear ownership and accountability.
+3. Orders must be able to accommodate multiple products, and each product can appear in multiple orders over time.
+4. Payments must be linked to specific orders, with the possibility of multiple payments for a single order to accommodate partial payments or split transactions.
+5. The system must maintain a history of order statuses and payment transactions for auditing and customer service purposes.
+6. User profiles must include secure storage of payment preferences, with options to update or remove payment methods as needed.
+7. The platform should support internationalization, allowing for multiple currencies and languages, which affects product pricing and order processing.",
+data/mindmaps/mindmaps_15/task_description.txt,Natural,"The original problem's Domain Context perfectly defined four key pillars for the mindmap: 1) scheduling, 2) prioritization, 3) avoiding procrastination, and 4) balancing academic and personal life. However, the Guiding Questions only provided deep-dive questions for the first three pillars, completely omitting the fourth. I am adding a 5th question that specifically addresses the ""balancing"" pillar, ensuring the guiding questions now fully and logically map to the entire scope defined in the context.","### Objective
+Can you create a mindmap that explores effective time management strategies specifically for students based on the information and guiding questions below? 
+
+### Domain Context  
+Time management strategies for students encompass methods and techniques aimed at optimizing the use of time to enhance academic performance and personal well-being. This domain includes study scheduling, prioritization methods, techniques to avoid procrastination, and strategies for balancing academic and personal commitments. It excludes general time management techniques not specifically tailored to the student experience or professional contexts.
+
+### Guiding Questions  
+1. What are the main components of effective time management strategies for students?  
+2. How do different study scheduling techniques impact academic performance?  
+3. What are common prioritization methods used by students, and how do they differ in effectiveness?  
+4. What psychological or behavioral factors contribute to procrastination, and how can they be addressed within a student's time management framework?
+5. What strategies can students use to effectively balance academic commitments with personal well-being?",
+data/mindmaps/mindmaps_7/task_description.txt,Natural,,"### Objective
+Can you create a mindmap for developing personal wellness plans based on the guiding questions and context below?
+
+### Domain Context  
+Personal wellness planning encompasses the integration of various aspects of health and lifestyle to achieve a balanced and healthy life. This domain includes the study of physical health, mental wellbeing, nutrition, and lifestyle habits, focusing on how these elements contribute to overall wellness. It is intended for individuals seeking to understand the foundational components of wellness, without delving into specialized medical or therapeutic practices.  
+
+### Guiding Questions  
+- What are the main components of a comprehensive personal wellness plan?  
+- How does physical health contribute to overall wellness, and what are its key elements?  
+- What role does mental wellbeing play in personal wellness, and what are its primary aspects?  
+- How can nutrition influence the different dimensions of wellness?  
+- What lifestyle habits are essential for maintaining a balanced and healthy life?",
+data/timeline/timeline_4/task_description.txt,Natural,,"### Objective
+ Can you help me build a Gantt chart for planning the wedding? 
+
+### Background  
+The couple has just gotten engaged and decided to plan their wedding themselves to ensure it reflects their personal style and preferences. They have a year to prepare and a modest budget, requiring them to be strategic in their choices. They aim to host a memorable event for family and friends, balancing tradition with their unique flair.
+The goal is to successfully plan and execute a wedding that aligns with the couple's vision, stays within budget, and is enjoyed by all attendees. The timeline is crucial to ensure all elements come together seamlessly on the wedding day.
+
+### Event Descriptions  
+1. **Venue Booking**  
+   The couple visits potential venues, comparing options based on capacity, location, and cost. They finalize the booking with a deposit. Estimated duration: 1 month.
+
+2. **Catering Selection**  
+   They meet with caterers, sample menus, and negotiate contracts to fit their budget. Estimated duration: 2 weeks.
+
+3. **Invitation Design and Printing**  
+   The couple collaborates with a designer to create custom invitations. Once approved, the invitations are printed and prepared for mailing. Estimated duration: 3 weeks.
+
+4. **Dress and Suit Fittings**  
+   The bride and groom schedule fittings with a tailor, allowing time for adjustments and final alterations. Estimated duration: 2 months.
+
+5. **Rehearsal Dinner Planning**  
+   They choose a venue for the rehearsal dinner, coordinate with family, and finalize the guest list and menu. Estimated duration: 1 month.
+
+6. **Music and Entertainment Booking**  
+   The couple researches bands or DJs, attends performances, and secures entertainment for the reception. Estimated duration: 1 month.
+
+7. **Floral Arrangements**  
+   They consult with a florist to choose seasonal flowers and design bouquets and decorations. Estimated duration: 3 weeks.
+
+8. **Photography and Videography**  
+   After reviewing portfolios, the couple books a photographer and videographer to capture the day. Estimated duration: 2 weeks.
+
+### Constraints  
+- The venue must be booked before invitations are printed, as the location details are needed.
+- Dress and suit fittings require the venue to be booked first to match the formality of the event.
+- The rehearsal dinner planning cannot commence until the guest list is finalized.
+- Floral arrangements depend on the season, requiring consultation close to the wedding date.
+- Music and entertainment must be booked after the venue to ensure compatibility with space and acoustics.",
+data/er_diagram/er_diagram_9/task_description.txt,Natural,,"### Objective
+Can you create an ER diagram for a travel platform? The system aims to support a comprehensive travel platform that allows users to plan and manage their trips, including booking flights and hotels. It should facilitate seamless integration of various travel services and provide users with an efficient way to organize their travel itineraries.
+
+### Scenario Description
+The travel platform caters to a diverse user base, including individual travelers and corporate clients. Users can create an account to manage their travel activities. Each user can plan multiple trips, which consist of various bookings. A trip can include flights, hotels, or both, depending on the user's itinerary.
+
+Users can book flights from a range of airlines, each offering different classes and pricing options. Hotel bookings are also available, with options for room types and amenities. The system must handle the availability of flights and hotel rooms, taking into account cancellations and modifications.
+
+The platform should also accommodate special cases, such as group bookings for flights or hotels, and the ability for users to share trip itineraries with others. Additionally, users may have preferences for airlines or hotels, which should be considered when making recommendations.
+
+### Constraints
+- Users must be able to manage multiple trips simultaneously, with each trip potentially involving several bookings.
+- Bookings should support both flights and hotels, with distinct attributes for each type.
+- The system must track the availability of flights and hotel rooms, adjusting for changes in real-time.
+- Users should be able to modify or cancel bookings, with historical data retained for reporting purposes.
+- Group bookings must be supported, allowing a single user to book for multiple travelers.
+- The platform should offer recommendations based on user preferences and past travel behavior.
+- Security and privacy are paramount, requiring user authentication and data protection measures.
+- The system should be designed to accommodate future enhancements, such as additional travel services or integration with external APIs.",
+data/mindmaps/mindmaps_10/task_description.txt,Natural,,"### Objective
+Can you create a mindmap for personal financial planning based on the information and guiding questions?
+
+### Domain Context  
+Personal Financial Planning is a domain that encompasses the strategies and tools individuals use to manage their financial resources effectively. It includes budgeting, saving, investing, and planning for retirement, as well as managing debt and setting financial goals. This field is intended for individuals seeking to understand and organize their personal finances, but it does not extend to corporate finance or macroeconomic analysis.
+
+### Guiding Questions  
+1. What are the main components of personal financial planning, and how do they contribute to overall financial health?  
+2. How do budgeting and saving differ, and what roles do they play in personal financial stability?  
+3. What are the key considerations when choosing investment options for personal financial growth?  
+4. How does retirement planning fit into the broader context of personal financial planning, and what factors should be considered?",
+data/er_diagram/er_diagram_5/task_description.txt,Natural,,"
+### Objective
+Can you generate an ER diagram for a library system? The system is designed to manage the operations of a library, including book inventory, member management, loan processing, and staff administration.
+
+### Scenario Description
+The library system supports a diverse collection of books, each identified by a unique identifier and categorized by genre, author, and publication details. Members of the library can borrow books, with each member having a unique membership ID and personal details. The library staff, who manage the day-to-day operations, have roles that include cataloging books, processing loans, and assisting members. Each staff member is identified by a staff ID and role-specific information.
+
+The system must handle the process of loaning books to members, which involves recording the loan date, due date, and return date. Members can reserve books if they are currently on loan, and the system should manage the queue of reservations. Staff members are responsible for approving loans and managing reservations, ensuring that books are returned on time, and updating the system accordingly.
+
+### Constraints
+1. A book can be loaned to only one member at a time, but it can have multiple reservations from different members.
+2. Each loan must be processed and approved by a staff member, who is responsible for ensuring that the book is available and the member is eligible to borrow.
+3. Members can borrow multiple books simultaneously, but there is a limit to the number of active loans a member can have at any given time.
+4. The system must track the history of all loans, including past loans that have been completed, to manage member borrowing limits and generate reports.
+5. Staff roles can vary, with some staff members having the ability to manage inventory, while others focus on member services or loan processing.
+6. Books can be re-categorized or updated in the system by authorized staff, reflecting changes in inventory or library organization.
+7. The system should support notifications for members regarding due dates, overdue books, and reservation availability, requiring integration with member contact information.",
+data/timeline/timeline_10/task_description.txt,Natural,,"### Objective 
+Can you create a timeline for organizing an annual conference described below?
+
+### Background  
+The event planning team is responsible for organizing an annual conference that attracts industry professionals from across the country. The conference's success is crucial for the organization's reputation and future funding. The team must balance logistical challenges, such as venue booking and speaker coordination, with promotional efforts to maximize attendance.
+The primary goal is to execute a successful conference that meets attendance targets, receives positive feedback, and strengthens the organization's standing in the industry.
+
+### Event Descriptions  
+1. **Venue Booking**  
+   The team secures a suitable venue that can accommodate all attendees and technical requirements. The venue selection involves negotiations with the venue management and requires a deposit. Estimated duration: 2 weeks.
+
+2. **Speaker Coordination**  
+   The team reaches out to potential speakers, confirms their participation, and coordinates travel and accommodation arrangements. This involves contract negotiations and managing speaker schedules. Estimated duration: 3 weeks.
+
+3. **Attendee Registration Setup**  
+   The team sets up an online registration system, ensuring it is user-friendly and secure. This includes testing the system and troubleshooting any issues. Estimated duration: 1 week.
+
+4. **Promotional Campaign**  
+   The marketing team launches a promotional campaign to attract attendees. This includes social media marketing, email blasts, and partnerships with industry publications. Estimated duration: 4 weeks.
+
+5. **Vendor Coordination**  
+   The team coordinates with vendors for catering, audio-visual equipment, and other necessary services. This involves reviewing contracts and ensuring all logistical needs are met. Estimated duration: 2 weeks.
+
+6. **Conference Day Execution**  
+   The team oversees the conference day, ensuring all sessions run smoothly, addressing any issues that arise, and managing attendee flow. This requires on-the-ground coordination and problem-solving. Estimated duration: 1 day.
+
+7. **Post-Event Follow-Up**  
+   After the conference, the team sends thank-you notes to speakers and attendees, gathers feedback through surveys, and conducts a debrief meeting to assess the event's success. Estimated duration: 1 week.
+
+### Constraints  
+- The venue booking must be finalized before any promotional activities can begin.
+- Speaker coordination cannot start until the venue is confirmed, as speakers need venue details.
+- The attendee registration system must be operational before the promotional campaign launches.
+- Vendor coordination requires the venue's technical specifications, which are only available after booking.
+- Post-event follow-up is contingent on the completion of the conference day execution.",
+data/mindmaps/mindmaps_5/task_description.txt,Natural,,"### Objective
+Can you create a mindmap about WW2 based on the guiding questions and context description below?
+
+### Domain Context  
+World War II history encompasses the study of the political, economic, and social factors that led to the conflict, the key events and battles that occurred during the war, and the global aftermath that reshaped international relations and societies. This field is intended for an undergraduate audience with a basic understanding of 20th-century history. It includes analyzing the rise of totalitarian regimes, the impact of the Treaty of Versailles, and the economic conditions of the 1930s, as well as the examination of major battles, alliances, and the war's profound effects on the post-war world order. It excludes detailed military tactics or unrelated historical events.  
+
+### Guiding Questions  
+1. What were the main political, economic, and social factors that contributed to the outbreak of World War II?  
+2. How did the Treaty of Versailles and the economic conditions of the 1930s influence the political landscape of Europe leading up to the war?  
+3. What were some of the key events and turning points during World War II, and how did they shape the course of the conflict?  
+4. In what ways did World War II impact global political structures and societies in the aftermath of the conflict?",
+data/er_diagram/er_diagram_4/task_description.txt,Natural,,"### Objective
+Can you make an ER diagram for a school system. The system aims to manage and streamline the operations of a school by organizing information about students, courses, grades, teachers, and enrollments efficiently.
+
+### Scenario Description
+In a mid-sized educational institution, the administration needs a system to manage the academic records of students and facilitate the organization of courses and teaching assignments. Students enroll in various courses each semester, and each course is taught by one or more teachers. The system must track the grades that students receive in each course, which can vary from semester to semester.
+
+Teachers may teach multiple courses, and courses can have different teachers assigned depending on the semester or academic year. The institution also needs to maintain records of which students are enrolled in which courses, and this enrollment can change each semester.
+
+The system should accommodate the possibility of teachers also being students in other courses, reflecting the dynamic nature of roles within the academic environment. Additionally, the system should be capable of generating reports on student performance, course popularity, and teacher assignments.
+
+### Constraints
+1. Each course can have multiple sections, and each section can have different teachers and students.
+2. Students can enroll in a maximum of five courses per semester to ensure manageable workloads.
+3. Grades are awarded at the end of each semester, and the system must retain historical grade data for transcript generation.
+4. Teachers can be assigned to teach a maximum of three courses per semester to maintain teaching quality.
+5. The system must support the ability to add or remove courses and teachers without disrupting existing records.
+6. Enrollment in a course requires prerequisite courses to be completed, where applicable, which must be verified before enrollment.
+7. The system should allow for the future integration of online course components and virtual classrooms.",
